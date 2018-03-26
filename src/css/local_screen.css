@@ -1,34 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="initial-scale=1, maximum-scale=1, minimal-ui"/>
-	<title>Fresh Eyes</title>
-	<link rel="stylesheet" type="text/css" href="css/folio.css">
-</head>
+/* TAKEN FROM LOCAL HTML FILE NEAR TOP OF BODY */
 
-<body>
-<!-- c-header-simple · styling based on nono.ma, who based it on frankchimero.com -->
-<header class="[ c-header-simple ] [ c-header-simple--borderless c-header-simple--tight c-header-simple--nsight ]">
-	<div class="[ o-wrap o-wrap--size-full ]">
-		<a href="/" class="[ c-header-simple__name ]">
-				<div class="[ -u-hidden ] [ c-header__icon-desktop ]
-					[ o-icon-prototype
-					o-icon-prototype--display-inline
-					o-icon-prototype--size-logo-line-desktop-static
-					 ]">
-					head icon svg here
-				</div>
-		</a>
-			<nav role="navigation" class="[ c-header-simple__navigation ]">
-				<ul>
-                    <li><a href="/section_one" class="navigation-link js--navigation-link-says ]">Section One</a></li>
-                    <li><a href="/section_two" class="navigation-link js--navigation-link-two ]">Section Two</a></li>
-				</ul>
-			</nav>
-	</div>
-</header>
-  <style media="screen">
 
     .c-presentation-label {
       display:none;
@@ -94,10 +65,4 @@
     @keyframes  backgroundScroll {
       from {background-position: 0 0;}
       to {background-position: 0 -3000px;}
-    }    
-  </style>
-
-<!-------------------- START CONTENT DIV ----------------------->
-<div style="font-size:0.625em">
-<div style="font-size:1em">
-<div class="[ c-item-v2 ] [ c-item-v2--indent c-item-v2--standard -c-item-v2--debug ]">
+    }  

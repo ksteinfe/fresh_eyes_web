@@ -1,48 +1,3 @@
-</div>
-</div>
-</div>
-<!-------------------- END CONTENT DIV ----------------------->
-
-<div class="c-veil js--c-veil"></div>
-
-<div class="[ c-presentation-label ]">
-    <div class="[ c-presentation-label__text js--c-presentation-label__text ]"> <- Use arrow keys -> </div>
-</div>
-
-<div class="[ u-pad-b-1x u-pad-t-1x  ]">
-    <div class="[ o-wrap o-wrap--size-tiny o-wrap--portable-size-minuscule u-pad-b-2x ]">
-        <footer class="[ c-footer ]"></footer>
-    </div>
-    <div class="[ o-wrap o-wrap--size-medium ]">
-        <footer class="[ c-footer ] [ u-text-align--center u-font-size--a u-opacity--half ]">
-            <div class="[ grid ]">
-                <div class="[ c-footer__item ] [ grid__item one-whole ]">
-                    <p>Copyright &copy; 2013–2018· SOME PEOPLE</a></p>
-                </div>
-            </div>
-        </footer>
-    </div>
-</div>
-
-
-<script src="js/manifest.js"></script>
-<script src="js/vendor.js"></script>
-<script src="js/folio.js"></script>
-<script>
-	var trans = {"by":"by","expected":"Expected","to-be-notified":"to be notified.","load-more":"load more","continue-reading":"Read&nbsp;More\u2026","receive-our-posts":"Receive my publications via e-mail.","subscribe":"Subscribe","newsletter":"Newsletter","to_receive_our_updates":"Receive my publications via e-mail.","email_is_not_valid":"Something is not right with that e-mail.","thanks_for_subscribing":"Thanks for subscribing!","writing":"Writing","about-me":"About","scheduled-for":"Scheduled for","this-page-is-hidden":"This page is hidden.","preview-of-unpublished-page":"This is a preview of an unpublished page."};
-</script>
-  <!-- 
-  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.10.0/styles/default.min.css"> 
-  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.10.0/highlight.min.js"></script>
-  -->
-  <link rel="stylesheet" href="css/default.min.css">
-  <script src="js/vendor/highlight.min.js"></script>
-  <script>hljs.initHighlightingOnLoad();</script>
-  <script src="js/vendor/velocity.min.js"></script>
-  <script src="js/vendor/mobile-detect.min.js"></script>
-  <script src="js/vendor/isInViewport.min.js"></script>
-  
-  <script type="text/javascript">
 
     var md;
     var scrollThrottle;
@@ -120,7 +75,7 @@
     function scroll_center(el, duration) {
       var offset = 0.5 * ($(window).height() - $(el).outerHeight());
 
-      Velocity(el, 'scroll',{
+      $.Velocity(el, 'scroll',{
         duration: duration,
         offset: -1 * offset,
         easing: 'ease-in-outs',
@@ -232,9 +187,3 @@
         set_slide_label(closest_slide());
       }
     });
-
-  </script>
-
-
-</body>
-</html>
