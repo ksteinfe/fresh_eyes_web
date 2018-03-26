@@ -8,4 +8,6 @@ def md_to_html(mdfile, fragments):
     f += fragments['foot'] 
     
     
-    return io.StringIO(unicode(f))
+    ret = io.StringIO(unicode(f))
+    ret.seek(0)
+    return ret
