@@ -1,5 +1,5 @@
 # INDEX
 
-lorem ipsum
+lorem ipsum! Right?
 
 ## h2
