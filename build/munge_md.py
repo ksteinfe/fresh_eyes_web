@@ -63,7 +63,15 @@ def md_to_html(mdfile, fragments):
     """
     parse md and assemble html
     """
-    f = fragments['head'] 
+    f = fragments['head']
+    
+    if ('title' in meta):
+        html = fragments['start_content_meta']
+        html = html.replace('{{title}}',meta['title'])
+        f += html
+    else:
+        f += fragments['start_content_nometa']
+    
     f += markdown(mdfile)
     # for line in mdfile: f += line
     f += fragments['foot'] 

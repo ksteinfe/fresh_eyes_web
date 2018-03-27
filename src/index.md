@@ -1,7 +1,7 @@
 ---
 title: Fresh Eyes
 subtitle: and other fresh things
-author: Kyle Steinfeld
+attribution: Prepared by Kyle Steinfeld
 copyright: (c) 2018 by Kyle Steinfeld
 ---
 
