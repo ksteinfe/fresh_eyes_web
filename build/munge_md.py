@@ -23,8 +23,8 @@ def md_to_html(mdfile, fragments):
                     meta[match.group(1).lower()] = match.group(2)
                     
             
-    pp = pprint.PrettyPrinter(indent=4)
-    print(pp.pformat(meta))        
+    #pp = pprint.PrettyPrinter(indent=4)
+    #print(pp.pformat(meta))        
     
     """
     define custom md parser
@@ -62,22 +62,31 @@ def md_to_html(mdfile, fragments):
     
     
     """
-    parse md and assemble html
+    assemble html head
     """
     f = fragments['head']
     
-    if ('title' in meta):
-        print("title metadata")
-        html = fragments['start_content_meta']
-        html = html.replace('{{title}}',meta['title'])
-        f += html
+    if 'title' in meta:
+        content = '<h1>{}</h1>'.format(meta['title'])
+        if 'subtitle' in meta: content = '<h2>{}</h2>'.format(meta['subtitle'])
+        if 'attribution' in meta: content = '<p class="comment u-opacity--half">{}</p>'.format(meta['attribution'])    
+        f += fragments['start_content_meta'].replace('{{content}}',content)
     else:
         print("no metadata")
         f += fragments['start_content_nometa']
     
+    """
+    assemble html body
+    """
     f += markdown(mdfile)
-    # for line in mdfile: f += line
-    f += fragments['foot'] 
+    
+    
+    """
+    assemble html foot
+    """
+    if 'copyright' not in meta: meta['copyright'] = ""
+    
+    f += fragments['foot'].replace('{{copyright}}',meta['copyright'])
     
     
     

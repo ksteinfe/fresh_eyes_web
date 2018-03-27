@@ -2,7 +2,7 @@
 title: Fresh Eyes
 subtitle: and other fresh things
 attribution: Prepared by Kyle Steinfeld
-copyright: (c) 2018 by Kyle Steinfeld
+copyright: Copyright &copy; 2018 Kyle Steinfeld
 ---
 
 lorem ipsum! Right?
