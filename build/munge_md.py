@@ -56,8 +56,7 @@ def md_to_html(mdfile, fragments):
     
     renderer = FreshEyesRenderer()
     inline = FreshEyesInlineLexer(renderer)
-    # enable the feature
-    inline.enable_wiki_link()
+    inline.enable_fresh_eyes() # enable the feature
     markdown = Markdown(renderer, inline=inline)
 
     f = fragments['head'] 
