@@ -51,7 +51,7 @@ def md_to_html(mdfile, fragments):
             # but place matters, maybe 3 is not good
             self.default_rules.insert(3, 'section_marker')
 
-        def output_wiki_link(self, m):
+        def output_section_marker(self, m):
             return self.renderer.section_marker()    
     
     renderer = FreshEyesRenderer()
