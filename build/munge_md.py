@@ -41,9 +41,9 @@ def md_to_html(mdfile, fragments):
         def enable_fresh_eyes(self):
             # add section_marker rules
             self.rules.section_marker = re.compile(
-                r'\[\[section'                   # [[
-                r'|([\s\S]+?)'   # Page 2|Page 2
-                r'\]\](?!\])'             # ]]
+                r'\[\[section|'                   # [[
+                r'([\s\S]+?)'   # Page 2|Page 2
+                r'\]\]'             # ]]
             )
 
             # Add section_marker parser to default rules
