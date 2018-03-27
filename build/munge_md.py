@@ -1,5 +1,4 @@
 print("munge_md.py has loaded")
-import re
 
 global md_to_html
 def md_to_html(mdfile, fragments):
