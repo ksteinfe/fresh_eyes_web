@@ -7,7 +7,7 @@ def md_to_html(mdfile, fragments):
         
     class FreshEyesRenderer(Renderer):
         
-        def section_marker_ex(self):
+        def section_marker(self):
             return self.section_marker_ex("")
 
         def section_marker_ex(self, cls):
