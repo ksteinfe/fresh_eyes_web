@@ -29,10 +29,10 @@ def md_to_html(mdfile, fragments):
             return self.renderer.wiki_link(alt, link)
     
     renderer = WikiLinkRenderer()
-    inline = WikiLinkInlineLexer(renderer=renderer)
+    #inline = WikiLinkInlineLexer(renderer=renderer)
     # enable the feature
-    inline.enable_wiki_link()
-    markdown = mistune.Markdown(renderer=renderer, inline=inline)
+    #inline.enable_wiki_link()
+    markdown = mistune.Markdown(renderer=renderer)
     
     f = fragments['head'] 
     f += markdown(mdfile)
