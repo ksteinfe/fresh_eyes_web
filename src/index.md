@@ -12,19 +12,7 @@ yes!
 
 ![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
 
-
-[[Link Text|Wiki Link]]
-
-
 [[section|stuff about a section]]
 
 ---
-
-okay, and finally a bit more text.
-
-:thumbs_up: *this works*
-
-this doesn't work :thumbs_down:
-
-:smile: :cry:ing
 

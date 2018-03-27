@@ -34,7 +34,7 @@ def md_to_html(mdfile, fragments):
     
     class FreshEyesRenderer(Renderer):
         def section_marker(self):
-            return '</div>\n</div class="section">'
+            return '</div>\n<div class="section">'
     
             
     class FreshEyesInlineLexer(InlineLexer):
