@@ -5,7 +5,7 @@ def md_to_html(mdfile, fragments):
     
     
     
-    markdown = Markdown()
+    markdown = mistune.Markdown()
     f = fragments['head'] 
     f += markdown(mdfile)
     # for line in mdfile: f += line
