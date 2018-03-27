@@ -7,15 +7,11 @@ copyright: Copyright &copy; 2018 Adam Menges, Kat Park, Kyle Steinfeld, and Sama
 
 # Aim
 
-This paragraph contains an aside. ((This is the aside.)) But markdown doesn't see it.
 
-((markdown sees this one))
+This cluster brings recent developments in machine learning (ML) to bear on generative architectural design. To improve the utility of artificial intelligence as a creative partner for design, we have brought together experts from architectural design practice[^1], ML engineering, and design methods research, and have developed methods for the incorporation of user-generated image-based ML recognition models into the evaluation step of a traditional generative design workflow. While existing research ((For a survey of [existing ML-related plugins](link.html "a title") for Grasshopper, see the relevant Appendix below.)) has integrated low-level ML operations into the parametric design environment with a level of success, this proposal uniquely links the familiar environment of Grasshopper with cloud-hosted models trained using the high-level and relatively user-friendly Tensorflow framework. Over the course of this workshop, participants will [^](My old college roommate) train purpose-built image-based models to evaluate candidate design solutions based on a variety of tacit and heretofore un-encapsulatable design criteria of their choosing, such as architectural style, spatial experience, or typological features. Participants will then deploy these models to the cloud, and integrate them into functional generative design systems via API calls.
 
-((and markdown sees this one))
-
-This paragraph contains an aside. ((This is the aside.)) But markdown doesn't see it.
-
-This cluster brings recent developments in machine learning (ML) to bear on generative architectural design. To improve the utility of artificial intelligence as a creative partner for design, we have brought together experts from architectural design practice, ML engineering, and design methods research, and have developed methods for the incorporation of user-generated image-based ML recognition models into the evaluation step of a traditional generative design workflow. While existing research ((For a survey of [existing ML-related plugins](link.html "a title") for Grasshopper, see the relevant Appendix below.)) has integrated low-level ML operations into the parametric design environment with a level of success, this proposal uniquely links the familiar environment of Grasshopper with cloud-hosted models trained using the high-level and relatively user-friendly Tensorflow framework. Over the course of this workshop, participants will [^](My old college roommate) train purpose-built image-based models to evaluate candidate design solutions based on a variety of tacit and heretofore un-encapsulatable design criteria of their choosing, such as architectural style, spatial experience, or typological features. Participants will then deploy these models to the cloud, and integrate them into functional generative design systems via API calls.
+[^1]: 
+Footnotes are the mind killer.
 
 ((Let's try this))
 
