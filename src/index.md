@@ -12,8 +12,15 @@ yes!
 
 ![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
 
-[[Page 2|Page 2]]
+
 
 ---
 
 okay, and finally a bit more text.
+
+:thumbs_up: *this works*
+
+this doesn't work :thumbs_down:
+
+:smile: :cry:ing
+
