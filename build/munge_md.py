@@ -7,6 +7,9 @@ def md_to_html(mdfile, fragments):
         
     class FreshEyesRenderer(Renderer):
         
+        def image(self, src, title, alt_text):
+            return '<img src="{}" alt="{}" title="{}" style="width: auto;">'.format(src,alt_text,title)
+        
         def section_marker(self):
             return self.section_marker_ex("")
 

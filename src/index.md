@@ -14,9 +14,7 @@ yes!
 
 i am something on a slide
 
-[[section|title]]
-I am a title slide?
-[[section]]
+[[section|title slide]] I am a section title slide? [[section]]
 
 i am some stuff not on a slide
 
@@ -32,6 +30,12 @@ okay
 
 i am something on a slide
 
+
+[[section|title slide]] I am a section title slide? [[section]]
+
+![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
+
 [[section]]
 
 i am some stuff not on a slide
+
