@@ -20,7 +20,7 @@ def md_to_html(mdfile, fragments):
                 match = re.search(r'^(\w+):\s*(.+?)$', ln)
                 if match:
                     #print("found key:{}, val:{}".format(match.group(1), match.group(2)))
-                    meta[match.group(1).lower] = match.group(2)
+                    meta[match.group(1).lower()] = match.group(2)
                     
             
     pp = pprint.PrettyPrinter(indent=4)
