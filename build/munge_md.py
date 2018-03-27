@@ -23,7 +23,7 @@ def md_to_html(mdfile, fragments):
             self.default_rules.insert(3, 'section_marker')
 
         def output_section_marker_ex(self, m):
-            return self.renderer.section_marker(m.group(1))
+            return self.renderer.section_marker_ex(m.group(1))
     
         def output_section_marker(self, m):
             return self.renderer.section_marker()    
