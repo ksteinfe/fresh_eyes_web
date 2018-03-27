@@ -1,11 +1,11 @@
-print("munge_md.py has loaded.")
+print("munge_md.py has loaded..")
 
 global md_to_html
 def md_to_html(mdfile, fragments):
     
     
     
-    markdown = mistune.Markdown()
+    markdown = Markdown()
     f = fragments['head'] 
     f += markdown(mdfile)
     # for line in mdfile: f += line

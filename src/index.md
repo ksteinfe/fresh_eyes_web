@@ -1,4 +1,4 @@
-# I am the index page
+# I am the index page!
 
 lorem ipsum! Right?
 yes!
