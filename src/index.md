@@ -5,7 +5,6 @@ yes!
 
 [I'm an inline-style link to test page with title](test.html "a link title")
 
-
 ## I am an h2
 
 [I'm an inline-style link to the error page with title](error.html "a link title")
@@ -14,6 +13,26 @@ yes!
 
 ---
 
-[[section|stuff about a section]]
+[[section|slide]]
+
+i am something on a slide
+
+[[section]]
+
+i am some stuff not on a slide
+
+[[section|slide]] i am on a slide! [[section]]
+
+i shoudn't be on a slide, but okay.
+
+[[section]]
 
 okay
+
+[[section|slide]]
+
+i am something on a slide
+
+[[section]]
+
+i am some stuff not on a slide
