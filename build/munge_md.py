@@ -41,7 +41,7 @@ def md_to_html(mdfile, fragments):
             return '</div><div class="c-item-v2__section {}">'.format(cls)
             
         def aside_marker(self,content):
-            return '<span class="aside">{content}</span>'
+            return '<span class="aside">{}</span>'.format(content)
             
     class FreshEyesInlineLexer(InlineLexer):
         def enable_fresh_eyes(self):
@@ -52,7 +52,7 @@ def md_to_html(mdfile, fragments):
             self.default_rules.insert(3, 'section_marker')
             
             # add aside rules 
-            self.rules.aside_marker = re.compile( r'\(\(([\s\S]+?)\)\)' )
+            self.rules.aside_marker = re.compile( r'\(\((.*?)\)\)' )
             self.default_rules.insert(3, 'aside_marker')
 
         def output_section_marker_ex(self, m):
