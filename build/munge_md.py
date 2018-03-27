@@ -98,6 +98,10 @@ def md_to_html(mdfile, fragments):
     html += fragments['foot'].replace('{{copyright}}',meta['copyright'])
     
     
+    def replace_non_ascii(text):
+        return ''.join([i if ord(i) < 128 else '<span class="non-ascii">NON-ASCII</span>' for i in text])
+    
+    html = replace_non_ascii(html)
     
     # TODO: filter(lambda x: x in printable, s)
     ret = io.StringIO(unicode(html))

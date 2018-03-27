@@ -25,9 +25,9 @@ Using a corpus of 3d models of tall buildings provided by SOM, an ML model is tr
 
 ### 3d Spatial Composition from 2d Isovists
 
-Seeking to validate and extend previous work[^1] in which local spatial compositions are captured and identified using machine learning, an ML model is trained to distinguish a given set of spatial configurations given an unrolled 2d image of a 3d isovist. This model is deployed in the service of tuning a parametric model to produce new and unexpected combinations of spatial experience.
+Seeking to validate and extend previous work[^Peng2017] in which local spatial compositions are captured and identified using machine learning, an ML model is trained to distinguish a given set of spatial configurations given an unrolled 2d image of a 3d isovist. This model is deployed in the service of tuning a parametric model to produce new and unexpected combinations of spatial experience.
 
-[^1]: Peng, et al. 2017 [Machines’ Perception of Space: Employing 3D Isovist Methods and a Convolutional Neural Network in Architectural Space Classification](http://papers.cumincad.org/cgi-bin/works/Show?acadia17_474 "Machines’ Perception of Space: Employing 3D Isovist Methods and a Convolutional Neural Network in Architectural Space Classification") 
+[^Peng2017]: Peng, et al. 2017 [Machines’ Perception of Space: Employing 3D Isovist Methods and a Convolutional Neural Network in Architectural Space Classification](http://papers.cumincad.org/cgi-bin/works/Show?acadia17_474 "Machines’ Perception of Space: Employing 3D Isovist Methods and a Convolutional Neural Network in Architectural Space Classification") 
 
 
 ### Spatial Flow: Quantifying the Qualitative
