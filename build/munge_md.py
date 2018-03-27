@@ -17,7 +17,7 @@ def md_to_html(mdfile, fragments):
         def __init__(self, **kwargs):
             super(EmojiInlineLexer, self).__init__(**kwargs)
             self.default_rules.insert(0, "emoji")
-            self.rules.emoji = re.compile(r':([a-zA-Z0-9\+\-_]+):', re.I)
+            self.rules.emoji = re.compile(r':([a-zA-Z0-9\+\-_]+):')
 
         def output_emoji(self, m):
             text = self.output(m.group(1))
