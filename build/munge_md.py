@@ -41,12 +41,7 @@ def md_to_html(mdfile, fragments):
     class FreshEyesInlineLexer(InlineLexer):
         def enable_fresh_eyes(self):
             # add section_marker rules
-            self.rules.section_marker = re.compile(
-                r'\[\[section|'  # [[section|
-                r'([\s\S]+?)'    
-                r'\]\]'             # ]]
-            )
-
+            self.rules.section_marker = re.compile( r'\[\[section|([\s\S]+?)\]\]' )
             # Add section_marker parser to default rules
             # you can insert it some place you like
             # but place matters, maybe 3 is not good

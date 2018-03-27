@@ -17,4 +17,3 @@ yes!
 [[section|stuff about a section]]
 
 okay
----
