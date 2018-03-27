@@ -3,15 +3,16 @@ print("munge_md.py has loaded")
 
 global md_to_html
 def md_to_html(mdfile, fragments):
-
+    
+    '''
     class FreshEyesRenderer(mistune.Renderer):
         def image(self, src, title, alt_text):
             return '<img style="width: auto;" src="{}" alt="{}" title="{}">'.format(src, title, alt_text)
+    '''
     
     class EmojiRenderer(object):
         def emoji(self, text):
             return "<emoji>%s</emoji>" % text
-
 
     class EmojiInlineLexer(mistune.InlineLexer):
         def __init__(self, **kwargs):
@@ -30,7 +31,8 @@ def md_to_html(mdfile, fragments):
     
     
     renderer = MarkdownRenderer()
-    markdown = mistune.Markdown(renderer=renderer)
+    inline = EmojiInlineLexer(renderer=renderer)
+    markdown = mistune.Markdown(renderer=renderer, inline=inline)
     
     f = fragments['head'] 
     f += markdown(mdfile)
