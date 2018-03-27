@@ -43,9 +43,7 @@ def md_to_html(mdfile, fragments):
                 r'\]\](?!\])'             # ]]
             )
 
-            # Add wiki_link parser to default rules
-            # you can insert it some place you like
-            # but place matters, maybe 3 is not good
+            # Add wiki_link parser to default rules you can insert it some place you like but place matters, maybe 3 is not good
             self.default_rules.insert(3, 'wiki_link')
 
         def output_wiki_link(self, m):
@@ -63,10 +61,10 @@ def md_to_html(mdfile, fragments):
     '''
     
     renderer = WikiLinkRenderer()
-    inline = WikiLinkInlineLexer(renderer)
+    inline = WikiLinkInlineLexer(renderer=renderer)
     # enable the feature
     inline.enable_wiki_link()
-    markdown = Markdown(renderer, inline=inline)
+    markdown = mistune.Markdown(renderer=renderer, inline=inline)
     
     f = fragments['head'] 
     f += markdown(mdfile)
