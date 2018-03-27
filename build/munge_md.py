@@ -4,7 +4,15 @@ print("munge_md.py has loaded..")
 # consider making changes to the lambda function to flush things out
 global md_to_html
 def md_to_html(mdfile, fragments):
-        
+    
+    meta_delimiter = "---"
+    mdlines = [line.strip() for line in mdfile.split('\n')]
+    if mdlines[0] == meta_delimiter:
+        i = mdlines[1:].index(meta_delimiter)
+        if i>0:
+            print("stripping meta")
+            mdfile = "\n".join(mdlines[i+1:])
+    
     class FreshEyesRenderer(Renderer):
         
         def image(self, src, title, alt_text):
