@@ -2,8 +2,7 @@ print("munge_md.py has loaded")
 
 
 class FreshEyesRenderer(mistune.Renderer):
-    
-    def image(src, title, alt_text)
+    def image(self, src, title, alt_text):
         return '<img style="width: auto;" src="{}" alt="{}" title="{}">'.format(src, title, alt_text)
 
 
