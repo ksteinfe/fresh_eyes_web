@@ -34,6 +34,7 @@ def md_to_html(mdfile, fragments):
     
     class FreshEyesRenderer(Renderer):
         def section_marker(self, stuff):
+            print("afds"+stuff)
             return '</div><div class="section">{}'.format(stuff)
     
             
@@ -41,8 +42,8 @@ def md_to_html(mdfile, fragments):
         def enable_fresh_eyes(self):
             # add section_marker rules
             self.rules.section_marker = re.compile(
-                r'\[\[section|'                   # [[
-                r'([\s\S]+?)'   # Page 2|Page 2
+                r'\[\[section|'  # [[section|
+                r'([\s\S]+?)'    
                 r'\]\]'             # ]]
             )
 
