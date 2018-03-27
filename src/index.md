@@ -15,6 +15,9 @@ yes!
 
 [[Link Text|Wiki Link]]
 
+
+[[section|stuff about a section]]
+
 ---
 
 okay, and finally a bit more text.
