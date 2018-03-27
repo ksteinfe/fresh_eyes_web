@@ -28,7 +28,7 @@ def md_to_html(mdfile, fragments):
         def __init__(self, **kwargs):
             super(MarkdownRenderer, self).__init__(**kwargs)
     '''
-    from mistune import Renderer, InlineGrammar, InlineLexer
+    from mistune import Markdown, Renderer, InlineGrammar, InlineLexer
     
     class WikiLinkRenderer(Renderer):
         def wiki_link(self, alt, link):
