@@ -39,14 +39,14 @@ def md_to_html(mdfile, fragments):
             
     class FreshEyesInlineLexer(InlineLexer):
         def enable_fresh_eyes(self):
-            # add wiki_link rules
-            self.rules.wiki_link = re.compile(
+            # add section_marker rules
+            self.rules.section_marker = re.compile(
                 r'\[\[section'                   # [[
                 r'|([\s\S]+?)'   # Page 2|Page 2
                 r'\]\](?!\])'             # ]]
             )
 
-            # Add wiki_link parser to default rules
+            # Add section_marker parser to default rules
             # you can insert it some place you like
             # but place matters, maybe 3 is not good
             self.default_rules.insert(3, 'section_marker')
