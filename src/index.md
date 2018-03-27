@@ -1,4 +1,6 @@
-# I am the index page!
+[[section|slide title]]
+I am the index page!
+[[section]]
 
 lorem ipsum! Right?
 yes!
@@ -11,9 +13,6 @@ yes!
 
 ![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
 
----
-
-[[section|slide]]
 
 i am something on a slide
 
