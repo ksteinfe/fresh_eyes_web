@@ -5,6 +5,10 @@ print("munge_md.py has loaded..")
 global md_to_html
 def md_to_html(mdfile, fragments):
     
+    """
+    parse md metadata
+    """
+    meta = {}
     meta_delimiter = "---"
     mdlines = [line.strip() for line in mdfile.split('\n')]
     if mdlines[0] == meta_delimiter:
@@ -12,7 +16,18 @@ def md_to_html(mdfile, fragments):
         if i>0:
             print("stripping meta")
             mdfile = "\n".join(mdlines[i+1:])
+            for ln in mdlines[1:i]:
+                match = re.search(r'^(\w+):\s*(.+?)\n', ln)
+                if match:
+                    print("found key:{}, val:{}".format(match.group(1), match.group(2)))
+                    meta[match.group(1)] = match.group(2)
+                    
+            
+            
     
+    """
+    define custom md parser
+    """
     class FreshEyesRenderer(Renderer):
         
         def image(self, src, title, alt_text):
@@ -43,7 +58,11 @@ def md_to_html(mdfile, fragments):
     inline = FreshEyesInlineLexer(renderer)
     inline.enable_fresh_eyes() # enable the feature
     markdown = Markdown(renderer, inline=inline)
-
+    
+    
+    """
+    parse md and assemble html
+    """
     f = fragments['head'] 
     f += markdown(mdfile)
     # for line in mdfile: f += line
