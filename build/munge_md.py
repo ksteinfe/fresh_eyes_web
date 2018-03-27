@@ -33,7 +33,7 @@ def md_to_html(mdfile, fragments):
         # TODO: deal with figures, maybe in alt text of image
 
         def image(self, src, title, alt_text):
-            # we use alt_text to carry class information
+            # we use alt_text to carry class information, titles are always used as alt text
             return '<img src="{0}" class="{1}" alt="{2}" title="{2}" style="width: auto;">'.format(src,alt_text,title)
         
         def header(self, text, level, raw=None):
