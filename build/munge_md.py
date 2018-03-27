@@ -23,8 +23,8 @@ def md_to_html(mdfile, fragments):
                     meta[match.group(1).lower()] = match.group(2)
                     
             
-    pp = pprint.PrettyPrinter(indent=4)
-    print(pp.pformat(meta))        
+    #pp = pprint.PrettyPrinter(indent=4)
+    #print(pp.pformat(meta))        
     
     """
     define custom md parser
