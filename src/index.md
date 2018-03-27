@@ -1,6 +1,4 @@
-[[section|slide title]]
-I am the index page!
-[[section]]
+[[section|slide pagetitle]] I am the index page! [[section]]
 
 lorem ipsum! Right?
 yes!
@@ -16,6 +14,8 @@ yes!
 
 i am something on a slide
 
+[[section|title]]
+I am a title slide?
 [[section]]
 
 i am some stuff not on a slide
