@@ -7,7 +7,6 @@ def md_to_html(mdfile, fragments):
         
     class FreshEyesRenderer(Renderer):
         def section_marker(self, cls):
-            print("afds"+str(stuff))
             return '</div><div class="c-item-v2__section {}">'.format(cls)
     
             
