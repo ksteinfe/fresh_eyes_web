@@ -7,6 +7,7 @@ copyright: Copyright &copy; 2018 Adam Menges, Kat Park, Kyle Steinfeld, and Sama
 
 ## Aim
 
+
 This cluster brings recent developments in machine learning (ML) to bear on generative architectural design. To improve the utility of artificial intelligence as a creative partner for design, we have brought together experts from architectural design practice, ML engineering, and design methods research, and have developed methods for the incorporation of user-generated image-based ML recognition models into the evaluation step of a traditional generative design workflow. While existing research has integrated low-level ML operations into the parametric design environment with a level of success, this proposal uniquely links the familiar environment of Grasshopper with cloud-hosted models trained using the high-level and relatively user-friendly Tensorflow framework. 
 
 ((For a survey of existing ML-related plugins for Grasshopper, see the relevant Appendix below.))
@@ -57,6 +58,8 @@ Using metadata obtained from Facebook, Instagram,  Pinterest, or similar, an ML 
 
 
 # Methods
+<!-------------------- -------------------->
+
 
 To maintain focus on the evaluation of candidate designs using ML models, technologies necessary for a rudimentary generative design workflow - understood as outlined below - will be prepared in advance of the workshop and quickly introduced to participants.
 
@@ -84,14 +87,17 @@ Over the course of the workshop, we will introduce methods for and competencies 
 * Hosting trained models and establishing API protocols
 
 # Sponsorship, Support, and Expected Costs
+<!-------------------- -------------------->
 
 
 # Outcomes
-
+<!-------------------- -------------------->
 
 # Workshop Schedule and Requirements
+<!-------------------- -------------------->
 
 # Biographies of Cluster Organizers
+<!-------------------- -------------------->
 
 [[section|slide]]
 ## Adam Menges, Lobe
@@ -113,14 +119,19 @@ In 2016, Professor Steinfeld organized and moderated a session titled Procedural
 [[section|slide]]
 ## Samantha Walker, Skidmore Owings & Merrill
 
-Samantha Walker is a Senior Structural Engineering Professional at SOM. With a background in architecture and over ten years of experience in structural engineering, she promotes a collaborative, integrated approach to design. Through SOM, Samantha has acted as an advisor and reviewer for several architectural tall building studios at both the college and university levels. She sits on the board of advisors for New Story, a non-profit startup in the Bay Area that builds sustainable homes and communities in developing countries. Samantha also specializes in the design of high performance seismic protection systems, such as base isolation and dampers, and has designed structures in regions with high seismicity, including Haiti and California. She recently traveled to Mexico City with a team of colleagues in the aftermath of the September 19, 2017 earthquake to contribute to post-earthquake building reconnaissance efforts. Shortly afterwards, Samantha presented the team's findings at the EDIFICA 2017 Congress held at the Monterrey Institute of Technology and Higher Education. To enhance reconnaissance efforts, Samantha spearheaded the development of a photo recognition tool that utilizes machine learning to identify and classify damage from photographs of damaged buildings. She has a strong interest in further exploring how machine learning can influence and enhance different aspects of building design, construction and assessment. Samantha holds professional engineering licenses in both Canada and the United States and a Master of Engineering degree from McGill University.
+Samantha Walker is a Senior Structural Engineering Professional at SOM. With a background in architecture and over ten years of experience in structural engineering, she promotes a collaborative, integrated approach to design. 
+
+![slide limit](img/lobe sreenshot.png "Screenshot of Lobe.ai")
+
+Through SOM, Samantha has acted as an advisor and reviewer for several architectural tall building studios at both the college and university levels. She sits on the board of advisors for New Story, a non-profit startup in the Bay Area that builds sustainable homes and communities in developing countries. Samantha also specializes in the design of high performance seismic protection systems, such as base isolation and dampers, and has designed structures in regions with high seismicity, including Haiti and California. She recently traveled to Mexico City with a team of colleagues in the aftermath of the September 19, 2017 earthquake to contribute to post-earthquake building reconnaissance efforts. Shortly afterwards, Samantha presented the team's findings at the EDIFICA 2017 Congress held at the Monterrey Institute of Technology and Higher Education. To enhance reconnaissance efforts, Samantha spearheaded the development of a photo recognition tool that utilizes machine learning to identify and classify damage from photographs of damaged buildings. She has a strong interest in further exploring how machine learning can influence and enhance different aspects of building design, construction and assessment. Samantha holds professional engineering licenses in both Canada and the United States and a Master of Engineering degree from McGill University.
 
 
 # What is Lobe.ai?
+<!-------------------- -------------------->
 
 [Lobe](Lobe.ai "Lobe") is a browser-based graphical programming environment for creating neural nets. 
 
-![wide slide](img/lobe sreenshot.png "Screenshot of Lobe.ai")
+![slide full](img/lobe sreenshot.png "Screenshot of Lobe.ai")
 
 
 
