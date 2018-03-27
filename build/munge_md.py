@@ -19,7 +19,7 @@ def md_to_html(mdfile, fragments):
             )
 
             # Add wiki_link parser to default rules you can insert it some place you like but place matters, maybe 3 is not good
-            self.default_rules.insert(3, 'wiki_link')
+            self.default_rules.insert(0, 'wiki_link')
 
         def output_wiki_link(self, m):
             text = m.group(1)
