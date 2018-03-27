@@ -32,7 +32,7 @@ Seeking to validate and extend previous work[^Peng2017] in which local spatial c
 
 ### Spatial Flow: Quantifying the Qualitative
 
-Effectively quantifying tacit or intuitively-understood qualities of a design solution has long been an unmet aim. Addressing one such example, “spatial flow” (the ease by which one may circulate through a space), this study seeks to encapsulate this quality as the fitness criteria of an optimization. Given a candidate solution, a representation of circulation is derived using random walks of object-avoiding agents. An ML model is then trained to discern those schemes that encourage healthy flow from those that don’t.
+Effectively quantifying tacit or intuitively-understood qualities of a design solution has long been an unmet aim. Addressing one such example, "spatial flow" (the ease by which one may circulate through a space), this study seeks to encapsulate this quality as the fitness criteria of an optimization. Given a candidate solution, a representation of circulation is derived using random walks of object-avoiding agents. An ML model is then trained to discern those schemes that encourage healthy flow from those that don't.
 
 ### Optimizing Architectural Visualizations for Social Media Exposure
 
