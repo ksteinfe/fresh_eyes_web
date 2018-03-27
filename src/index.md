@@ -26,6 +26,19 @@ The generation of candidate design solutions will be defined as a parametric mod
 Regarding the first concern, we will assist participants to establish training datasets, train image-based models using Tensorflow and Lobe.ai, host these models on cloud servers dedicated to this purpose, and establish structures to call upon them using an application program interface (API). For this purpose, we have partnered with Lobe.ai, a visual programming language for creating neural networks. Using the Grasshopper-like graphical programming environment provided by Lobe, workshop participants will be able to design a model, use a pre-trained one, and receive predictions from the cloud. Regarding the second concern, a toolset will be established in advance of the workshop that supports the integration of a trained and hosted ML model into a general generative design workflow. A component in Grasshopper will be provided that constructs API calls to the hosted model, and then receives and processes the results. This process is further elaborated below.
 The following lists describe the prerequisites for participation in the workshop, outline the resources and tools that will be provided to participants, and account for the methods that will be developed and tested over the course of the workshop. A clear workshop schedule may be found in Appendix A.
 
+Participants in this workshop will be expected to arrive with:
+
+* A basic competency in parametric modeling in Grasshopper and/or scripting in Python.
+* Experience in generative design, preferably using Grasshopper for design generation and one of a number of optimization tools (Galapagos, Octopus, or similar) for iteration.
+
+Prior to the start of the workshop, the cluster organizers will provide participants with:
+* Grasshopper components for interacting via API calls with a cloud-hosted ML model. These components will take in image data, perform the API call to the model, receive a response, and translate results into GH data.
+* A suite of tools written in Python to assist students in establishing training sets of tagged images. This may include web scraping tools for exploring online datasets such as Instagram or Pinterest, as well as automated image processing tools for preparing large collections of images for training.
+
+Over the course of the workshop, we will introduce methods for and competencies in:
+* Establishing training sets for ML models, including collecting datasets via web scraping
+* Training and testing ML models in Tensorflow
+* Hosting trained models and establishing API protocols
 
 
 [I'm an inline-style link to the error page with title](error.html "a link title")
@@ -33,7 +46,17 @@ The following lists describe the prerequisites for participation in the workshop
 ![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
 
 
-i am something on a slide
+i am a definition list on a slide
+
+WordPress
+:  A semantic personal publishing platform 
+
+Markdown
+:  Text-to-HTML conversion tool
+
+Hey, why not try an abbreviation like this... HTML is a great language! 
+
+*[HTML]: HyperText Markup Language
 
 [[section|title slide]] I am a section title slide? [[section]]
 
