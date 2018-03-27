@@ -6,21 +6,27 @@ global md_to_html
 def md_to_html(mdfile, fragments):
         
     class FreshEyesRenderer(Renderer):
-        def section_marker(self, cls):
+        
+        def section_marker_ex(self):
+            return self.section_marker_ex("")
+
+        def section_marker_ex(self, cls):
             return '</div><div class="c-item-v2__section {}">'.format(cls)
-    
+            
             
     class FreshEyesInlineLexer(InlineLexer):
         def enable_fresh_eyes(self):
             # add section_marker rules
-            self.rules.section_marker = re.compile( r'\[\[section\|([\s\S]+?)\]\]' )
+            self.rules.section_marker_ex = re.compile( r'\[\[section\|([\s\S]+?)\]\]' )
+            self.default_rules.insert(3, 'section_marker_ex')
+            self.rules.section_marker = re.compile( r'\[\[section\]\]' )
             self.default_rules.insert(3, 'section_marker')
 
+        def output_section_marker_ex(self, m):
+            return self.renderer.section_marker(m.group(1))
+    
         def output_section_marker(self, m):
-            stuff = m.group(1)
-            return self.renderer.section_marker(stuff)
-    
-    
+            return self.renderer.section_marker()    
     
     renderer = FreshEyesRenderer()
     inline = FreshEyesInlineLexer(renderer)
