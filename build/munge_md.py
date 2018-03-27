@@ -14,16 +14,17 @@ def md_to_html(mdfile, fragments):
     if mdlines[0] == meta_delimiter:
         i = mdlines[1:].index(meta_delimiter)
         if i>0:
-            print("stripping meta")
+            #print("stripping meta")
             mdfile = "\n".join(mdlines[i+1:])
             for ln in mdlines[1:i]:
                 match = re.search(r'^(\w+):\s*(.+?)$', ln)
                 if match:
-                    print("found key:{}, val:{}".format(match.group(1), match.group(2)))
+                    #print("found key:{}, val:{}".format(match.group(1), match.group(2)))
                     meta[match.group(1).lower] = match.group(2)
                     
             
-            
+    pp = pprint.PrettyPrinter(indent=4)
+    print(pp.pformat(meta))        
     
     """
     define custom md parser
@@ -66,10 +67,12 @@ def md_to_html(mdfile, fragments):
     f = fragments['head']
     
     if ('title' in meta):
+        print("title metadata")
         html = fragments['start_content_meta']
         html = html.replace('{{title}}',meta['title'])
         f += html
     else:
+        print("no metadata")
         f += fragments['start_content_nometa']
     
     f += markdown(mdfile)
