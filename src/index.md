@@ -13,33 +13,44 @@ This cluster brings recent developments in machine learning (ML) to bear on gene
 
 [[section|slide]]
 ## Potential Studies
+
 The integration of an ML evaluation step into a generative design workflow opens up a range of possible design scenarios. While **the definition of specific studies will be left to the discretion of workshop participants**, a number of potential studies are listed here. This abbreviated list was compiled both to illustrate the new opportunities brought about by ML, and to demonstrate the breadth of potential applications implied by our approach to the subject.
 
 [[section|slide]]
 ### Transferring Visual Style from Architectural Photography
 
+[[section]]
+
 Using tagged photographs of buildings from the Avery Library of architectural images provided by ArtStor, an ML model is produced that is capable of distinguishing photographs that adhere to desired architectural styles and/or the compositional style of particular architectural photographers. This model is deployed in the service of optimizing a design (as seen from a given point of view) to best match a desired style.
 
 [[section|slide]]
 ### Autoencoding Architectural Massing
+
 [[section]]
+
 Using a corpus of 3d models of tall buildings provided by SOM, an ML model is trained to distinguish between and classify architectural massings related to programmatic types. To accomplish this, a method is developed to translate sliced CAD models into sets of related images able to be understood by ML processes. This model is deployed in the service of discovering potential new and compelling massings that hybridize known types.
 
 [[section|slide]]
 ### 3d Spatial Composition from 2d Isovists
+
 [[section]]
+
 Seeking to validate and extend previous work[^Peng2017] in which local spatial compositions are captured and identified using machine learning, an ML model is trained to distinguish a given set of spatial configurations given an unrolled 2d image of a 3d isovist. This model is deployed in the service of tuning a parametric model to produce new and unexpected combinations of spatial experience.
 
 [^Peng2017]: Peng, et al. 2017 [Machines' Perception of Space: Employing 3D Isovist Methods and a Convolutional Neural Network in Architectural Space Classification](http://papers.cumincad.org/cgi-bin/works/Show?acadia17_474 "Machines' Perception of Space: Employing 3D Isovist Methods and a Convolutional Neural Network in Architectural Space Classification") 
 
 [[section|slide]]
 ### Spatial Flow: Quantifying the Qualitative
+
 [[section]]
+
 Effectively quantifying tacit or intuitively-understood qualities of a design solution has long been an unmet aim. Addressing one such example, "spatial flow" (the ease by which one may circulate through a space), this study seeks to encapsulate this quality as the fitness criteria of an optimization. Given a candidate solution, a representation of circulation is derived using random walks of object-avoiding agents. An ML model is then trained to discern those schemes that encourage healthy flow from those that don't.
 
 [[section|slide]]
 ### Optimizing Architectural Visualizations for Social Media Exposure
+
 [[section]]
+
 Using metadata obtained from Facebook, Instagram,  Pinterest, or similar, an ML model is produced that is capable of predicting the popularity of an image on these social media platforms, parameterized for relevant data such as geolocation or demographics. This model is deployed in the service of optimizing architectural visualizations to best please particular crowds. 
 
 
@@ -91,6 +102,7 @@ As CEO of Lobe, a visual programming environment for creating neural networks, A
 As Firmwide Emerging Technology Leader, Kat Park directs design technology strategy at SOM. A computer scientist and architect specializing in computation design, Kat Park spearheads research initiatives to understand the role of data in performance based design, as well as explore the design and implementation of sensor systems that inform occupants' environment. As a senior designer at SOM NY, she has led the design, data management and implementation of complex geometrical systems for skyscrapers around the world. Her work at SOM NY includes World Trade Center Tower 1, Lotte Super Tower, Busan Lotte Tower, Yongsan Tower, and Digital Media City Landmark Tower in Korea, as well as research efforts that inform design processes. Kat Park has lectured and taught parametric and generative design strategies at various institutions; presented and published in ACADIA, International Journal of Architectural Computing (IJAC), International Conference on Environmental Systems (ICES), Special Interest Group in Computer Human Interaction (SIGCHI), SmartGeometry, BIM Forum and Architecture and Urbanism (A+U). Prior to SOM and architecture, she was an interdisciplinary software developer and interaction designer at Art Technology Group and MIT Media Lab. Kat Park holds a BS in Computer Science & Engineering and a Master of Architecture degree, both from MIT.
 
 [[section|slide]]
+
 # Kyle Steinfeld, UC Berkeley
 
 Through his research and creative work, Kyle Steinfeld, an Assistant Professor of Architecture at the University of California, Berkeley, seeks to illuminate the dynamic relationship between the creative practice of design and computational design methods, thereby enabling a more inventive, informed, responsive, and responsible practice of architecture. He is the author of Geometric Computation: Foundations for Design and has published widely on the subject of design and computation. His recent work has specifically focused on the newly emerging topic of machine learning in design. 
