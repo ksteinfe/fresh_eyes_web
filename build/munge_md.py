@@ -17,11 +17,10 @@ def md_to_html(mdfile, fragments):
             print("stripping meta")
             mdfile = "\n".join(mdlines[i+1:])
             for ln in mdlines[1:i]:
-                print(ln)
-                match = re.search(r'^(\w+):\s*(.+?)\n', ln)
+                match = re.search(r'^(\w+):\s*(.+?)$', ln)
                 if match:
                     print("found key:{}, val:{}".format(match.group(1), match.group(2)))
-                    meta[match.group(1)] = match.group(2)
+                    meta[match.group(1).lower] = match.group(2)
                     
             
             
