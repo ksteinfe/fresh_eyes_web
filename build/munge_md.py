@@ -52,7 +52,7 @@ def md_to_html(mdfile, fragments):
             self.default_rules.insert(3, 'section_marker')
             
             # add aside rules
-            self.rules.aside = re.compile( r'\(\(([\s\S]+?)\)\)' )
+            self.rules.aside_marker = re.compile( r'\(\(([\s\S]+?)\)\)' )
             self.default_rules.insert(3, 'aside_marker')
 
         def output_section_marker_ex(self, m):
