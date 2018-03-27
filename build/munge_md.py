@@ -34,6 +34,11 @@ def md_to_html(mdfile, fragments):
         def image(self, src, title, alt_text):
             return '<img src="{}" alt="{}" title="{}" style="width: auto;">'.format(src,alt_text,title)
         
+        def header(self, text, level, raw=None):
+            if level==1:
+                return '<div class="c-item-v2__section-black slide js--press-slack">{}</div>'.format(raw)
+            return '<h{0}>{1}</h{0}>'.format(level-1, raw)
+        
         def section_marker(self):
             return self.section_marker_ex("")
 
