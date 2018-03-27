@@ -1,4 +1,14 @@
-[[section|slide pagetitle]] I am the index page! [[section]]
+---
+title: Fresh Eyes
+subtitle: and other fresh things
+author: Kyle Steinfeld
+copyright: (c) 2018 by Kyle Steinfeld
+---
+
+[[section|slide pagetitle]] 
+# Fresh Eyes
+
+[[section]]
 
 lorem ipsum! Right?
 yes!
