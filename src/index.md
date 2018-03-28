@@ -94,6 +94,8 @@ Over the course of the workshop, we will introduce methods for and competencies 
 # Outcomes
 <!-------------------- -------------------->
 
+![fig|limit slide](https://cdn0.iconfinder.com/data/icons/elite-medical-science/512/blood-sample-256.png "Some icon I found online")
+
 # Workshop Schedule and Requirements
 <!-------------------- -------------------->
 
@@ -116,6 +118,8 @@ As Firmwide Emerging Technology Leader, Kat Park directs design technology strat
 
 Through his research and creative work, Kyle Steinfeld, an Assistant Professor of Architecture at the University of California, Berkeley, seeks to illuminate the dynamic relationship between the creative practice of design and computational design methods, thereby enabling a more inventive, informed, responsive, and responsible practice of architecture. He is the author of Geometric Computation: Foundations for Design and has published widely on the subject of design and computation. His recent work has specifically focused on the newly emerging topic of machine learning in design. 
 
+[[section]]
+
 ![limit](https://cdn0.iconfinder.com/data/icons/elite-medical-science/512/blood-sample-256.png "Some icon I found online")
 
 In 2016, Professor Steinfeld organized and moderated a session titled Procedural Design: Machine Learning and Evaluation at the 2016 ACADIA conference in Ann Arbor. Building on the conversation that unfolded there, while speaking at the invitation of the Kuwait University College of Architecture, he offered a talk titled Fresh Eyes that drew out a number of parallels between machine learning, visual thinking, and the nature of design activity. Further developing and refining these ideas, he authored a paper for the 2017 ACADIA conference titled Dreams May Come. Here, he set out a concise theory of machine learning as it applies to creative architectural design, and offered a guide to future research at the intersection of ML and design tools. Most recently, Kyle sought to put these ideas into practice with a series of online experiments, titled Drawing with Bots, that explore a variety of potential forms and formats for the relationship between a human designer and an artificial design partner.
@@ -124,6 +128,8 @@ In 2016, Professor Steinfeld organized and moderated a session titled Procedural
 ## Samantha Walker, Skidmore Owings & Merrill
 
 Samantha Walker is a Senior Structural Engineering Professional at SOM. With a background in architecture and over ten years of experience in structural engineering, she promotes a collaborative, integrated approach to design. 
+
+[[section]]
 
 ![limit](img/lobe sreenshot.png "Screenshot of Lobe.ai")
 
