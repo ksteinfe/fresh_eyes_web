@@ -89,6 +89,7 @@ Over the course of the workshop, we will introduce methods for and competencies 
 # Sponsorship, Support, and Expected Costs
 <!-------------------- -------------------->
 
+![fig|limit](img/lobe sreenshot.png "Screenshot of Lobe.ai")
 
 # Outcomes
 <!-------------------- -------------------->

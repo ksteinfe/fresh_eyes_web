@@ -34,6 +34,12 @@ def md_to_html(mdfile, fragments):
 
         def image(self, src, title, alt_text):
             # we use alt_text to carry class information, titles are always used as alt text
+            if "|" in alt_text:
+                args = alt_text.split('|')
+                cls = args[1].strip()
+                ht = '<figure class="{0}"><img src="img/veil.gif" data-src="{1}" alt="" /><figcaption>{2}</figcaption></figure>'
+                return ht.format(cls,src,title)
+            
             return '<img src="{0}" class="{1}" alt="{2}" title="{2}" style="width: auto;">'.format(src,alt_text,title)
         
         def header(self, text, level, raw=None):
