@@ -107,7 +107,7 @@ Over the course of the workshop, we will introduce methods for and competencies 
 
 [[section]]
 
-![limit](img/IMG_1029.jpg)
+<img src="img/IMG_1029.jpg" width="480" height="480" />
 
 As CEO of Lobe, a visual programming environment for creating neural networks, Adam currently spends the majority of his time working on technologies and tools to make machine learning easier for the masses. Previously, he worked as an engineer and contributed to the success of world class companies, such as Apple and SendGrid.
 
@@ -116,7 +116,7 @@ As CEO of Lobe, a visual programming environment for creating neural networks, A
 
 [[section]]
 
-![limit](img/katpark-bw.jpg)
+<img src="img/katpark-bw.jpg" width="480" height="480" />
 
 As Firmwide Emerging Technology Leader, Kat Park directs design technology strategy at SOM. A computer scientist and architect specializing in computation design, Kat Park spearheads research initiatives to understand the role of data in performance based design, as well as explore the design and implementation of sensor systems that inform occupants' environment. As a senior designer at SOM NY, she has led the design, data management and implementation of complex geometrical systems for skyscrapers around the world. Her work at SOM NY includes World Trade Center Tower 1, Lotte Super Tower, Busan Lotte Tower, Yongsan Tower, and Digital Media City Landmark Tower in Korea, as well as research efforts that inform design processes. Kat Park has lectured and taught parametric and generative design strategies at various institutions; presented and published in ACADIA, International Journal of Architectural Computing (IJAC), International Conference on Environmental Systems (ICES), Special Interest Group in Computer Human Interaction (SIGCHI), SmartGeometry, BIM Forum and Architecture and Urbanism (A+U). Prior to SOM and architecture, she was an interdisciplinary software developer and interaction designer at Art Technology Group and MIT Media Lab. Kat Park holds a BS in Computer Science & Engineering and a Master of Architecture degree, both from MIT.
 
@@ -126,7 +126,6 @@ As Firmwide Emerging Technology Leader, Kat Park directs design technology strat
 
 [[section]]
 
-![limit](img/Steinfeld.jpg)
 <img src="img/Steinfeld.jpg" width="480" height="480" />
 
 Through his research and creative work, Kyle Steinfeld, an Assistant Professor of Architecture at the University of California, Berkeley, seeks to illuminate the dynamic relationship between the creative practice of design and computational design methods, thereby enabling a more inventive, informed, responsive, and responsible practice of architecture. He is the author of Geometric Computation: Foundations for Design and has published widely on the subject of design and computation. His recent work has specifically focused on the newly emerging topic of machine learning in design. 
