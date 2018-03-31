@@ -125,7 +125,7 @@ Through his research and creative work, Kyle Steinfeld, an Assistant Professor o
 In 2016, Professor Steinfeld organized and moderated a session titled Procedural Design: Machine Learning and Evaluation at the 2016 ACADIA conference in Ann Arbor. Building on the conversation that unfolded there, while speaking at the invitation of the Kuwait University College of Architecture, he offered a talk titled Fresh Eyes that drew out a number of parallels between machine learning, visual thinking, and the nature of design activity. Further developing and refining these ideas, he authored a paper for the 2017 ACADIA conference titled Dreams May Come. Here, he set out a concise theory of machine learning as it applies to creative architectural design, and offered a guide to future research at the intersection of ML and design tools. Most recently, Kyle sought to put these ideas into practice with a series of online experiments, titled Drawing with Bots, that explore a variety of potential forms and formats for the relationship between a human designer and an artificial design partner.
 
 [[section|slide]]
-## Samantha Walker, Skidmore Owings & Merrill
+## Samantha Walker, SOM
 
 Samantha Walker is a Senior Structural Engineering Professional at SOM. With a background in architecture and over ten years of experience in structural engineering, she promotes a collaborative, integrated approach to design. 
 
