@@ -126,7 +126,7 @@ As Firmwide Emerging Technology Leader, Kat Park directs design technology strat
 
 [[section]]
 
-![limit](img/Steinfeld.jpg =480x480)
+![limit](img/Steinfeld.jpg){:height="480px" width="480px"}
 
 Through his research and creative work, Kyle Steinfeld, an Assistant Professor of Architecture at the University of California, Berkeley, seeks to illuminate the dynamic relationship between the creative practice of design and computational design methods, thereby enabling a more inventive, informed, responsive, and responsible practice of architecture. He is the author of Geometric Computation: Foundations for Design and has published widely on the subject of design and computation. His recent work has specifically focused on the newly emerging topic of machine learning in design. 
 
