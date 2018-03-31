@@ -54,21 +54,21 @@
     function enter_press_mode() {
       if(!press_is_on) {
         press_is_on = true;
-        $(".js--c-veil").animate({opacity:0.95},250);
-        $(".js--c-veil").css('opacity','0');
+        $(".veil").animate({opacity:0.95},250);
+        $(".veil").css('opacity','0');
         $('.js--press-slack').addClass('press-slack');
-        $(".c-presentation-label").show();
+        $(".presentation_control_wrapper").show();
       }
     }
 
     function exit_press_mode() {
       if(press_is_on) {
         press_is_on = false;
-        $(".js--c-veil").animate({opacity:0},0);
+        $(".veil").animate({opacity:0},0);
         $('.js--press-slack').removeClass('press-slack');
         slide_reset(current_slide());
         scroll_center(current_slide(), 0);
-        $(".c-presentation-label").hide();
+        $(".presentation_control_wrapper").hide();
       }
     }
 
@@ -150,7 +150,7 @@
       var slide_label = '<span class="u-opacity--half">' + (Math.round(completion*100)) + '%</span>';
       if(index == 0) slide_label = "Start";
       if(index == $(".slide").length-1) slide_label = "End";
-      $(".js--c-presentation-label__text").html(slide_label);
+      $(".presentation_control").html(slide_label);
     }
 
     function closest_slide() {

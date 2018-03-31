@@ -1,0 +1,49 @@
+/* TAKEN FROM LOCAL HTML FILE NEAR TOP OF BODY */
+
+
+.presentation_control_wrapper {
+  display:none;
+}
+
+@media  all and (min-width:500px) {
+  .presentation_control_wrapper {
+    position:fixed;
+    right:12px;
+    border-radius:2px;
+    bottom:12px;
+    width:80px;
+    border: 1px solid #dadada;
+    text-align:center;
+    height:50px;
+    background-color:white;
+    padding:0;
+    font-size:120%;
+    z-index:300;
+  }
+
+  .presentation_control {
+    position:absolute;
+    line-height:25px;
+    height:25px;
+    width:100%;
+    top:0;
+    bottom:0;
+    margin:auto;
+  }
+}
+
+.veil {
+  position:fixed;
+  left:0;
+  top:0;
+  right:0;
+  bottom:0;
+  opacity:0;
+  background-color:white;
+  z-index:100;
+  pointer-events: none;
+}
+
+.slide {
+  position:relative;
+}

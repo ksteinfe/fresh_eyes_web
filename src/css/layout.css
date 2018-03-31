@@ -1,0 +1,7 @@
+*,:after,:before{
+    box-sizing:border-box
+}
+
+.slide.titleslide {
+    padding-top: 0px;
+}

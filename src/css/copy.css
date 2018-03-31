@@ -1,0 +1,12 @@
+
+
+
+.slide.titleslide h1{
+    font-size: 4em;
+    font-family: BlinkMacSystemFont,franklin-gothic-urw,sans-serif;
+    line-height: 0.9;
+    text-align: center;
+}
+
+@keyframes blinker { 50% { opacity: 0; } }
+.non-ascii{ background: red; color: white; animation: blinker 1s linear infinite; }
