@@ -91,7 +91,7 @@ def md_to_html(mdfile, fragments):
     if 'title' in meta:
         content = '<h1>{}</h1>'.format(meta['title'])
         if 'subtitle' in meta: content += '<h2>{}</h2>'.format(meta['subtitle'])
-        if 'attribution' in meta: content += '<p class="comment u-opacity--half">{}</p>'.format(meta['attribution'])    
+        if 'attribution' in meta: content += '<p>{}</p>'.format(meta['attribution'])    
         html += fragments['start_content_meta'].replace('{{content}}',content)
     else:
         #print("no metadata")
