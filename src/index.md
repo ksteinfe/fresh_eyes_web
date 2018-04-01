@@ -90,7 +90,8 @@ Over the course of the workshop, we will introduce methods for and competencies 
 ## Sponsorship, Support, and Expected Costs
 <!-------------------- -------------------->
 
-![fig|limit](img/lobe sreenshot.png "Screenshot of Lobe.ai")
+<img src="img/lobe sreenshot.png" width="900" height="575" />
+<figcaption>Screenshot of Lobe.ai</figcaption>
 
 ## Outcomes
 <!-------------------- -------------------->
