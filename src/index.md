@@ -4,8 +4,7 @@ subtitle: Applying Machine Learning to Generative Architectural Design
 attribution: Prepared by Adam Menges, Lobe.ai; Kat Park, SOM; Kyle Steinfeld, UC Berkeley; Samantha Walker, SOM
 copyright: Copyright &copy; 2018 Adam Menges, Kat Park, Kyle Steinfeld, and Samantha Walker
 ---
-
-<img src="img/A-Eye.jpg" width="852" height="480" />
+<img src="img/A-Eye.jpg" width="900" height="507" />
 
 ## Aims
 
