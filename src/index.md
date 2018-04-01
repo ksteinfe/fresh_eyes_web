@@ -58,7 +58,7 @@ Effectively quantifying tacit or intuitively-understood qualities of a design so
 Using metadata obtained from Facebook, Instagram,  Pinterest, or similar, an ML model is produced that is capable of predicting the popularity of an image on these social media platforms, parameterized for relevant data such as geolocation or demographics. This model is deployed in the service of optimizing architectural visualizations to best please particular crowds. 
 
 
-# Methods
+## Methods
 <!-------------------- -------------------->
 
 
@@ -87,24 +87,24 @@ Over the course of the workshop, we will introduce methods for and competencies 
 * Training and testing ML models in Tensorflow
 * Hosting trained models and establishing API protocols
 
-# Sponsorship, Support, and Expected Costs
+## Sponsorship, Support, and Expected Costs
 <!-------------------- -------------------->
 
 ![fig|limit](img/lobe sreenshot.png "Screenshot of Lobe.ai")
 
-# Outcomes
+## Outcomes
 <!-------------------- -------------------->
 
 ![fig|limit slide](https://cdn0.iconfinder.com/data/icons/elite-medical-science/512/blood-sample-256.png "Some icon I found online")
 
-# Workshop Schedule and Requirements
+## Workshop Schedule and Requirements
 <!-------------------- -------------------->
 
-# Biographies of Cluster Organizers
+## Biographies of Cluster Organizers
 <!-------------------- -------------------->
 
 [[section|slide]]
-## Adam Menges, Lobe
+### Adam Menges, Lobe
 
 [[section]]
 
@@ -113,7 +113,7 @@ Over the course of the workshop, we will introduce methods for and competencies 
 As CEO of Lobe, a visual programming environment for creating neural networks, Adam currently spends the majority of his time working on technologies and tools to make machine learning easier for the masses. Previously, he worked as an engineer and contributed to the success of world class companies, such as Apple and SendGrid.
 
 [[section|slide]]
-## Kat Park, SOM
+### Kat Park, SOM
 
 [[section]]
 
@@ -123,7 +123,7 @@ As Firmwide Emerging Technology Leader, Kat Park directs design technology strat
 
 [[section|slide]]
 
-## Kyle Steinfeld, UC Berkeley
+### Kyle Steinfeld, UC Berkeley
 
 [[section]]
 
@@ -134,7 +134,7 @@ Through his research and creative work, Kyle Steinfeld, an Assistant Professor o
 In 2016, Professor Steinfeld organized and moderated a session titled Procedural Design: Machine Learning and Evaluation at the 2016 ACADIA conference in Ann Arbor. Building on the conversation that unfolded there, while speaking at the invitation of the Kuwait University College of Architecture, he offered a talk titled Fresh Eyes that drew out a number of parallels between machine learning, visual thinking, and the nature of design activity. Further developing and refining these ideas, he authored a paper for the 2017 ACADIA conference titled Dreams May Come. Here, he set out a concise theory of machine learning as it applies to creative architectural design, and offered a guide to future research at the intersection of ML and design tools. Most recently, Kyle sought to put these ideas into practice with a series of online experiments, titled Drawing with Bots, that explore a variety of potential forms and formats for the relationship between a human designer and an artificial design partner.
 
 [[section|slide]]
-## Samantha Walker, SOM
+### Samantha Walker, SOM
 
 [[section]]
 
