@@ -1,3 +1,5 @@
+<img src="img/A-Eye.jpg" width="852" height="480" />
+
 ---
 title: Fresh Eyes
 subtitle: Applying Machine Learning to Generative Architectural Design
