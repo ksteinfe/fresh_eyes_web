@@ -149,7 +149,8 @@ Samantha Walker is a Senior Structural Engineering Professional at SOM. With a b
 
 [Lobe](Lobe.ai "Lobe") is a browser-based graphical programming environment for creating neural nets. 
 
-![slide limit](img/lobe sreenshot.png "Screenshot of Lobe.ai")
+<img src="img/lobe sreenshot.png" width="900" height="575" />
+<figcaption>Screenshot of Lobe.ai</figcaption>
 
 
 
