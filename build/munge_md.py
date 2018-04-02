@@ -34,9 +34,10 @@ def md_to_html(mdfile, fragments):
         
         def image(self, src, title, alt_text):
             video_extensions = ['mp4', 'm4v', 'ogv', 'webm', 'mpg', 'mpeg']
+            file_extension = os.path.splitext(src)[1][1:]
             if any([src.endswith(ext) for ext in video_extensions]):
                 ht = '<figure class="{0}"><video loop muted><source src="{1}" type="video/{2}"></video><figcaption>{3}</figcaption></figure>'
-                return ht.format(alt_text,src,title,'mp4')
+                return ht.format(alt_text,src,file_extension,title)
             else:
                 # we use alt_text to carry class information, titles are always used as alt text
                 if "|" in alt_text:
