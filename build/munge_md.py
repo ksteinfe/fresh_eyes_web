@@ -30,17 +30,22 @@ def md_to_html(mdfile, fragments):
     define custom md parser
     """
     class FreshEyesRenderer(Renderer):
-        # TODO: deal with figures, maybe in alt text of image
-
+        
+        
         def image(self, src, title, alt_text):
-            # we use alt_text to carry class information, titles are always used as alt text
-            if "|" in alt_text:
-                args = alt_text.split('|')
-                cls = args[1].strip()
-                ht = '<figure class="{0}"><img src="img/veil.gif" data-src="{1}" alt="" /><figcaption>{2}</figcaption></figure>'
-                return ht.format(cls,src,title)
-            
-            return '<img src="{0}" class="{1}" alt="{2}" title="{2}" style="width: auto;">'.format(src,alt_text,title)
+            video_extensions = ['mp4', 'm4v', 'ogv', 'webm', 'mpg', 'mpeg']
+            if any([src.endswith(ext) for ext in video_extensions]):
+                ht = '<figure class="{0}"><video loop muted><source src="{1}" type="video/{2}"></video><figcaption>{3}</figcaption></figure>'
+                return ht.format(alt_text,src,title,'mp4')
+            else:
+                # we use alt_text to carry class information, titles are always used as alt text
+                if "|" in alt_text:
+                    args = alt_text.split('|')
+                    cls = args[1].strip()
+                    ht = '<figure class="{0}"><img src="img/veil.gif" data-src="{1}" alt="" /><figcaption>{2}</figcaption></figure>'
+                    return ht.format(cls,src,title)
+                
+                return '<img src="{0}" class="{1}" alt="{2}" title="{2}" style="width: auto;">'.format(src,alt_text,title)
         
         def header(self, text, level, raw=None):
             if level==1:
