@@ -5,3 +5,53 @@
 .slide.titleslide {
     padding-top: 0px;
 }
+
+.row figure.limit,.row img.limit,.row video.limit,.limit img{
+    max-width:12em;
+    margin:3em auto
+}
+.row figure.full,.row img.full,.row video.full,.full img{
+    max-width:35em
+}
+.row figure.wide,.row img.wide,.row video.wide,.wide img{
+    max-width:50em
+}
+.row figure.bleed,.row img.bleed,.row video.bleed,.bleed img{
+    max-width:none;
+    width:calc(100% + 2 * 27px);
+    margin-left:calc(-1 * 27px)
+}
+
+.row p.aside,.row span.aside{
+    font-family:BlinkMacSystemFont,franklin-gothic-urw,sans-serif;
+    font-size:calc(.6 * 1em);
+    max-width:calc(30em / .6);
+    color:rgba(0,0,0,0.5)
+}
+.row span.aside{
+    line-height:1.4em;
+    float:center;
+    clear:both;
+    display:block;
+    margin:1em 0
+}
+
+
+@media all and (min-width:60rem){
+    .row p.aside,.row span.aside{
+        font-family:BlinkMacSystemFont,franklin-gothic-urw,sans-serif;
+        clear:both;
+        width:110px;
+        color:rgba(0,0,0,.55)
+    }
+    .row p.aside{
+        float:left;
+        margin-left:calc((100vw - 30em/.6)/ 2 - 27px*3 - 190px);
+        margin-top:.5em
+    }
+    .row span.aside{
+        float:left;
+        margin-left:-120px;
+        margin-top:.6em
+    }
+}

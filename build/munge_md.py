@@ -44,7 +44,7 @@ def md_to_html(mdfile, fragments):
         
         def header(self, text, level, raw=None):
             if level==1:
-                return '</div></div><div class="row slide">{}</div><div class="row"><div class="col-12">'.format(raw)
+                return '</div></div></div><div class="slide major_heading">{}</div><div class="container"><div class="row"><div class="col-12">'.format(raw)
             return '<h{0}>{1}</h{0}>'.format(level-1, raw)
         
         def section_marker(self):
