@@ -157,6 +157,8 @@ Samantha Walker is a Senior Structural Engineering Professional at SOM. With a b
 Your browser does not support the video tag.
 </video>
 
+<embed src="img/machines_perception_of_space.mpeg" autostart="false"/>
+
 
 
 
