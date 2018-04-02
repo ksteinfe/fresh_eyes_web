@@ -6,6 +6,10 @@
     padding-top: 0px;
 }
 
+.row figure{
+    text-align: center;
+}
+
 .row figure.limit,.row img.limit,.row video.limit,.limit img{
     max-width:12em;
     margin:3em auto
