@@ -16,7 +16,7 @@ This cluster brings recent developments in machine learning (ML) to bear on gene
 
 Over the course of this workshop, participants will train purpose-built image-based models to evaluate candidate design solutions based on a variety of tacit and heretofore un-encapsulatable design criteria of their choosing, such as architectural style, spatial experience, or typological features. Participants will then deploy these models to the cloud, and integrate them into functional generative design systems via API calls.
 
-![](img/hyperwall.mp4 "Here is an emedded video")
+![vid|slide|loop controls muted](img/hyperwall.mp4 "Here is an emedded video")
 
 [[section|slide]]
 ### Potential Studies
