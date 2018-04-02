@@ -4,7 +4,8 @@ subtitle: Applying Machine Learning to Generative Architectural Design
 attribution: Prepared by Adam Menges, Lobe.ai; Kat Park, SOM; Kyle Steinfeld, UC Berkeley; Samantha Walker, SOM
 copyright: Copyright &copy; 2018 Adam Menges, Kat Park, Kyle Steinfeld, and Samantha Walker
 ---
-<img src="img/A-Eye.jpg" width="900" height="507" />
+
+![wide](img/A-Eye.jpg "Screenshot of Lobe.ai")
 
 ## Aims
 
@@ -90,8 +91,7 @@ Over the course of the workshop, we will introduce methods for and competencies 
 # Sponsorship, Support, and Expected Costs
 <!-------------------- -------------------->
 
-<img src="img/lobe sreenshot.png" width="900" height="575" />
-<figcaption>Screenshot of Lobe.ai</figcaption>
+![limit](img/lobe sreenshot.png "Screenshot of Lobe.ai")
 
 # Outcomes
 <!-------------------- -------------------->
@@ -109,7 +109,7 @@ Over the course of the workshop, we will introduce methods for and competencies 
 
 [[section]]
 
-<img src="img/IMG_1029.jpg" width="480" height="480" />
+![limit](img/IMG_1029.jpg)
 
 As CEO of Lobe, a visual programming environment for creating neural networks, Adam currently spends the majority of his time working on technologies and tools to make machine learning easier for the masses. Previously, he worked as an engineer and contributed to the success of world class companies, such as Apple and SendGrid.
 
@@ -118,7 +118,7 @@ As CEO of Lobe, a visual programming environment for creating neural networks, A
 
 [[section]]
 
-<img src="img/katpark-bw.jpg" width="480" height="480" />
+![limit](img/katpark-bw.jpg)
 
 As Firmwide Emerging Technology Leader, Kat Park directs design technology strategy at SOM. A computer scientist and architect specializing in computation design, Kat Park spearheads research initiatives to understand the role of data in performance based design, as well as explore the design and implementation of sensor systems that inform occupants' environment. As a senior designer at SOM NY, she has led the design, data management and implementation of complex geometrical systems for skyscrapers around the world. Her work at SOM NY includes World Trade Center Tower 1, Lotte Super Tower, Busan Lotte Tower, Yongsan Tower, and Digital Media City Landmark Tower in Korea, as well as research efforts that inform design processes. Kat Park has lectured and taught parametric and generative design strategies at various institutions; presented and published in ACADIA, International Journal of Architectural Computing (IJAC), International Conference on Environmental Systems (ICES), Special Interest Group in Computer Human Interaction (SIGCHI), SmartGeometry, BIM Forum and Architecture and Urbanism (A+U). Prior to SOM and architecture, she was an interdisciplinary software developer and interaction designer at Art Technology Group and MIT Media Lab. Kat Park holds a BS in Computer Science & Engineering and a Master of Architecture degree, both from MIT.
 
@@ -128,7 +128,7 @@ As Firmwide Emerging Technology Leader, Kat Park directs design technology strat
 
 [[section]]
 
-<img src="img/Steinfeld.jpg" width="480" height="480" />
+![limit](img/Steinfeld.jpg)
 
 Through his research and creative work, Kyle Steinfeld, an Assistant Professor of Architecture at the University of California, Berkeley, seeks to illuminate the dynamic relationship between the creative practice of design and computational design methods, thereby enabling a more inventive, informed, responsive, and responsible practice of architecture. He is the author of Geometric Computation: Foundations for Design and has published widely on the subject of design and computation. His recent work has specifically focused on the newly emerging topic of machine learning in design. 
 
@@ -143,14 +143,13 @@ In 2016, Professor Steinfeld organized and moderated a session titled Procedural
 
 Samantha Walker is a Senior Structural Engineering Professional at SOM. With a background in architecture and over ten years of experience in structural engineering, she promotes a collaborative, integrated approach to design. Through SOM, Samantha has acted as an advisor and reviewer for several architectural tall building studios at both the college and university levels. She sits on the board of advisors for New Story, a non-profit startup in the Bay Area that builds sustainable homes and communities in developing countries. Samantha also specializes in the design of high performance seismic protection systems, such as base isolation and dampers, and has designed structures in regions with high seismicity, including Haiti and California. She recently traveled to Mexico City with a team of colleagues in the aftermath of the September 19, 2017 earthquake to contribute to post-earthquake building reconnaissance efforts. Shortly afterwards, Samantha presented the team's findings at the EDIFICA 2017 Congress held at the Monterrey Institute of Technology and Higher Education. To enhance reconnaissance efforts, Samantha spearheaded the development of a photo recognition tool that utilizes machine learning to identify and classify damage from photographs of damaged buildings. She has a strong interest in further exploring how machine learning can influence and enhance different aspects of building design, construction and assessment. Samantha holds professional engineering licenses in both Canada and the United States and a Master of Engineering degree from McGill University.
 
-[[section|slide]]
 # What is Lobe.ai?
 <!-------------------- -------------------->
 
 [Lobe](Lobe.ai "Lobe") is a browser-based graphical programming environment for creating neural nets. 
 
-<img src="img/lobe sreenshot.png" width="900" height="575" />
-<figcaption>Screenshot of Lobe.ai</figcaption>
+![limit](img/lobe sreenshot.png "Screenshot of Lobe.ai")
+
 
 
 
