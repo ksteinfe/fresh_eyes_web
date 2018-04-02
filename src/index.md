@@ -58,7 +58,7 @@ Effectively quantifying tacit or intuitively-understood qualities of a design so
 Using metadata obtained from Facebook, Instagram,  Pinterest, or similar, an ML model is produced that is capable of predicting the popularity of an image on these social media platforms, parameterized for relevant data such as geolocation or demographics. This model is deployed in the service of optimizing architectural visualizations to best please particular crowds. 
 
 
-## Methods
+# Methods
 <!-------------------- -------------------->
 
 
@@ -87,21 +87,21 @@ Over the course of the workshop, we will introduce methods for and competencies 
 * Training and testing ML models in Tensorflow
 * Hosting trained models and establishing API protocols
 
-## Sponsorship, Support, and Expected Costs
+# Sponsorship, Support, and Expected Costs
 <!-------------------- -------------------->
 
 <img src="img/lobe sreenshot.png" width="900" height="575" />
 <figcaption>Screenshot of Lobe.ai</figcaption>
 
-## Outcomes
+# Outcomes
 <!-------------------- -------------------->
 
 ![fig|limit slide](https://cdn0.iconfinder.com/data/icons/elite-medical-science/512/blood-sample-256.png "Some icon I found online")
 
-## Workshop Schedule and Requirements
+# Workshop Schedule and Requirements
 <!-------------------- -------------------->
 
-## Biographies of Cluster Organizers
+# Biographies of Cluster Organizers
 <!-------------------- -------------------->
 
 [[section|slide]]
@@ -144,7 +144,7 @@ In 2016, Professor Steinfeld organized and moderated a session titled Procedural
 Samantha Walker is a Senior Structural Engineering Professional at SOM. With a background in architecture and over ten years of experience in structural engineering, she promotes a collaborative, integrated approach to design. Through SOM, Samantha has acted as an advisor and reviewer for several architectural tall building studios at both the college and university levels. She sits on the board of advisors for New Story, a non-profit startup in the Bay Area that builds sustainable homes and communities in developing countries. Samantha also specializes in the design of high performance seismic protection systems, such as base isolation and dampers, and has designed structures in regions with high seismicity, including Haiti and California. She recently traveled to Mexico City with a team of colleagues in the aftermath of the September 19, 2017 earthquake to contribute to post-earthquake building reconnaissance efforts. Shortly afterwards, Samantha presented the team's findings at the EDIFICA 2017 Congress held at the Monterrey Institute of Technology and Higher Education. To enhance reconnaissance efforts, Samantha spearheaded the development of a photo recognition tool that utilizes machine learning to identify and classify damage from photographs of damaged buildings. She has a strong interest in further exploring how machine learning can influence and enhance different aspects of building design, construction and assessment. Samantha holds professional engineering licenses in both Canada and the United States and a Master of Engineering degree from McGill University.
 
 [[section|slide]]
-## What is Lobe.ai?
+# What is Lobe.ai?
 <!-------------------- -------------------->
 
 [Lobe](Lobe.ai "Lobe") is a browser-based graphical programming environment for creating neural nets. 
