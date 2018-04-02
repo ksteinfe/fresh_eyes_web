@@ -152,13 +152,6 @@ Samantha Walker is a Senior Structural Engineering Professional at SOM. With a b
 <img src="img/lobe sreenshot.png" width="900" height="575" />
 <figcaption>Screenshot of Lobe.ai</figcaption>
 
-<video width="320" height="240" controls>
-  <source src="img/machines_perception_of_space.webm" type="video/webm">
-Your browser does not support the video tag.
-</video>
-
-<embed src="img/machines_perception_of_space.webm" type="video/webm" autostart="false"/>
-
 
 
 
