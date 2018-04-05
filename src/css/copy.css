@@ -1,3 +1,8 @@
+@font-face {
+  font-family: 'ocr-b';
+  src: url('OCR-B-regular-web.woff') format('woff'), /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+   url('OCR-B-regular-web.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
+}  
 
 
 
@@ -9,11 +14,11 @@
 }
 
 .major_heading{
-    background-color: #666;
+    font-family: ocr-b;
+    background-color: #333;
     color: white;
     text-align: center;
     font-size: 1.8em;
-    font-style: oblique;
     padding: 1em;
 }
 
