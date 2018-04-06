@@ -5,7 +5,7 @@ attribution: Prepared by Adam Menges, Lobe.ai; Kat Park, SOM; Kyle Steinfeld, UC
 copyright: Copyright &copy; 2018 Adam Menges, Kat Park, Kyle Steinfeld, and Samantha Walker
 ---
 
-![wide](img/A-Eye.jpg "Screenshot of Lobe.ai")
+![full](img/A-Eye.jpg "Screenshot of Lobe.ai")
 
 ## Aims
 
