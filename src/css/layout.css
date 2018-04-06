@@ -6,6 +6,10 @@
     padding-top: 0px;
 }
 
+.row figure video{
+    max-width: 100%;
+}
+
 .row figure{
     text-align: center;
 }
@@ -15,7 +19,7 @@
     margin:3em auto
 }
 .row figure.full,.row img.full,.row video.full,.full img{
-    max-width:35em
+    max-width:100%;
 }
 .row figure.wide,.row img.wide,.row video.wide,.wide img{
     max-width:50em
