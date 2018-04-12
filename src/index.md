@@ -16,12 +16,14 @@ This cluster brings recent developments in machine learning (ML) to bear on gene
 
 Over the course of this workshop, participants will train purpose-built image-based models to evaluate candidate design solutions based on a variety of tacit and heretofore un-encapsulatable design criteria of their choosing, such as architectural style, spatial experience, or typological features. Participants will then deploy these models to the cloud, and integrate them into functional generative design systems via API calls.
 
-![vid|slide|loop controls muted](https://berkeley.box.com/shared/static/xrrr4bu6mk1p4q5f6koomxg8ep1pzxsa.mp4 "Here is an emedded video")
+![vid|slide|loop controls muted](https://berkeley.box.com/shared/static/c4hcd00fawyspw6zx4zc8awp00f6ck8v.mp4 "Here is an emedded video")
 
 [[section|slide]]
 ### Potential Studies
 
 The integration of an ML evaluation step into a generative design workflow opens up a range of possible design scenarios. While **the definition of specific studies will be left to the discretion of workshop participants**, a number of potential studies are listed here. This abbreviated list was compiled both to illustrate the new opportunities brought about by ML, and to demonstrate the breadth of potential applications implied by our approach to the subject.
+
+![vid|loop controls muted](https://berkeley.box.com/shared/static/eourvtznud8tqgb9r7mpplijb25i4v1p.mp4 "Here is an emedded video")
 
 [[section|slide]]
 #### Transferring Visual Style from Architectural Photography
