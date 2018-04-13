@@ -8,12 +8,12 @@ copyright: Copyright &copy; 2018 Adam Menges, Kat Park, Kyle Steinfeld, and Sama
 This workshop cluster, a part of the [2018 Smart Geometry Conference](https://www.smartgeometry.org/sg18/) hosted by the [University of Toronto](https://www.daniels.utoronto.ca/), brings recent developments in machine learning (ML) to bear on generative architectural design. To improve the utility of artificial intelligence as a creative partner for design, we have brought together experts from architectural design practice, ML engineering, and design methods research. 
 
 [[section|slide]]
-Here we report on the results of this research, and describe methods for the incorporation of user-generated image-based ML recognition models into the evaluation step of a traditional generative design workflow.
+Here we report on the results of research conducted, and describe methods for the incorporation of user-generated image-based ML recognition models into the evaluation step of a traditional generative design workflow.
 
 [[section|slide]]
 This project uniquely links the familiar parametric environment of Grasshopper with cloud-hosted models trained using Lobe.ai: a user-friendly ML graphic programming environment that runs Tensorflow.
 
-![limit](img/lobe sreenshot.png "Screenshot of Lobe.ai")
+![fig|limit](img/lobe sreenshot.png "Screenshot of Lobe.ai")
 
 [[section]]
 Over the course of this workshop, participants train purpose-built image-based ML models to evaluate candidate design solutions based on a variety of tacit and heretofore un-encapsulatable design criteria, such as architectural style, spatial experience, or typological features. Participants then deploy these models to the cloud, and integrate them into functional generative design systems via API calls.
@@ -77,7 +77,7 @@ We establish a workflow that allows us to focus on the unique contribution of th
 [[section]]
 This approach fits easily into the common skill-set of most digitally-motivated architects, and we expect workshop participants arrive with basic parametric modeling skills.
 [[section|slide]]
-***We train a "critic"*** expressed as an ML model capable of appropriate architectural evaluation. 
+***We train a "critic"*** as a machine learning model capable of appropriate architectural evaluation. 
 [[section]]
 Here is where much of the work of the cluster lies. Here we must establish training datasets via a variety of methods (some of which require scripting in Python), train image-based models using Tensorflow, host these models on cloud servers dedicated to this purpose, and establish structures to call upon them using an application program interface (API). In support of this workflow, we have partnered with Lobe.ai, a visual programming language for creating neural networks. Using the Grasshopper-like graphical programming environment provided by Lobe, workshop participants are able to design a model, use a pre-trained one, and receive predictions from the cloud. 
 [[section|slide]]
