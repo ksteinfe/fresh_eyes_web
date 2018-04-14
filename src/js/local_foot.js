@@ -1,12 +1,6 @@
 // removes all empty paragraph tags (there are many produced by markdown translation)
 $('p').filter(function () { return $.trim(this.innerHTML) == "" }).remove();
 
-var hammertime = new Hammer(document.body);
-hammertime.on('pan', function(ev) {
-	console.log(ev);
-    $(".test").html("event: "+ev);
-});
-
     var md;
     var scrollThrottle;
     var scrollFrozen = false;
@@ -195,3 +189,17 @@ hammertime.on('pan', function(ev) {
         set_slide_label(closest_slide());
       }
     });
+
+
+var hammertime = new Hammer(document.body);
+hammertime.on('swipeleft', function(ev) {
+	console.log(ev);
+    $(".test").html("swipeleft");
+    next();
+});
+hammertime.on('swiperight', function(ev) {
+	console.log(ev);
+    $(".test").html("swiperight");
+    prev();
+});    
+    
