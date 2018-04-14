@@ -1,10 +1,11 @@
 /* TAKEN FROM LOCAL HTML FILE NEAR TOP OF BODY */
 
-.press-slack{
-    padding-top: 50%!important;
-    padding-bottom: 50%!important;
-    height:100%;
+.press-slack{ height:90%; }
+.press-slack span{ 
+    position: relative;
+    top: calc(50% - 1.8rem);
 }
+
 
 .presentation_control_wrapper {
   display:none;

@@ -76,13 +76,21 @@ We establish a workflow that allows us to focus on the unique contribution of th
 ***We define an "actor"*** as a parametric model in Grasshopper able to generate of candidate design solutions. 
 [[section]]
 This approach fits easily into the common skill-set of most digitally-motivated architects, and we expect workshop participants arrive with basic parametric modeling skills.
+
 [[section|slide]]
+
 ***We train a "critic"*** as a machine learning model capable of appropriate architectural evaluation. 
+
 [[section]]
+
 Here is where much of the work of the cluster lies. Here we must establish training datasets via a variety of methods (some of which require scripting in Python), train image-based models using Tensorflow, host these models on cloud servers dedicated to this purpose, and establish structures to call upon them using an application program interface (API). In support of this workflow, we have partnered with Lobe.ai, a visual programming language for creating neural networks. Using the Grasshopper-like graphical programming environment provided by Lobe, workshop participants are able to design a model, use a pre-trained one, and receive predictions from the cloud. 
+
 [[section|slide]]
+
 ***We orchestrate an "optimization"***, using existing optimization plugins for Grasshopper.
+
 [[section]]
+
 By pitting actor against critic, using existing tools such as Galapagos, Opossum or similar, the space of possible designs (defined by the actor) is iteratively explored in order to identify the best performing solutions (in the eyes of the critic). To this end, a toolset has been established that supports the integration of a trained and hosted ML model into a general generative design workflow. A set of components in Grasshopper are provided that construct API calls to the hosted model, receive results, and processes this information into Grasshopper compatible data. 
 
 # A New Leaf
