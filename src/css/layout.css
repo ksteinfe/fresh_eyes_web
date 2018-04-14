@@ -6,6 +6,10 @@ p:empty {
    display: none;
 }
 
+/*p:not(:first-child) {    background-color: #900; }*/
+div.row p + p {  margin-top: 0.5rem; } /* selects all p that follow p in div.row*/
+
+
 .slide.titleslide {
     padding-top: 0px;
 }

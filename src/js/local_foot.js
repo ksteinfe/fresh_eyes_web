@@ -1,3 +1,5 @@
+// removes all empty paragraph tags (there are many produced by markdown translation)
+$('p').filter(function () { return $.trim(this.innerHTML) == "" }).remove();
 
     var md;
     var scrollThrottle;
