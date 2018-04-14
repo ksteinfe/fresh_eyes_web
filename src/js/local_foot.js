@@ -156,6 +156,7 @@ $('p').filter(function () { return $.trim(this.innerHTML) == "" }).remove();
     }
 
     function closest_slide() {
+      if ($(window).scrollTop() < 150) return 0;
       var window_center_position = $(window).scrollTop() + $(window).height()*0.5;
       var slides = $(".slide");
       var min_distance = 99999;
@@ -194,12 +195,12 @@ $('p').filter(function () { return $.trim(this.innerHTML) == "" }).remove();
 var hammertime = new Hammer(document.body);
 hammertime.on('swipeleft', function(ev) {
 	console.log(ev);
-    $(".test").html("swipeleft");
+    //$(".debug-message").html("swipeleft");
     next();
 });
 hammertime.on('swiperight', function(ev) {
 	console.log(ev);
-    $(".test").html("swiperight");
+    //$(".debug-message").html("swiperight");
     prev();
 });    
     
