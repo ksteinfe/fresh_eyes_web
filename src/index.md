@@ -1,6 +1,7 @@
 ---
 title: Fresh Eyes
 subtitle: Applying Machine Learning to Generative Architectural Design
+keystone: eyes.gif
 attribution: Prepared by Adam Menges, Lobe.ai; Kat Park, SOM; Kyle Steinfeld, UC Berkeley; Samantha Walker, SOM
 copyright: Copyright &copy; 2018 Adam Menges, Kat Park, Kyle Steinfeld, and Samantha Walker
 ---

@@ -102,7 +102,10 @@ def md_to_html(mdfile, fragments):
     html = fragments['head']
     
     if 'title' in meta:
-        content = '<h1>{}</h1>'.format(meta['title'])
+        content = ""
+        if 'keystone' in meta: content+= '<img src="img/{}" class="keystone" alt="keystone image">'.format(meta['keystone'])
+
+        content += '<h1>{}</h1>'.format(meta['title'])
         if 'subtitle' in meta: content += '<h2>{}</h2>'.format(meta['subtitle'])
         if 'attribution' in meta: content += '<p>{}</p>'.format(meta['attribution'])    
         html += fragments['start_content_meta'].replace('{{content}}',content)

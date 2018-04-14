@@ -84,6 +84,29 @@ h5 { font-size: 1rem;}
 h6 { font-size: .875rem;}
 
 
+
+header{
+    background-color: #333;
+}
+
+nav ul {
+    color: #ccc;
+    font-size: 0.66rem;
+}
+
+nav li a:hover {
+    background-color: #666;
+    color: #fff!important;
+}
+
+img.keystone{
+    margin-left: auto;
+    margin-bottom: -1em;
+    margin-top: 1em;
+    margin-right: auto;
+    display: block;
+}
+
 .footnotes{
     font-size: 0.8rem;
     font-family: serif;

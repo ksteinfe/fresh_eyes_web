@@ -64,3 +64,22 @@ div.row p + p {  margin-top: 0.5rem; } /* selects all p that follow p in div.row
         width:110px;
     }
 }
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav li { float: left; }
+nav li.nav-sup { float: right; }
+
+
+nav li a {
+    display: block;
+    text-align: center;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+}
+
