@@ -1,8 +1,9 @@
 /* TAKEN FROM LOCAL HTML FILE NEAR TOP OF BODY */
 
 .press-slack{
-    padding-top:10em!important;
-    padding-bottom:10em!important;
+    padding-top: 50%!important;
+    padding-bottom: 50%!important;
+    height:100%;
 }
 
 .presentation_control_wrapper {
