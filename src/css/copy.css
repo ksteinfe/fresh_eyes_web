@@ -13,6 +13,8 @@
     font-size: 1rem;
     font-weight: 200;
 }
+.container a:link, .container a:visited{color: inherit}
+.container a:hover, .container a:active{color: red}
 
 .container p{
     margin: 0rem;
@@ -86,16 +88,24 @@ h6 { font-size: .875rem;}
     font-size: 0.8rem;
     font-family: serif;
     color: #ccc;
-    width: 75%;
-    margin: auto;
+    width: 100%;
+}
+.footnotes hr{ width: 25%; margin: 2rem 0rem 1rem 0rem;}
+@media all and (min-width:60rem){
+.footnotes{ width: 75%;}
 }
 
-footer p{
-    font-size: 0.8rem;
-    width: 80%;
+
+footer {
+    margin: 2rem 0rem 0rem 0rem;
+    padding: 3rem 20% 2rem 20%;
+    background-color: #333;
+    color: #999;
     text-align: center;
-    margin: auto;
+    font-size: 0.8rem;
     font-style: italic;
-    margin-top: 1.2rem;
-    margin: auto!important;
+    font-family: Nunito, Arial, sans-serif;
 }
+
+footer a:link, footer a:visited{color: inherit}
+footer a:hover, footer a:active{color: red}

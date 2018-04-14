@@ -84,9 +84,6 @@ This approach fits easily into the common skill-set of most digitally-motivated 
 [[section]]
 
 Here is where much of the work of the cluster lies. Here we must establish training datasets via a variety of methods (some of which require scripting in Python), train image-based models using Tensorflow, host these models on cloud servers dedicated to this purpose, and establish structures to call upon them using an application program interface (API). In support of this workflow, we have partnered with Lobe.ai, a visual programming language for creating neural networks. Using the Grasshopper-like graphical programming environment provided by Lobe, workshop participants are able to design a model, use a pre-trained one, and receive predictions from the cloud.
-I am another paragraph inserted without a line break.
-
-I, on the other hand, am another paragraph inserted *with* a line break.
 
 [[section|slide]]
 

@@ -149,7 +149,7 @@ $('p').filter(function () { return $.trim(this.innerHTML) == "" }).remove();
 
     function set_slide_label(index) {
       var completion = (index + 1) / parseInt($(".slide").length);
-      var slide_label = '<span class="u-opacity--half">' + (Math.round(completion*100)) + '%</span>';
+      var slide_label = '<span class="opacity-half">' + (Math.round(completion*100)) + '%</span>';
       if(index == 0) slide_label = "Start";
       if(index == $(".slide").length-1) slide_label = "End";
       $(".presentation_control").html(slide_label);
