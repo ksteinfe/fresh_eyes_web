@@ -9,31 +9,18 @@ $('p').filter(function () { return $.trim(this.innerHTML) == "" }).remove();
         $("img").unveil(1000);
         md = new MobileDetect(window.navigator.userAgent);
         
-        //$("#test").velocity('transition.bounceUpIn', {delay: 250} ).velocity("reverse", { delay: 3000 });
-        $("#presentation-instructions").velocity('transition.bounceDownIn', {delay: 500} ).velocity("transition.bounceUpOut", { delay: 3000 });
-/*        
-        $("#test").velocity(
-            {
-                borderRadius: "25px",
-                width: "45px",
-                paddingLeft: "0",
-                paddingRight: "0",
-                backgroundColor: "#8CC152",
-                color: "#fff",
-                borderColor: "#8CC152",
-                boxShadowX: "0",
-                boxShadowY: "0"
-            }, 
-            {
-                duration: 350,
-                delay: 250,
-                easing: "easeInQuad"
-            }
-        ).velocity("reverse", { delay: 3000 });*/
-        
-        if (md.mobile() != null) {
-            console.log('mobile = ' + md.mobile());
+        if (md.mobile() != null) { 
+            $("#presentation-instructions").html('<img src="img/swipe-helper.gif" alt="swipe left or right for presentation mode.">');
+            $("#presentation-instructions").css("background-color", "hsla(60, 100%, 50%, 0.5)");
+            $("#presentation-instructions").css("left", "calc(50% - 30px)");
+            $("#presentation-instructions").css("width", "60px");
+            $("#presentation-instructions").css("height", "60px");
+        } else { 
+            $("#presentation-instructions").html("<- use the arrow keys ->");
         }
+        
+        //$("#test").velocity('transition.bounceUpIn', {delay: 250} ).velocity("reverse", { delay: 3000 });
+        $("#presentation-instructions").velocity('transition.bounceDownIn', {delay: 500} ).velocity("transition.bounceUpOut", { delay: 3000 });        
         
         $(document).on('scroll', function() {
 
