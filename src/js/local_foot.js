@@ -10,7 +10,7 @@ $('p').filter(function () { return $.trim(this.innerHTML) == "" }).remove();
         md = new MobileDetect(window.navigator.userAgent);
         
         //$("#test").velocity('transition.bounceUpIn', {delay: 250} ).velocity("reverse", { delay: 3000 });
-        $("#presentation-instructions").velocity('transition.bounceUpIn', {delay: 500} ).velocity("transition.bounceDownOut", { delay: 3000 });
+        $("#presentation-instructions").velocity('transition.bounceDownIn', {delay: 500} ).velocity("transition.bounceUpOut", { delay: 3000 });
 /*        
         $("#test").velocity(
             {

@@ -124,10 +124,12 @@ img.keystone{
 }
 
 #presentation-instructions{
-    background-color: #ffa;
+    background-color: hsla(60, 100%, 50%, 0.33);
     color: #333;
     font-family: Nunito;
     font-weight: 600;
+    border: 3px solid #ff0;
+    padding-top: 0.125rem;
 }
 
 footer {
