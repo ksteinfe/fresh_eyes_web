@@ -20,6 +20,8 @@
     margin: 0rem;
 }
 
+
+
 .slide.titleslide h1{
     font-size: 4rem;
     font-family: Oswald, Arial, sans-serif;
@@ -121,6 +123,12 @@ img.keystone{
 .footnotes{ width: 75%;}
 }
 
+#presentation-instructions{
+    background-color: #ffa;
+    color: #333;
+    font-family: Nunito;
+    font-weight: 600;
+}
 
 footer {
     margin: 2rem 0rem 0rem 0rem;

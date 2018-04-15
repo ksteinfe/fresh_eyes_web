@@ -6,42 +6,66 @@ $('p').filter(function () { return $.trim(this.innerHTML) == "" }).remove();
     var scrollFrozen = false;
 
     $(document).ready(function() {
-      $("img").unveil(1000);
-      md = new MobileDetect(window.navigator.userAgent);
-
-    $(document).on('scroll', function() {
-
-      if (md.mobile() == null && scrollFrozen == false) {
-        //alert('browser');
-        var $videos = $("video");
-        $.each($videos, function(index, video) {
-          //console.log('calls');
-          var v = $(video).get(0);
-          if ( $(this).is( ':in-viewport' )) {
-            if (v.paused) {
-              //console.log('play video coz is unplaying');
-              v.play();
-            } else {
-              //console.log('video is already playing');
+        $("img").unveil(1000);
+        md = new MobileDetect(window.navigator.userAgent);
+        
+        //$("#test").velocity('transition.bounceUpIn', {delay: 250} ).velocity("reverse", { delay: 3000 });
+        $("#presentation-instructions").velocity('transition.bounceUpIn', {delay: 500} ).velocity("transition.bounceDownOut", { delay: 3000 });
+/*        
+        $("#test").velocity(
+            {
+                borderRadius: "25px",
+                width: "45px",
+                paddingLeft: "0",
+                paddingRight: "0",
+                backgroundColor: "#8CC152",
+                color: "#fff",
+                borderColor: "#8CC152",
+                boxShadowX: "0",
+                boxShadowY: "0"
+            }, 
+            {
+                duration: 350,
+                delay: 250,
+                easing: "easeInQuad"
             }
-          } else {
-            if (!v.paused) {
-              //console.log('pause video!');
-              v.pause();
-            } else {
+        ).velocity("reverse", { delay: 3000 });*/
+        
+        if (md.mobile() != null) {
+            console.log('mobile = ' + md.mobile());
+        }
+        
+        $(document).on('scroll', function() {
 
+            if (md.mobile() == null && scrollFrozen == false) {
+                var $videos = $("video");
+                $.each($videos, function(index, video) {
+                    var v = $(video).get(0);
+                    if ( $(this).is( ':in-viewport' )) {
+                        if (v.paused) {
+                            //console.log('playing a paused video');
+                            v.play();
+                        } else {
+                            //console.log('video is playing already');
+                        }
+                    } else {
+                        if (!v.paused) {
+                            //console.log('pausing video');
+                            v.pause();
+                        } else {
+                            //console.log('video not in viewport');
+                        }
+                    }
+                });
+
+                scrollFrozen = true;
+                scrollThrottle = setTimeout(function() { scrollFrozen = false; }, 25);
+
+            } else {
+                //alert('mobile');
             }
-          }
+
         });
-
-        scrollFrozen = true;
-        scrollThrottle = setTimeout(function() { scrollFrozen = false; }, 25);
-
-      } else {
-        //alert('mobile');
-      }
-
-    });
 
     });
 
@@ -194,12 +218,12 @@ $('p').filter(function () { return $.trim(this.innerHTML) == "" }).remove();
 
 var hammertime = new Hammer(document.body);
 hammertime.on('swipeleft', function(ev) {
-	console.log(ev);
+	//console.log(ev);
     //$(".debug-message").html("swipeleft");
     next();
 });
 hammertime.on('swiperight', function(ev) {
-	console.log(ev);
+	//console.log(ev);
     //$(".debug-message").html("swiperight");
     prev();
 });    
