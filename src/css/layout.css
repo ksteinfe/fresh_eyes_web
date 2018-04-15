@@ -40,7 +40,7 @@ div.row p + p {  margin-top: 0.5rem; } /* selects all p that follow p in div.row
     margin-left:calc(-1 * 27px)
 }
 
-figure.cropcircle {
+figure.cropcircle img{
     object-fit: cover;
     border-radius: 50%;
 }

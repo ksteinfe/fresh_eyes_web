@@ -38,60 +38,26 @@
 <div class="container">
 <!--heads up: html head opens section div to be closed by first section marker (if any) or by html foot-->
 <div class="row slide titleslide"><div class="col-12">
-    <img src="img/eyes.gif" class="keystone" alt="keystone image"><h1>Fresh Eyes</h1><h2>Applying Machine Learning to Generative Architectural Design</h2><p>Prepared by Adam Menges, Lobe.ai; Kat Park, SOM; Kyle Steinfeld, UC Berkeley; Samantha Walker, SOM</p>
+    <h1>Participants and Sponsors</h1><h2>How Fresh are these Eyes?</h2><p>Prepared by Kyle Steinfeld, UC Berkeley</p>
 </div></div>
-<div class="row"><div class="col-12"><p>This workshop cluster, a part of the <a href="https://www.smartgeometry.org/sg18/">2018 Smart Geometry Conference</a> hosted by the <a href="https://www.daniels.utoronto.ca/">University of Toronto</a>, brings recent developments in machine learning (ML) to bear on generative architectural design. To improve the utility of artificial intelligence as a creative partner for design, we have brought together experts from architectural design practice, ML engineering, and design methods research.</p>
-<p></div></div><div class="row slide"><div class="col-12">
-Here we report on the results of research conducted, and describe methods for the incorporation of user-generated image-based ML recognition models into the evaluation step of a traditional generative design workflow.</p>
-<p></div></div><div class="row slide"><div class="col-12">
-This project uniquely links the familiar parametric environment of Grasshopper with cloud-hosted models trained using Lobe.ai: a user-friendly ML graphic programming environment that runs Tensorflow.</p>
-<p><figure class="limit"><img src="img/veil.gif" data-src="img/lobe sreenshot.png" alt="" /><figcaption>Screenshot of Lobe.ai</figcaption></figure></p>
-<p></div></div><div class="row "><div class="col-12">
-Over the course of this workshop, participants train purpose-built image-based ML models to evaluate candidate design solutions based on a variety of tacit and heretofore un-encapsulatable design criteria, such as architectural style, spatial experience, or typological features. Participants then deploy these models to the cloud, and integrate them into functional generative design systems via API calls.</p>
+<div class="row"><div class="col-12"><h1>Cluster Champions</h1><p></div></div><div class="row slide"><div class="col-12"></p>
+<h2>Adam Menges, Lobe</h2><p></div></div><div class="row "><div class="col-12"></p>
+<p><figure class="limit cropcircle"><img src="img/veil.gif" data-src="img/IMG_1029.jpg" alt="" /><figcaption>None</figcaption></figure></p>
+<p>As CEO of Lobe, a visual programming environment for creating neural networks, Adam currently spends the majority of his time working on technologies and tools to make machine learning easier for the masses. Previously, he worked as an engineer and contributed to the success of world class companies, such as Apple and SendGrid.</p>
 <p></div></div><div class="row slide"><div class="col-12"></p>
-<h2>Studies</h2><p>The integration of an ML evaluation step into a generative design workflow opens up a range of possible design scenarios. As a proof of concept, just two design scenarios were explored during this abbreviated workshop, chosen both to illustrate the new opportunities brought about by ML, and to demonstrate the breadth of potential applications implied by our approach to the subject.</p>
+<h2>Kat Park, SOM</h2><p></div></div><div class="row "><div class="col-12"></p>
+<p><figure class="limit cropcircle"><img src="img/veil.gif" data-src="img/katpark-bw.jpg" alt="" /><figcaption>None</figcaption></figure></p>
+<p>As Firmwide Emerging Technology Leader, Kat Park directs design technology strategy at SOM. A computer scientist and architect specializing in computation design, Kat Park spearheads research initiatives to understand the role of data in performance based design, as well as explore the design and implementation of sensor systems that inform occupants' environment. As a senior designer at SOM NY, she has led the design, data management and implementation of complex geometrical systems for skyscrapers around the world. Her work at SOM NY includes World Trade Center Tower 1, Lotte Super Tower, Busan Lotte Tower, Yongsan Tower, and Digital Media City Landmark Tower in Korea, as well as research efforts that inform design processes. Kat Park has lectured and taught parametric and generative design strategies at various institutions; presented and published in ACADIA, International Journal of Architectural Computing (IJAC), International Conference on Environmental Systems (ICES), Special Interest Group in Computer Human Interaction (SIGCHI), SmartGeometry, BIM Forum and Architecture and Urbanism (A+U). Prior to SOM and architecture, she was an interdisciplinary software developer and interaction designer at Art Technology Group and MIT Media Lab. Kat Park holds a BS in Computer Science &amp; Engineering and a Master of Architecture degree, both from MIT.</p>
 <p></div></div><div class="row slide"><div class="col-12"></p>
-<h3>3d Spatial Composition from 2d Isovists</h3><p></div></div><div class="row "><div class="col-12"></p>
-<p>Seeking to validate and extend previous work<sup class="footnote-ref" id="fnref-peng2017"><a href="#fn-peng2017">1</a></sup> in which local spatial compositions are captured and identified using machine learning, an ML model is trained to distinguish a given set of spatial configurations given an unrolled 2d image of a 3d isovist. This model is deployed in the service of tuning a parametric model to produce new and unexpected combinations of spatial experience.</p>
+<h2>Kyle Steinfeld, UC Berkeley</h2><p></div></div><div class="row "><div class="col-12"></p>
+<p><figure class="limit cropcircle"><img src="img/veil.gif" data-src="img/Steinfeld.jpg" alt="" /><figcaption>None</figcaption></figure></p>
+<p>Through his research and creative work, Kyle Steinfeld, an Assistant Professor of Architecture at the University of California, Berkeley, seeks to illuminate the dynamic relationship between the creative practice of design and computational design methods, thereby enabling a more inventive, informed, responsive, and responsible practice of architecture. He is the author of Geometric Computation: Foundations for Design and has published widely on the subject of design and computation. His recent work has specifically focused on the newly emerging topic of machine learning in design.</p>
+<p>In 2016, Professor Steinfeld organized and moderated a session titled Procedural Design: Machine Learning and Evaluation at the 2016 ACADIA conference in Ann Arbor. Building on the conversation that unfolded there, while speaking at the invitation of the Kuwait University College of Architecture, he offered a talk titled Fresh Eyes that drew out a number of parallels between machine learning, visual thinking, and the nature of design activity. Further developing and refining these ideas, he authored a paper for the 2017 ACADIA conference titled Dreams May Come. Here, he set out a concise theory of machine learning as it applies to creative architectural design, and offered a guide to future research at the intersection of ML and design tools. Most recently, Kyle sought to put these ideas into practice with a series of online experiments, titled Drawing with Bots, that explore a variety of potential forms and formats for the relationship between a human designer and an artificial design partner.</p>
 <p></div></div><div class="row slide"><div class="col-12"></p>
-<h3>Autoencoding the Single Family Home</h3><p></div></div><div class="row "><div class="col-12"></p>
-<p>Using a corpus of 3d models, an ML model is trained to distinguish between and classify architectural massings related to a single programmatic type: the detached North American single family home. To accomplish this, a method is developed to translate sliced CAD models into sets of related images able to be understood by ML processes. This model is deployed in the service of discovering potential new and compelling massings that hybridize known types.</p>
-</div></div></div><div class="slide major_heading js--press-slack"><span>Methods</span></div><div class="container"><div class="row"><div class="col-12"><!-------------------- -------------------->
-
-<p>To maintain focus on the evaluation of candidate designs using ML models, technologies necessary for a rudimentary generative design workflow have been prepared in advance of the workshop and are quickly introduced to participants.</p>
-<p></div></div><div class="row slide"><div class="col-12"></p>
-<p>We understand the generative design workflow to consist of:</p>
-<p></div></div><div class="row slide"><div class="col-12"></p>
-<p>A design schema capable of generating new design options based on a limited set of variables.</p>
-<p>We call the production of new designs <strong><em>the actor</em></strong>.</p>
-<p></div></div><div class="row slide"><div class="col-12"></p>
-<p>A means of discerning more desirable options from less desirable ones, and which may be employed to evaluate options produced the actor.</p>
-<p>We term this process <strong><em>the critic</em></strong>.</p>
-<p></div></div><div class="row slide"><div class="col-12"></p>
-<p>A means of creating variations, and of navigating the space of possible designs, as defined by the actor, in search of better performing solutions, as understood by the critic.</p>
-<p>This iterative process is <strong><em>an optimization</em></strong>.</p>
-<p></div></div><div class="row "><div class="col-12"></p>
-<h1>Technical Overview of the Basic Workflow</h1><p>We establish a workflow that allows us to focus on the unique contribution of the cluster: the development of methods for the integration of ML evaluation routines into a parametric environment. To proceed as a generative design workflow, the three basic concerns outlined above must be addressed. As an overview of the software involved, these are addressed as such:</p>
-<p></div></div><div class="row slide"><div class="col-12">
-<strong><em>We define an "actor"</em></strong> as a parametric model in Grasshopper able to generate of candidate design solutions.
-</div></div><div class="row "><div class="col-12">
-This approach fits easily into the common skill-set of most digitally-motivated architects, and we expect workshop participants arrive with basic parametric modeling skills.</p>
-<p></div></div><div class="row slide"><div class="col-12"></p>
-<p><strong><em>We train a "critic"</em></strong> as a machine learning model capable of appropriate architectural evaluation.</p>
-<p></div></div><div class="row "><div class="col-12"></p>
-<p>Here is where much of the work of the cluster lies. Here we must establish training datasets via a variety of methods (some of which require scripting in Python), train image-based models using Tensorflow, host these models on cloud servers dedicated to this purpose, and establish structures to call upon them using an application program interface (API). In support of this workflow, we have partnered with Lobe.ai, a visual programming language for creating neural networks. Using the Grasshopper-like graphical programming environment provided by Lobe, workshop participants are able to design a model, use a pre-trained one, and receive predictions from the cloud.</p>
-<p></div></div><div class="row slide"><div class="col-12"></p>
-<p><strong><em>We orchestrate an "optimization"</em></strong>, using existing optimization plugins for Grasshopper.</p>
-<p></div></div><div class="row "><div class="col-12"></p>
-<p>By pitting actor against critic, using existing tools such as Galapagos, Opossum or similar, the space of possible designs (defined by the actor) is iteratively explored in order to identify the best performing solutions (in the eyes of the critic). To this end, a toolset has been established that supports the integration of a trained and hosted ML model into a general generative design workflow. A set of components in Grasshopper are provided that construct API calls to the hosted model, receive results, and processes this information into Grasshopper compatible data.</p>
-</div></div></div><div class="slide major_heading js--press-slack"><span>A New Leaf</span></div><div class="container"><div class="row"><div class="col-12"><!-------------------- -------------------->
-
-<p>Here, we describe a rudimentary example that illustrates the basic workflow outlined above.</p>
-<div class="footnotes">
-<hr>
-<ol><li id="fn-peng2017"><p>Peng, et al. 2017 Machines' Perception of Space: Employing 3D Isovist Methods and a Convolutional Neural Network in Architectural Space Classification<a href="#fnref-peng2017" class="footnote">&#8617;</a></p></li>
-</ol>
-</div>
+<h2>Samantha Walker, SOM</h2><p></div></div><div class="row "><div class="col-12"></p>
+<p><figure class="limit cropcircle"><img src="img/veil.gif" data-src="img/Walker, Samantha_bw.jpg" alt="" /><figcaption>None</figcaption></figure></p>
+<p>Samantha Walker is a Senior Structural Engineering Professional at SOM. With a background in architecture and over ten years of experience in structural engineering, she promotes a collaborative, integrated approach to design. Through SOM, Samantha has acted as an advisor and reviewer for several architectural tall building studios at both the college and university levels. She sits on the board of advisors for New Story, a non-profit startup in the Bay Area that builds sustainable homes and communities in developing countries. Samantha also specializes in the design of high performance seismic protection systems, such as base isolation and dampers, and has designed structures in regions with high seismicity, including Haiti and California. She recently traveled to Mexico City with a team of colleagues in the aftermath of the September 19, 2017 earthquake to contribute to post-earthquake building reconnaissance efforts. Shortly afterwards, Samantha presented the team's findings at the EDIFICA 2017 Congress held at the Monterrey Institute of Technology and Higher Education. To enhance reconnaissance efforts, Samantha spearheaded the development of a photo recognition tool that utilizes machine learning to identify and classify damage from photographs of damaged buildings. She has a strong interest in further exploring how machine learning can influence and enhance different aspects of building design, construction and assessment. Samantha holds professional engineering licenses in both Canada and the United States and a Master of Engineering degree from McGill University.</p>
+<h1>Cluster Participants</h1><p>Can't wait for those participants!</p>
 <!--heads up: html head opens section div which is closed here (or by any section markers) -->
 </div></div>
 </div> <!-- close container -->
@@ -106,7 +72,7 @@ This approach fits easily into the common skill-set of most digitally-motivated 
 </div>
 
 <footer>
-    <p>Copyright &copy; 2018 Adam Menges, Kat Park, Kyle Steinfeld, and Samantha Walker</p>
+    <p>Copyright &copy; 2018 Kyle Steinfeld</p>
     <p>Javascript and CSS styling shamelessly borrowed from <a href="http://nono.ma" title="Nono Martinez Alonso">Nono Martinez Alonso</a><br>Layout and format inspired by <a href="https://frankchimero.com/writing/designing-in-the-borderlands/" title="Frank Chimero">Frank Chimero</a></p>
 </footer>
 
