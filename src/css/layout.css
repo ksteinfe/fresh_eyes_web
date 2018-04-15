@@ -40,6 +40,11 @@ div.row p + p {  margin-top: 0.5rem; } /* selects all p that follow p in div.row
     margin-left:calc(-1 * 27px)
 }
 
+figure.cropcircle {
+    object-fit: cover;
+    border-radius: 50%;
+}
+
 .row p.aside,.row span.aside{
     font-family:BlinkMacSystemFont,franklin-gothic-urw,sans-serif;
     font-size:calc(.6 * 1em);
