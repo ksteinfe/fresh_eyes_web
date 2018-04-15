@@ -35,6 +35,9 @@
     text-align: center;
     font-weight: 200;
     margin-top: 1.2rem;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;  
 }
 
 .slide.titleslide h2:before {
