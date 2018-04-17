@@ -9,12 +9,14 @@ copyright: Copyright &copy; 2018 Adam Menges, Kat Park, Kyle Steinfeld, and Sama
 This workshop cluster, a part of the [2018 Smart Geometry Conference](https://www.smartgeometry.org/sg18/) hosted by the [University of Toronto](https://www.daniels.utoronto.ca/), brings recent developments in machine learning (ML) to bear on generative architectural design. To improve the utility of artificial intelligence as a creative partner for design, we have brought together experts from architectural design practice, ML engineering, and design methods research. 
 
 [[section|slide]]
+
 Here we report on the results of research conducted, and describe methods for the incorporation of user-generated image-based ML recognition models into the evaluation step of a traditional generative design workflow.
 
 [[section|slide]]
+
 This project uniquely links the familiar parametric environment of Grasshopper with cloud-hosted models trained using Lobe.ai: a user-friendly ML graphic programming environment that runs Tensorflow.
 
-![fig|limit](img/participants/lobe sreenshot.png "Screenshot of Lobe.ai")
+![fig|limit](img/index/lobe sreenshot.png "Screenshot of Lobe.ai")
 
 [[section]]
 Over the course of this workshop, participants train purpose-built image-based ML models to evaluate candidate design solutions based on a variety of tacit and heretofore un-encapsulatable design criteria, such as architectural style, spatial experience, or typological features. Participants then deploy these models to the cloud, and integrate them into functional generative design systems via API calls.
@@ -74,8 +76,11 @@ This iterative process is ***an optimization***.
 We establish a workflow that allows us to focus on the unique contribution of the cluster: the development of methods for the integration of ML evaluation routines into a parametric environment. To proceed as a generative design workflow, the three basic concerns outlined above must be addressed. As an overview of the software involved, these are addressed as such:
 
 [[section|slide]]
+
 ***We define an "actor"*** as a parametric model in Grasshopper able to generate of candidate design solutions. 
+
 [[section]]
+
 This approach fits easily into the common skill-set of most digitally-motivated architects, and we expect workshop participants arrive with basic parametric modeling skills.
 
 [[section|slide]]
@@ -97,14 +102,28 @@ By pitting actor against critic, using existing tools such as Galapagos, Opossum
 # A New Leaf
 <!-------------------- -------------------->
 
+[[section|slide]]
+
 Here, we describe a rudimentary example that illustrates the basic workflow outlined above, and demonstrates the utility of the integration of ML evaluation routines in a parametric environment.
+
+[[section]]
 
 As we discuss below, certain problems arise with the conversion of three-dimensional information, as is so often employed in the production of architectural work, to two-dimensional information, as is required by the particular models of ML based on image recognition that we are exploring here. To isolate these problems, this first example operates in a purely two-dimensional fashion.
 
+[[section|slide]]
+
 We begin with the defining of a critic. 
 
-For this purpose, an existing training set was identified that appeared to adopt a format amenable to the methods adopted by the cluster, and suggested a classification of form that was both diverse and immediately recognizable. [A dataset of 9,900 binary images of leaf silhouettes](https://github.com/WenjinTao/Leaf-Classification--Kaggle), organized by species, was identified and converted into standard JPG images.
 
+For this purpose, an existing training set was identified that appeared to adopt a format amenable to the methods adopted by the cluster, and suggested a classification of form that was both diverse and immediately recognizable. 
+
+[[section|slide]]
+
+[A dataset of 9,900 binary images of leaf silhouettes](https://github.com/WenjinTao/Leaf-Classification--Kaggle), organized by species, was identified and converted into standard JPG images.
+
+![fig](img/index/families.gif "10 samples of silhouetted leaf images taken from 99 species of tree.")
+
+[[section]]
 
 
 
