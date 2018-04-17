@@ -97,7 +97,15 @@ By pitting actor against critic, using existing tools such as Galapagos, Opossum
 # A New Leaf
 <!-------------------- -------------------->
 
-Here, we describe a rudimentary example that illustrates the basic workflow outlined above.
+Here, we describe a rudimentary example that illustrates the basic workflow outlined above, and demonstrates the utility of the integration of ML evaluation routines in a parametric environment.
+
+As we discuss below, certain problems arise with the conversion of three-dimensional information, as is so often employed in the production of architectural work, to two-dimensional information, as is required by the particular models of ML based on image recognition that we are exploring here. To isolate these problems, this first example operates in a purely two-dimensional fashion.
+
+We begin with the defining of a critic. 
+
+For this purpose, an existing training set was identified that appeared to adopt a format amenable to the methods adopted by the cluster, and suggested a classification of form that was both diverse and immediately recognizable. [A dataset of 9,900 binary images of leaf silhouettes](https://github.com/WenjinTao/Leaf-Classification--Kaggle), organized by species, was identified and converted into standard JPG images.
+
+
 
 
 

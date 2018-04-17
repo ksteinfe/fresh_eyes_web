@@ -13,7 +13,7 @@ This cluster brings together experts from architectural design practice, ML engi
 
 ### Adam Menges, Lobe
 
-![fig|limit cropcircle](img/IMG_1029.jpg "Adam Menges is the CEO of Lobe")
+![fig|limit cropcircle](img/participants/IMG_1029.jpg "Adam Menges is the CEO of Lobe")
 
 [[section]]
 
@@ -23,7 +23,7 @@ As CEO of Lobe, a visual programming environment for creating neural networks, A
 
 ### Kat Park, SOM
 
-![fig|limit cropcircle](img/katpark-bw.jpg "Kat Park is the Firmwide Emerging Technology Leader at SOM")
+![fig|limit cropcircle](img/participants/katpark-bw.jpg "Kat Park is the Firmwide Emerging Technology Leader at SOM")
 
 [[section]]
 
@@ -33,7 +33,7 @@ Kat Park directs design technology strategy at SOM. A computer scientist and arc
 
 ### Kyle Steinfeld, UC Berkeley
 
-![fig|limit cropcircle](img/Steinfeld.jpg "Kyle Steinfeld is an Assistant Professor of Architecture at the University of California, Berkeley")
+![fig|limit cropcircle](img/participants/Steinfeld.jpg "Kyle Steinfeld is an Assistant Professor of Architecture at the University of California, Berkeley")
 
 [[section]]
 
@@ -45,7 +45,7 @@ In 2016, Professor Steinfeld organized and moderated a session titled Procedural
 
 ### Samantha Walker, SOM
 
-![fig|limit cropcircle](img/Walker, Samantha_bw.jpg "Samantha Walker is a Senior Structural Engineering Professional at SOM")
+![fig|limit cropcircle](img/participants/Walker, Samantha_bw.jpg "Samantha Walker is a Senior Structural Engineering Professional at SOM")
 
 [[section]]
 
