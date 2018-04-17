@@ -44,7 +44,10 @@ div.row p + p {  margin-top: 0.5rem; } /* selects all p that follow p in div.row
     max-width:100%;
 }
 .row figure.wide,.row img.wide,.row video.wide,.wide img{
-    max-width:50em
+    max-width:50em;
+    overflow: hidden;
+    width: 100%;
+    margin: 2rem 0rem;    
 }
 .row figure.bleed,.row img.bleed,.row video.bleed,.bleed img{
     max-width:none;
