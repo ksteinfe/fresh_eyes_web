@@ -36,6 +36,9 @@ def md_to_html(mdfile, fragments):
             video_extensions = ['mp4', 'm4v', 'ogv', 'webm', 'mpg', 'mpeg']
             file_extension = os.path.splitext(src)[1][1:]
             if any([src.endswith(ext) for ext in video_extensions]):
+                """
+                handling videos
+                """
                 try:
                     args = alt_text.split('|')
                     cls = args[1].strip()
@@ -46,12 +49,34 @@ def md_to_html(mdfile, fragments):
                     ht = '<figure class="{0}"><video loop muted><source src="{1}" type="video/{2}"></video><figcaption>{3}</figcaption></figure>'
                     return ht.format(alt_text,src,file_extension,title)
             else:
+                """
+                handling images
+                """            
                 # we use alt_text to carry class information, titles are always used as alt text
                 if "|" in alt_text:
                     args = alt_text.split('|')
-                    cls = args[1].strip()
-                    ht = '<figure class="{0}"><img src="img/veil.gif" data-src="{1}" alt="" /><figcaption>{2}</figcaption></figure>'
-                    return ht.format(cls,src,title)
+                    args = [a.strip().lower() for a in args]
+                    
+                    if args[0] == "scroll":
+                        """
+                        scrolling background
+                        scroll | img_width | img_height | frame_height | scroll_time
+                        """                    
+                        try:
+                            img_width, img_height, frame_height, scroll_time = args[1], args[2], args[3], args[4]
+                            ht = '<figure class="scrolling" style="height: {3}px"><div style="margin: auto; width: {1}px; height: {2}px;  background: url({0}) repeat 0 0; background-position: 0 {2}px; -webkit-animation: background-slider {4}s linear infinite;"></div><figcaption>{5}</figcaption></figure>'
+                            return ht.format(src, img_width, img_height, frame_height, scroll_time, title)
+                        except: 
+                            return '<span class="parse-error"> error parsing scrolling background image. format is: scroll | img_width | img_height | frame_height | scroll_time </span>'
+                        
+                    else:
+                        """
+                        we assume a standard figure for now
+                        first argument = fig
+                        """
+                        cls = args[1]
+                        ht = '<figure class="{0}"><img src="img/veil.gif" data-src="{1}" alt="" /><figcaption>{2}</figcaption></figure>'
+                        return ht.format(cls,src,title)
                 
                 return '<img src="{0}" class="{1}" alt="{2}" title="{2}" style="width: auto;">'.format(src,alt_text,title)
         

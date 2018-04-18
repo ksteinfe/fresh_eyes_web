@@ -121,7 +121,7 @@ For this purpose, an existing training set was identified that appeared to adopt
 
 [A dataset of 9,900 binary images of leaf silhouettes](https://github.com/WenjinTao/Leaf-Classification--Kaggle), organized by species, was identified and converted into standard JPG images.
 
-![fig|wide](img/index/families.gif "10 samples of silhouetted leaf images taken from 99 species of tree.")
+![scroll|500|800|200|10](img/index/families.gif "10 samples of silhouetted leaf images taken from 99 species of tree.")
 
 [[section]]
 

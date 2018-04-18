@@ -2,9 +2,13 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito:400,600|Oswald:200,300,400,500,600,700">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito:400,600|Oswald:200,400,600,800">
 	<meta charset="utf-8">
-	<meta name="viewport" content="initial-scale=1, maximum-scale=1, minimal-ui"/>
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-startup-image" href="img/eye.png">
+    
+	<meta name="viewport" content="initial-scale=1, maximum-scale=1"/>
 	<title>Fresh Eyes</title>
     <link rel="stylesheet" type="text/css" href="css/layout.css" media="screen">
     <link rel="stylesheet" type="text/css" href="css/presentation.css" media="screen">
@@ -29,20 +33,20 @@
 	</div>
 </header>
 
-<div id="presentation-instructions"></div>
+<div id="presentation-instructions"><- use the arrow keys -></div>
 
 <!-------------------- START CONTENT ----------------------->
 <div class="container">
 <!--heads up: html head opens section div to be closed by first section marker (if any) or by html foot-->
 <div class="row slide titleslide"><div class="col-12">
-    <img src="img/eyes.gif" class="keystone" alt="keystone image"><h1>Fresh Eyes</h1><h2>Applying Machine Learning to Generative Architectural Design</h2><p>Prepared by Adam Menges, Lobe.ai; Kat Park, SOM; Kyle Steinfeld, UC Berkeley; Samantha Walker, SOM</p>
+    <img src="img/index/eyee_black_50.gif" class="keystone" alt="keystone image"><h1>Fresh Eyes</h1><h2>Applying Machine Learning to Generative Architectural Design</h2><p>Prepared by Adam Menges, Lobe.ai; Kat Park, SOM; Kyle Steinfeld, UC Berkeley; Samantha Walker, SOM</p>
 </div></div>
 <div class="row"><div class="col-12"><p>This workshop cluster, a part of the <a href="https://www.smartgeometry.org/sg18/">2018 Smart Geometry Conference</a> hosted by the <a href="https://www.daniels.utoronto.ca/">University of Toronto</a>, brings recent developments in machine learning (ML) to bear on generative architectural design. To improve the utility of artificial intelligence as a creative partner for design, we have brought together experts from architectural design practice, ML engineering, and design methods research.</p>
-<p></div></div><div class="row slide"><div class="col-12">
-Here we report on the results of research conducted, and describe methods for the incorporation of user-generated image-based ML recognition models into the evaluation step of a traditional generative design workflow.</p>
-<p></div></div><div class="row slide"><div class="col-12">
-This project uniquely links the familiar parametric environment of Grasshopper with cloud-hosted models trained using Lobe.ai: a user-friendly ML graphic programming environment that runs Tensorflow.</p>
-<p><figure class="limit"><img src="img/veil.gif" data-src="img/lobe sreenshot.png" alt="" /><figcaption>Screenshot of Lobe.ai</figcaption></figure></p>
+<p></div></div><div class="row slide"><div class="col-12"></p>
+<p>Here we report on the results of research conducted, and describe methods for the incorporation of user-generated image-based ML recognition models into the evaluation step of a traditional generative design workflow.</p>
+<p></div></div><div class="row slide"><div class="col-12"></p>
+<p>This project uniquely links the familiar parametric environment of Grasshopper with cloud-hosted models trained using Lobe.ai: a user-friendly ML graphic programming environment that runs Tensorflow.</p>
+<p><figure class="limit"><img src="img/veil.gif" data-src="img/index/lobe sreenshot.png" alt="" /><figcaption>Screenshot of Lobe.ai</figcaption></figure></p>
 <p></div></div><div class="row "><div class="col-12">
 Over the course of this workshop, participants train purpose-built image-based ML models to evaluate candidate design solutions based on a variety of tacit and heretofore un-encapsulatable design criteria, such as architectural style, spatial experience, or typological features. Participants then deploy these models to the cloud, and integrate them into functional generative design systems via API calls.</p>
 <p></div></div><div class="row slide"><div class="col-12"></p>
@@ -69,10 +73,10 @@ Over the course of this workshop, participants train purpose-built image-based M
 <p>This iterative process is <strong><em>an optimization</em></strong>.</p>
 <p></div></div><div class="row "><div class="col-12"></p>
 <h1>Technical Overview of the Basic Workflow</h1><p>We establish a workflow that allows us to focus on the unique contribution of the cluster: the development of methods for the integration of ML evaluation routines into a parametric environment. To proceed as a generative design workflow, the three basic concerns outlined above must be addressed. As an overview of the software involved, these are addressed as such:</p>
-<p></div></div><div class="row slide"><div class="col-12">
-<strong><em>We define an "actor"</em></strong> as a parametric model in Grasshopper able to generate of candidate design solutions.
-</div></div><div class="row "><div class="col-12">
-This approach fits easily into the common skill-set of most digitally-motivated architects, and we expect workshop participants arrive with basic parametric modeling skills.</p>
+<p></div></div><div class="row slide"><div class="col-12"></p>
+<p><strong><em>We define an "actor"</em></strong> as a parametric model in Grasshopper able to generate of candidate design solutions.</p>
+<p></div></div><div class="row "><div class="col-12"></p>
+<p>This approach fits easily into the common skill-set of most digitally-motivated architects, and we expect workshop participants arrive with basic parametric modeling skills.</p>
 <p></div></div><div class="row slide"><div class="col-12"></p>
 <p><strong><em>We train a "critic"</em></strong> as a machine learning model capable of appropriate architectural evaluation.</p>
 <p></div></div><div class="row "><div class="col-12"></p>
@@ -83,7 +87,17 @@ This approach fits easily into the common skill-set of most digitally-motivated 
 <p>By pitting actor against critic, using existing tools such as Galapagos, Opossum or similar, the space of possible designs (defined by the actor) is iteratively explored in order to identify the best performing solutions (in the eyes of the critic). To this end, a toolset has been established that supports the integration of a trained and hosted ML model into a general generative design workflow. A set of components in Grasshopper are provided that construct API calls to the hosted model, receive results, and processes this information into Grasshopper compatible data.</p>
 </div></div></div><div class="slide major_heading js--press-slack"><span>A New Leaf</span></div><div class="container"><div class="row"><div class="col-12"><!-------------------- -------------------->
 
-<p>Here, we describe a rudimentary example that illustrates the basic workflow outlined above.</p>
+<p></div></div><div class="row slide"><div class="col-12"></p>
+<p>Here, we describe a rudimentary example that illustrates the basic workflow outlined above, and demonstrates the utility of the integration of ML evaluation routines in a parametric environment.</p>
+<p></div></div><div class="row "><div class="col-12"></p>
+<p>As we discuss below, certain problems arise with the conversion of three-dimensional information, as is so often employed in the production of architectural work, to two-dimensional information, as is required by the particular models of ML based on image recognition that we are exploring here. To isolate these problems, this first example operates in a purely two-dimensional fashion.</p>
+<p></div></div><div class="row slide"><div class="col-12"></p>
+<p>We begin with the defining of a critic.</p>
+<p>For this purpose, an existing training set was identified that appeared to adopt a format amenable to the methods adopted by the cluster, and suggested a classification of form that was both diverse and immediately recognizable.</p>
+<p></div></div><div class="row slide"><div class="col-12"></p>
+<p><a href="https://github.com/WenjinTao/Leaf-Classification--Kaggle">A dataset of 9,900 binary images of leaf silhouettes</a>, organized by species, was identified and converted into standard JPG images.</p>
+<p><figure class="wide"><img src="img/veil.gif" data-src="img/index/families.gif" alt="" /><figcaption>10 samples of silhouetted leaf images taken from 99 species of tree.</figcaption></figure></p>
+<p></div></div><div class="row "><div class="col-12"></p>
 <div class="footnotes">
 <hr>
 <ol><li id="fn-peng2017"><p>Peng, et al. 2017 Machines' Perception of Space: Employing 3D Isovist Methods and a Convolutional Neural Network in Architectural Space Classification<a href="#fnref-peng2017" class="footnote">&#8617;</a></p></li>
@@ -99,7 +113,7 @@ This approach fits easily into the common skill-set of most digitally-motivated 
 <div class="veil"></div>
 
 <div class="presentation_control_wrapper">
-    <div class="presentation_control"></div>
+    <div class="presentation_control"><- Use arrow keys -></div>
 </div>
 
 <footer>

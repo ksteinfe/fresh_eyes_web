@@ -75,6 +75,7 @@
 
 @keyframes blinker { 50% { opacity: 0; } }
 .non-ascii{ background: red; color: white; animation: blinker 1s linear infinite; }
+.parse-error{ background: magenta; color: white; animation: blinker 1s linear infinite; }
 
 h1, h2, h3, h4, h5, h6 {
     margin: 1rem 0rem 0rem 0rem;
