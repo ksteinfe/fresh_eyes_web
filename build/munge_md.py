@@ -64,7 +64,7 @@ def md_to_html(mdfile, fragments):
                         """                    
                         try:
                             img_width, img_height, frame_height, scroll_time = args[1], args[2], args[3], args[4]
-                            ht = '<figure class="scrolling" style="height: {3}px"><div style="margin: auto; width: {1}px; height: {2}px;  background: url({0}) repeat 0 0; background-position: 0 {2}px; -webkit-animation: background-slider {4}s linear infinite;"></div><figcaption>{5}</figcaption></figure>'
+                            ht = '<figure class="scrolling" style="height: {3}px"><div style="margin: auto; width: {1}px; height: {2}px;  background: url({0}) repeat 0 0; background-position: 0 {2}px; -webkit-animation: background-scroller {4}s linear infinite;"></div><figcaption>{5}</figcaption></figure>'
                             return ht.format(src, img_width, img_height, frame_height, scroll_time, title)
                         except: 
                             return '<span class="parse-error"> error parsing scrolling background image. format is: scroll | img_width | img_height | frame_height | scroll_time </span>'

@@ -60,3 +60,8 @@
 .slide {
   position:relative;
 }
+
+
+@-webkit-keyframes background-scroller { from { background-position: 0 0; } }
+@-moz-keyframes background-scroller { from { background-position: 0 0; } }
+keyframes background-scroller { from { background-position: 0 0; } }
