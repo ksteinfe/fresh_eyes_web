@@ -61,7 +61,7 @@
   position:relative;
 }
 
-figure div.scroll-wrapper{ overflow: hidden;}
+figure div.scroll-wrapper{ overflow: hidden; margin:3em auto}
 
 @-webkit-keyframes background-scroller { from { background-position: 0 0; } }
 @-moz-keyframes background-scroller { from { background-position: 0 0; } }

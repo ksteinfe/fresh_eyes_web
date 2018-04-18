@@ -125,6 +125,12 @@ For this purpose, an existing training set was identified that appeared to adopt
 
 [[section]]
 
+As we were interested in encapsulating the the formal characteristics of leaf forms, and not in identifying leafs in terms of the species of tree to which they belong, the existing structure of this dataset did not quite suit our ends.
+
+[[section|slide]]
+
+![vid|slide|loop controls muted](https://berkeley.box.com/shared/static/eourvtznud8tqgb9r7mpplijb25i4v1p.mp4 "Eight categories of leaf shape were established, and the 9900 sample were re-organized according to this new ontology of form.")
+
 
 
 
