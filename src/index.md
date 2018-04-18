@@ -129,9 +129,21 @@ As we were interested in encapsulating the the formal characteristics of leaf fo
 
 [[section|slide]]
 
-![vid|slide|loop controls muted](https://berkeley.box.com/shared/static/eourvtznud8tqgb9r7mpplijb25i4v1p.mp4 "Eight categories of leaf shape were established, and the 9900 sample were re-organized according to this new ontology of form.")
+Adapting this dataset, eight new categories of form were established:
+* almond
+* fan
+* heart
+* jagged
+* lobed
+* long
+* star
+* wide
 
+![vid|slide|loop controls muted](https://berkeley.box.com/shared/static/eourvtznud8tqgb9r7mpplijb25i4v1p.mp4 "Eight categories of leaf shape were established, and the 9900 samples were re-organized according to this new ontology of form.")
 
+[[section]]
+
+A model was trained on this re-organized dataset of leaf shapes.
 
 
 
