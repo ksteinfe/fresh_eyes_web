@@ -42,6 +42,13 @@ Seeking to validate and extend previous work[^Peng2017] in which local spatial c
 
 Using a corpus of 3d models, an ML model is trained to distinguish between and classify architectural massings related to a single programmatic type: the detached North American single family home. To accomplish this, a method is developed to translate sliced CAD models into sets of related images able to be understood by ML processes. This model is deployed in the service of discovering potential new and compelling massings that hybridize known types.
 
+[[section|slide]]
+#### Shaping Tall Buildings for Wind Performance
+
+[[section]]
+
+An ML model is trained to assess the performance of tall buildings under wind loads based on building shape and orientation. This dataset is created using results from tests that were performed at SOM’s wind tunnel in Chicago, the WT 260. Massing models at a 1:500 scale are positioned at the back of the wind tunnel on a load cell that measures different parameters such as frequency, displacement and forces. For the purposes of training the ML model, this data has been interpreted and organized into five different qualitative categories of wind performance: bad, fair, moderate, good and excellent. A building’s shape is the most influential factor in mitigating the effect of wind. This ML model is deployed in the service of helping designers to better shape buildings for wind loads and potentially offering new ideas to improve their performance.
+
 # Methods
 <!-------------------- -------------------->
 
