@@ -14,4 +14,8 @@ Machine learning comes in three forms, supervised, unsupervised, and reinforceme
 
 Lobe is a visual programming language (like grasshopper) for creating neural networks. In general though I believe in showing rather then telling, so here's a video:
 
+<br />
+
+<center>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/IN69suHxS8w" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+</center>
