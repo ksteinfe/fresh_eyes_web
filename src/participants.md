@@ -13,7 +13,7 @@ This cluster brings together experts from architectural and structural design pr
 
 ### Adam Menges, Lobe
 
-![fig|limit cropcircle](img/participants/IMG_1029.jpg "Adam Menges is the CEO of Lobe")
+![fig|limit cropcircle](img/participants/AdamMenges.jpg "Adam Menges is the CEO of Lobe")
 
 [[section]]
 
@@ -23,7 +23,7 @@ As CEO of Lobe, a visual programming environment for creating neural networks, A
 
 ### Kat Park, SOM
 
-![fig|limit cropcircle](img/participants/katpark-bw.jpg "Kat Park is the Firmwide Emerging Technology Leader at SOM")
+![fig|limit cropcircle](img/participants/KatPark.jpg "Kat Park is the Firmwide Emerging Technology Leader at SOM")
 
 [[section]]
 
@@ -33,7 +33,7 @@ Kat Park directs design technology strategy at SOM. A computer scientist and arc
 
 ### Kyle Steinfeld, UC Berkeley
 
-![fig|limit cropcircle](img/participants/Steinfeld.jpg "Kyle Steinfeld is an Assistant Professor of Architecture at the University of California, Berkeley")
+![fig|limit cropcircle](img/participants/KyleSteinfeld.jpg "Kyle Steinfeld is an Assistant Professor of Architecture at the University of California, Berkeley")
 
 [[section]]
 
@@ -45,7 +45,7 @@ In 2016, Professor Steinfeld organized and moderated a session titled Procedural
 
 ### Samantha Walker, SOM
 
-![fig|limit cropcircle](img/participants/Walker, Samantha_bw.jpg "Samantha Walker is a Senior Structural Engineering Professional at SOM")
+![fig|limit cropcircle](img/participants/SamanthaWalker.jpg "Samantha Walker is a Senior Structural Engineering Professional at SOM")
 
 [[section]]
 
@@ -55,9 +55,7 @@ With a background in architecture and over ten years of experience in structural
 
 ### Ben Coorey
 
-![fig|limit cropcircle](img/participants/BenCoorey.jpg "Ben Coorey is a Computational Designer and Founder of ArchiStar")
-
-[[section]]
+![fig|limit cropcircle](img/participants/BenCoorey_sm.jpg "Ben Coorey is a Computational Designer and Founder of ArchiStar")
 
 A long time Smart Geometry participant, Ben Coorey is an Architect dedicated to developing software and workflows that compliment designers by educating and creating automation tools. He has a passion for delivering real-time intelligence for designers.
 
@@ -67,33 +65,37 @@ A long time Smart Geometry participant, Ben Coorey is an Architect dedicated to 
 
 ### James Forren
 
+![fig|limit cropcircle](img/participants/JamesForren.jpg "James Forren is an Assistant Professor at Dalhousie University in Halifax, Canada")
+
 James Forren's research addresses the aesthetics of technology: how building methods and materials impact the perception of our environment; and how an aesthetic inquiry into the means and methods of building technologies reinforms their use. Digital technologies and their application to construction processes is one component of this work. Other areas of investigation include material research and its relationship to computation, as well as the exploration of new design processes.
 
 ### Timothy Logan
 
-![fig|limit cropcircle](img/participants/tlogan_square.jpg "")
+![fig|limit cropcircle](img/participants/TimonthyLogan.jpg "Timothy Logan is a computational designer at the Laboratory for Intensive Exploration (LINE) studio within HKS")
 
-Timothy has been working within the architecture industry for over ten years with a focus on fabrication, simulation, and workflow efficiencies. He works as a computational designer with the Laboratory for Intensive Exploration (LINE) studio within HKS and has developed plugins such as Elk among others.
+Timothy has been working within the architecture industry for over ten years with a focus on fabrication, simulation, and workflow efficiencies. He has developed plugins such as Elk among others.
 
 ### Antoine Maes
 
-![fig|limit cropcircle](img/participants/Antoine1.jpg "")
+![fig|limit cropcircle](img/participants/AntoineMaes.jpg "Antoine Maes is an architect in Brussels")
 
-Antoine holds a master degree in Architecture from the university of Liege, Belgium. Currently in an office based in Brussels, he is working on ways to integrate parametric modeling into existing workflows. While working as an assistant in his former university, he is seeking to start a PhD about Machine Learning as a design partner.
+Antoine holds a masters degree in Architecture from the university of Liege, Belgium. Currently he is working on ways to integrate parametric modeling into existing workflows. While working as an assistant in his former university, he is seeking to start a PhD about Machine Learning as a design partner.
 
 ### Jenessa Man
 
-![fig|limit cropcircle](img/participants/Jenessa.jpg "")
+![fig|limit cropcircle](img/participants/JenessaMan.jpg "Jenessa Man is a structural designer at Arup")
 
-Jenessa Man is a structural designer with Arup. She has a background in transportation planning, airport planning and structural engineering. She currently leads a "Digital Transformation" team in Arup's Toronto office, delivering initiatives for integration of digital techniques and technologies into existing design processes.
+Jenessa Man has a background in transportation planning, airport planning and structural engineering. She currently leads a "Digital Transformation" team in Arup's Toronto office, delivering initiatives for integration of digital techniques and technologies into existing design processes.
 
 ### Sebastian Misiurek
 
-Sebastian Misiurek is an architect, designer and educator based in Brooklyn, NY. He works as a Design Computation Specialist at Woods Bagot and teaches at Pratt Institute where he is also the Assistant Director of the Digital Futures Group in the School of Architecture.
+![fig|limit cropcircle](img/participants/SebastianMisiurek.jpg "Sebastian Misiurek is an architect, designer and educator based in Brooklyn, NY")
+
+Sebastian Misiurek works as a Design Computation Specialist at Woods Bagot and teaches at Pratt Institute where he is also the Assistant Director of the Digital Futures Group in the School of Architecture.
 
 ### Gabriel Payant
 
-![fig|limit cropcircle](img/participants/Gabriel.jpg "")
+![fig|limit cropcircle](img/participants/GabrielPayant.jpg "")
 
 Gabriel Payant holds a master degree in architecture from the Universite de Montreal. His research focuses on the similarity between widescale suburban development in North America and generative processes, more specifically how to renovate ailing commercial centers. He also works as a teacher assistant at Universite de Montreal.
 
