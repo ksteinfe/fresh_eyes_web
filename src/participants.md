@@ -55,11 +55,15 @@ With a background in architecture and over ten years of experience in structural
 
 ### Ben Coorey
 
-Ben Coorey is a long time Smart Geometry participant, Computational Designer and the Founder of ArchiStar. He is an Architect that is dedicated to developing software and workflows that compliment designers by educating and creating automation tools. He has a passion for delivering real-time intelligence for designers.
+![fig|limit cropcircle](img/participants/BenCoorey.jpg "Ben Coorey is a Computational Designer and Founder of ArchiStar")
+
+[[section]]
+
+A long time Smart Geometry participant, Ben Coorey is an Architect dedicated to developing software and workflows that compliment designers by educating and creating automation tools. He has a passion for delivering real-time intelligence for designers.
 
 ### Marantha Dawkins
 
-![fig|limit cropcircle](img/participants/dawkins_square_BW.jpg "")
+![fig|limit cropcircle](img/participants/MaranthaDawkins.jpg "")
 
 ### James Forren
 
