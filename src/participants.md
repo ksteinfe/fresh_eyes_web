@@ -1,13 +1,13 @@
 ---
 title: Participants and Sponsors
 subtitle: How Fresh are these Eyes?
-attribution: Prepared by Kyle Steinfeld, UC Berkeley
-copyright: Copyright &copy; 2018 Kyle Steinfeld
+attribution: Prepared by Adam Menges, Lobe.ai; Kat Park, SOM; Kyle Steinfeld, UC Berkeley; Samantha Walker, SOM
+copyright: Copyright &copy; 2018 Adam Menges, Kat Park, Kyle Steinfeld, and Samantha Walker
 ---
 
 ## Cluster Champions
 
-This cluster brings together experts from architectural design practice, ML engineering, and design methods research.
+This cluster brings together experts from architectural and structural design practice, ML engineering, and design methods research.
 
 [[section|slide]]
 
