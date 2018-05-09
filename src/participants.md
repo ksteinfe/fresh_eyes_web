@@ -57,7 +57,7 @@ With a background in architecture and over ten years of experience in structural
 
 ### Ben Coorey
 
-![fig|limit cropcircle](img/participants/BenCoorey_sm.jpg "Ben Coorey is a Computational Designer and Founder of ArchiStar")
+![fig|limit cropcircle](img/participants/BenCoorey.jpg "Ben Coorey is a Computational Designer and Founder of ArchiStar")
 
 A long time Smart Geometry participant, Ben Coorey is an Architect dedicated to developing software and workflows that compliment designers by educating and creating automation tools. He has a passion for delivering real-time intelligence for designers.
 
