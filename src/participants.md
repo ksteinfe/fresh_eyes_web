@@ -59,21 +59,29 @@ Ben Coorey is a long time Smart Geometry participant, Computational Designer and
 
 ### Marantha Dawkins
 
+![fig|limit cropcircle](img/participants/dawkins_square_BW.jpg)
+
 ### James Forren
 
 James Forren's research addresses the aesthetics of technology: how building methods and materials impact the perception of our environment; and how an aesthetic inquiry into the means and methods of building technologies reinforms their use. Digital technologies and their application to construction processes is one component of this work. Other areas of investigation include material research and its relationship to computation, as well as the exploration of new design processes.
 
 ### Timothy Logan
 
+![fig|limit cropcircle](img/participants/tlogan.jpg)
+
 Timothy has been working within the architecture industry for over ten years with a focus on fabrication, simulation, and workflow efficiencies. He works as a computational designer with the Laboratory for Intensive Exploration (LINE) studio within HKS and has developed plugins such as Elk among others.
 
 ### Antoine Maes
 
-Antoine holds a master degree in Architecture from the university of Liege, Belgium. Currently in an office based in Brussels, he’s working on ways to integrate parametric modeling into existing workflows. While working as an assistant in his former university, he’s seeking to start a PhD about Machine Learning as a design partner.
+![fig|limit cropcircle](img/participants/Antoine1.jpg)
+
+Antoine holds a master degree in Architecture from the university of Liege, Belgium. Currently in an office based in Brussels, he is working on ways to integrate parametric modeling into existing workflows. While working as an assistant in his former university, he is seeking to start a PhD about Machine Learning as a design partner.
 
 ### Jenessa Man
 
-Jenessa Man is a structural designer with Arup. She has a background in transportation planning, airport planning and structural engineering. She currently leads a “Digital Transformation” team in Arup’s Toronto office, delivering initiatives for integration of digital techniques and technologies into existing design processes.
+![fig|limit cropcircle](img/participants/Jenessa.jpg)
+
+Jenessa Man is a structural designer with Arup. She has a background in transportation planning, airport planning and structural engineering. She currently leads a "Digital Transformation" team in Arup's Toronto office, delivering initiatives for integration of digital techniques and technologies into existing design processes.
 
 ### Sebastian Misiurek
 
@@ -81,9 +89,13 @@ Sebastian Misiurek is an architect, designer and educator based in Brooklyn, NY.
 
 ### Gabriel Payant
 
+![fig|limit cropcircle](img/participants/Gabriel.jpg)
+
 Gabriel Payant holds a master degree in architecture from the Université de Montréal. His research focuses on the similarity between widescale suburban development in North America and generative processes, more specifically how to renovate ailing commercial centers. He also works as a teacher assistant at Université de Montréal.
 
 ### Aseel Sadat
+
+![fig|limit cropcircle](img/participants/AseelSadat.jpg)
 
 Aseel Sadat is a student at the Daniels Faculty of Architecture, particularly interested in the integration of sustainable and conceptual designs, with an emphasis of new materiality through creative and technical methods.
 
