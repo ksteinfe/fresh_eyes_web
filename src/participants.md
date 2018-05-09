@@ -51,6 +51,8 @@ In 2016, Professor Steinfeld organized and moderated a session titled Procedural
 
 With a background in architecture and over ten years of experience in structural engineering, Samantha Walker promotes a collaborative, integrated approach to design. Through SOM, Samantha has acted as an advisor and reviewer for several architectural tall building studios at both the college and university levels. She sits on the board of advisors for New Story, a non-profit startup in the Bay Area that builds sustainable homes and communities in developing countries. Samantha also specializes in the design of high performance seismic protection systems, such as base isolation and dampers, and has designed structures in regions with high seismicity, including Haiti and California. She recently traveled to Mexico City with a team of colleagues in the aftermath of the September 19, 2017 earthquake to contribute to post-earthquake building reconnaissance efforts. Shortly afterwards, Samantha presented the team's findings at the EDIFICA 2017 Congress held at the Monterrey Institute of Technology and Higher Education. To enhance reconnaissance efforts, Samantha spearheaded the development of a photo recognition tool that utilizes machine learning to identify and classify damage from photographs of damaged buildings. She has a strong interest in further exploring how machine learning can influence and enhance different aspects of building design, construction and assessment. Samantha holds professional engineering licenses in both Canada and the United States and a Master of Engineering degree from McGill University.
 
+[[section|slide]]
+
 ## Cluster Participants
 
 ### Ben Coorey
@@ -59,9 +61,13 @@ With a background in architecture and over ten years of experience in structural
 
 A long time Smart Geometry participant, Ben Coorey is an Architect dedicated to developing software and workflows that compliment designers by educating and creating automation tools. He has a passion for delivering real-time intelligence for designers.
 
+[[section|slide]]
+
 ### Marantha Dawkins
 
 ![fig|limit cropcircle](img/participants/MaranthaDawkins.jpg "")
+
+[[section|slide]]
 
 ### James Forren
 
@@ -69,11 +75,15 @@ A long time Smart Geometry participant, Ben Coorey is an Architect dedicated to 
 
 James Forren's research addresses the aesthetics of technology: how building methods and materials impact the perception of our environment; and how an aesthetic inquiry into the means and methods of building technologies reinforms their use. Digital technologies and their application to construction processes is one component of this work. Other areas of investigation include material research and its relationship to computation, as well as the exploration of new design processes.
 
+[[section|slide]]
+
 ### Timothy Logan
 
-![fig|limit cropcircle](img/participants/TimonthyLogan.jpg "Timothy Logan is a computational designer at the Laboratory for Intensive Exploration (LINE) studio within HKS")
+![fig|limit cropcircle](img/participants/TimothyLogan.jpg "Timothy Logan is a computational designer at the Laboratory for Intensive Exploration (LINE) studio within HKS")
 
 Timothy has been working within the architecture industry for over ten years with a focus on fabrication, simulation, and workflow efficiencies. He has developed plugins such as Elk among others.
+
+[[section|slide]]
 
 ### Antoine Maes
 
@@ -81,11 +91,15 @@ Timothy has been working within the architecture industry for over ten years wit
 
 Antoine holds a masters degree in Architecture from the university of Liege, Belgium. Currently he is working on ways to integrate parametric modeling into existing workflows. While working as an assistant in his former university, he is seeking to start a PhD about Machine Learning as a design partner.
 
+[[section|slide]]
+
 ### Jenessa Man
 
 ![fig|limit cropcircle](img/participants/JenessaMan.jpg "Jenessa Man is a structural designer at Arup")
 
 Jenessa Man has a background in transportation planning, airport planning and structural engineering. She currently leads a "Digital Transformation" team in Arup's Toronto office, delivering initiatives for integration of digital techniques and technologies into existing design processes.
+
+[[section|slide]]
 
 ### Sebastian Misiurek
 
@@ -93,22 +107,34 @@ Jenessa Man has a background in transportation planning, airport planning and st
 
 Sebastian Misiurek works as a Design Computation Specialist at Woods Bagot and teaches at Pratt Institute where he is also the Assistant Director of the Digital Futures Group in the School of Architecture.
 
+[[section|slide]]
+
 ### Gabriel Payant
 
-![fig|limit cropcircle](img/participants/GabrielPayant.jpg "")
+![fig|limit cropcircle](img/participants/GabrielPayant.jpg "Gabriel Payant is an intern architect at DMA architectes in Montreal")
 
-Gabriel Payant holds a master degree in architecture from the Universite de Montreal. His research focuses on the similarity between widescale suburban development in North America and generative processes, more specifically how to renovate ailing commercial centers. He also works as a teacher assistant at Universite de Montreal.
+Gabriel Payant holds a masters degree in architecture from the Universite de Montreal. His research focuses on the similarity between widescale suburban development in North America and generative processes, more specifically how to renovate ailing commercial centers. He also works as a teacher assistant at Universite de Montreal.
+
+[[section|slide]]
 
 ### Aseel Sadat
 
-![fig|limit cropcircle](img/participants/AseelSadat.jpg "")
+![fig|limit cropcircle](img/participants/AseelSadat.jpg "Aseel Sadat is a student at the Daniels Faculty of Architecture")
 
-Aseel Sadat is a student at the Daniels Faculty of Architecture, particularly interested in the integration of sustainable and conceptual designs, with an emphasis of new materiality through creative and technical methods.
+Aseel Sadat is particularly interested in the integration of sustainable and conceptual designs, with an emphasis of new materiality through creative and technical methods.
+
+[[section|slide]]
 
 ### Nonna Shabanoval
 
-Nonna Shabanoval is a Revit Coordinator at KPMB Architects with a BIM experience at structural & mechanical engineering firms. Recently received a CanBIM Award for a green gas emissions research by analyzing BIM Models. Her goal is to contribute to the design of sustainable, green and smart buildings using the latest architectural software and innovations.
+![fig|limit cropcircle](img/participants/NonnaShabanoval.jpg "Nonna Shabanoval is a Revit Coordinator at KPMB Architects")
+
+Nonna Shabanoval is an architect with BIM experience at structural & mechanical engineering firms. Recently received a CanBIM Award for a green gas emissions research by analyzing BIM Models. Her goal is to contribute to the design of sustainable, green and smart buildings using the latest architectural software and innovations.
+
+[[section|slide]]
 
 ### Jenny Zhu
 
-Jenny Zhu is a 4th year undergrad architecture student at UC Berkeley interested in biomimicry and behavioral architecture. She was a former intern at HOK and helped develop cattail-inspired facades.
+![fig|limit cropcircle](img/participants/JennyZhu.jpg "Jenny Zhu is a 4th year undergraduate architecture student at UC Berkeley")
+
+Jenny Zhu is interested in biomimicry and behavioral architecture. She was a former intern at HOK and helped develop cattail-inspired facades.
