@@ -125,11 +125,11 @@ Aseel Sadat is particularly interested in the integration of sustainable and con
 
 [[section|slide]]
 
-### Nonna Shabanoval
+### Nonna Shabanova
 
-![fig|limit cropcircle](img/participants/NonnaShabanoval.jpg "Nonna Shabanoval is a Revit Coordinator at KPMB Architects")
+![fig|limit cropcircle](img/participants/NonnaShabanova.jpg "Nonna Shabanova is a Revit Coordinator at KPMB Architects")
 
-Nonna Shabanoval is an architect with BIM experience at structural & mechanical engineering firms. Recently received a CanBIM Award for a green gas emissions research by analyzing BIM Models. Her goal is to contribute to the design of sustainable, green and smart buildings using the latest architectural software and innovations.
+Nonna Shabanova is an architect with BIM experience at structural & mechanical engineering firms. Recently received a CanBIM Award for a green gas emissions research by analyzing BIM Models. Her goal is to contribute to the design of sustainable, green and smart buildings using the latest architectural software and innovations.
 
 [[section|slide]]
 
