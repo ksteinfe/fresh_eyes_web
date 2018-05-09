@@ -53,7 +53,44 @@ With a background in architecture and over ten years of experience in structural
 
 ## Cluster Participants
 
-Can't wait for those participants!!!
+### Ben Coorey
 
+Ben Coorey is a long time Smart Geometry participant, Computational Designer and the Founder of ArchiStar. He is an Architect that is dedicated to developing software and workflows that compliment designers by educating and creating automation tools. He has a passion for delivering real-time intelligence for designers.
 
+### Marantha Dawkins
 
+### James Forren
+
+James Forren's research addresses the aesthetics of technology: how building methods and materials impact the perception of our environment; and how an aesthetic inquiry into the means and methods of building technologies reinforms their use. Digital technologies and their application to construction processes is one component of this work. Other areas of investigation include material research and its relationship to computation, as well as the exploration of new design processes.
+
+### Timothy Logan
+
+Timothy has been working within the architecture industry for over ten years with a focus on fabrication, simulation, and workflow efficiencies. He works as a computational designer with the Laboratory for Intensive Exploration (LINE) studio within HKS and has developed plugins such as Elk among others.
+
+### Antoine Maes
+
+Antoine holds a master degree in Architecture from the university of Liege, Belgium. Currently in an office based in Brussels, he’s working on ways to integrate parametric modeling into existing workflows. While working as an assistant in his former university, he’s seeking to start a PhD about Machine Learning as a design partner.
+
+### Jenessa Man
+
+Jenessa Man is a structural designer with Arup. She has a background in transportation planning, airport planning and structural engineering. She currently leads a “Digital Transformation” team in Arup’s Toronto office, delivering initiatives for integration of digital techniques and technologies into existing design processes.
+
+### Sebastian Misiurek
+
+Sebastian Misiurek is an architect, designer and educator based in Brooklyn, NY. He works as a Design Computation Specialist at Woods Bagot and teaches at Pratt Institute where he is also the Assistant Director of the Digital Futures Group in the School of Architecture.
+
+### Gabriel Payant
+
+Gabriel Payant holds a master degree in architecture from the Université de Montréal. His research focuses on the similarity between widescale suburban development in North America and generative processes, more specifically how to renovate ailing commercial centers. He also works as a teacher assistant at Université de Montréal.
+
+### Aseel Sadat
+
+Aseel Sadat is a student at the Daniels Faculty of Architecture, particularly interested in the integration of sustainable and conceptual designs, with an emphasis of new materiality through creative and technical methods.
+
+### Nonna Shabanoval
+
+Nonna Shabanoval is a Revit Coordinator at KPMB Architects with a BIM experience at structural & mechanical engineering firms. Recently received a CanBIM Award for a green gas emissions research by analyzing BIM Models. Her goal is to contribute to the design of sustainable, green and smart buildings using the latest architectural software and innovations.
+
+### Jenny Zhu
+
+Jenny Zhu is a 4th year undergrad architecture student at UC Berkeley interested in biomimicry and behavioral architecture. She was a former intern at HOK and helped develop cattail-inspired facades.
