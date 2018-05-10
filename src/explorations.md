@@ -13,7 +13,7 @@ Over the course of this workshop, participants train purpose-built image-based M
 
 # Artificial Generation of Floor Plans
 <!-------------------- -------------------->
-### Ben Coorey & Nonna Shabanova
+#### Ben Coorey & Nonna Shabanova
 
 Armed with a large dataset of consistent residential floor plans with a decent level of consistency, this team annotated the floor plans with features and trained an ML model to recognize various features on a residential floor plan, such as doors, windowns, etc).   
 
@@ -43,7 +43,7 @@ Experimentation with Generative Adversarial Networks that are trained on a libra
 
 # Representing the training dataset in 3D
 <!-------------------- -------------------->
-### Gabriel Payant, Antoine Maes & Timothy Logan
+#### Gabriel Payant, Antoine Maes & Timothy Logan
  
 [[section]]
 
