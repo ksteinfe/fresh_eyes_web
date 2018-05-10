@@ -65,7 +65,9 @@ A long time Smart Geometry participant, Ben Coorey is an Architect dedicated to 
 
 ### Marantha Dawkins
 
-![fig|limit cropcircle](img/participants/MaranthaDawkins.jpg "")
+![fig|limit cropcircle](img/participants/MaranthaDawkins.jpg "Marantha Dawkins is a designer at EPIPHYTE lab in Pittsburgh, PA and also teaches at Carnegie Mellon University")
+
+Marantha's work navigates spaces between ecological form, computational methods, and speculative futures.
 
 [[section|slide]]
 
