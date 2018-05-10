@@ -18,6 +18,7 @@ Over the course of this workshop, participants train purpose-built image-based M
 Armed with a large dataset of real-estate format residential floor plans with a decent level of consistency, this team annotated the floor plans with features and trained an ML model to recognize various features on a residential floor plan, such as doors, windowns, etc).   
 
 [[section]]
+
 #### 1. Detect Features
 
 We trained a Convolutional Neural Network to detect the key elements of an apartment that provide the minimal information for the computer to describe the structure of an apartment. The trained model identifies windows and doors from images of floor plans, which are constructed into a network graph using parametric tools.
@@ -45,6 +46,8 @@ Experimentation with Generative Adversarial Networks that are trained on a libra
 Timothy Logan
  
 [[section]]
+
+some text
 [[section|slide]]
 
 # Gabriel and Antoine and Timothy Logan
@@ -52,6 +55,8 @@ Timothy Logan
 Gabriel, Antoine Maes, Timothy Logan
  
 [[section]]
+some text
+
 [[section|slide]]
 
 
