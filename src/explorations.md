@@ -15,7 +15,7 @@ Over the course of this workshop, participants train purpose-built image-based M
 <!-------------------- -------------------->
 ### Ben Coorey & Nonna Shabanova
 
-Armed with a large dataset of real-estate format residential floor plans with a decent level of consistency, this team annotated the floor plans with features and trained an ML model to recognize various features on a residential floor plan, such as doors, windowns, etc).   
+Armed with a large dataset of consistent residential floor plans with a decent level of consistency, this team annotated the floor plans with features and trained an ML model to recognize various features on a residential floor plan, such as doors, windowns, etc).   
 
 [[section]]
 
@@ -43,11 +43,16 @@ Experimentation with Generative Adversarial Networks that are trained on a libra
 
 # Representing the training dataset in 3D
 <!-------------------- -------------------->
-Gabriel Payant, Antoine Maes & Timothy Logan
+### Gabriel Payant, Antoine Maes & Timothy Logan
  
 [[section]]
 
 text
+
+#### Heading
+text
+
+![fig|wide](img/explorations/02_FP_Classification.png "classification")
 
 [[section]]
 
@@ -57,7 +62,7 @@ text
 
 # Shaping Tall Buildings for Wind Performance
 <!-------------------- -------------------->
-Samanthan Walker & Marantha Dawkins
+### Samanthan Walker & Marantha Dawkins
  
 [[section]]
 
