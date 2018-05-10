@@ -5,7 +5,113 @@ attribution: Prepared by Adam Menges, Lobe.ai; Kat Park, SOM; Kyle Steinfeld, UC
 copyright: Copyright &copy; 2018 Adam Menges, Kat Park, Kyle Steinfeld, and Samantha Walker, and all participants
 ---
 
+Over the course of this workshop, participants train purpose-built image-based ML models to evaluate candidate design solutions based on a variety of tacit and heretofore un-encapsulatable design criteria, such as architectural style, spatial experience, or typological features. Participants then deploy these models to the cloud, and integrate them into functional generative design systems via API calls.
 
+
+[[section|slide]]
+#### Shaping Tall Buildings for Wind Performance
+
+[[section]]
+
+An ML model is trained to assess the performance of tall buildings under wind loads based on building shape and orientation. This dataset is created using results from tests that were performed at SOM's wind tunnel in Chicago, the WT 260. Massing models at a 1:500 scale are positioned at the back of the wind tunnel on a load cell that measures different parameters such as frequency, displacement and forces. For the purposes of training the ML model, this data has been interpreted and organized into five different qualitative categories of wind performance: bad, fair, moderate, good and excellent. A building's shape is the most influential factor in mitigating wind effects. This ML model is deployed in the service of helping designers to better shape buildings for wind loads and potentially offering new ideas to improve their performance.
+
+# Artificial Generation of Floor Plans : Ben Coorey & Nonna Shabanova
+<!-------------------- -------------------->
+
+Armed with a large dataset of real-estate format residential floor plans with a decent level of consistency, this team annotated the floor plans with features and trained an ML model to recognize various features on a residential floor plan, such as doors, windowns, etc).   
+
+[[section]]
+#### 1. Detect Features
+
+We trained a Convolutional Neural Network to detect the key elements of an apartment that provide the minimal information for the computer to describe the structure of an apartment. The trained model identifies windows and doors from images of floor plans, which are constructed into a network graph using parametric tools.
+
+![fig|limit](img/explorations/image1.png "plans")
+
+[[section]]
+
+#### 2. Classify Floor Plans
+Each floor plan was allocated into types which were then trained into a predictive AI model to implement a workflow that can detect features from an image of a floor plan, and then determine the type of floor plan automatically.
+
+![fig|limit](img/explorations/image2.png "plans")
+
+[[section]]
+
+#### 3. Generate New Floor Plans
+Experimentation with Generative Adversarial Networks that are trained on a library of floor plans, which then allow the computer to generate populations of novel unique floor plans from scratch.
+
+![fig|limit](img/explorations/image3.png "plans")
+
+
+# James Forren
+<!-------------------- -------------------->
+
+[[section|slide]]
+
+Here, we describe a rudimentary example that illustrates the basic workflow outlined above, and demonstrates the utility of the integration of ML evaluation routines in a parametric environment.
+
+[[section]]
+
+As we discuss below, certain problems arise with the conversion of three-dimensional information, as is so often employed in the production of architectural work, to two-dimensional information, as is required by the particular models of ML based on image recognition that we are exploring here. To isolate these problems, this first example operates in a purely two-dimensional fashion.
+
+## Training the Critic
+
+[[section|slide]]
+
+We begin with the training of a critic. 
+
+For this purpose, an existing training set was identified that appeared to adopt a format amenable to the methods adopted by the cluster, and suggested a classification of form that was both diverse and immediately recognizable. 
+
+[[section|slide]]
+
+[A dataset of 990 binary images of leaf silhouettes](https://github.com/WenjinTao/Leaf-Classification--Kaggle), organized by species, was identified and converted into standard JPG images.
+
+![scroll|500|800|200|20](img/index/families.gif "10 samples of silhouetted leaf images taken from 99 species of tree.")
+
+[[section]]
+
+### An Initial Critc
+
+An initial set of ML models were trained on this dataset of 9,900 images organized into 99 categories of 10 samples each. A number of image resolution were tested: 20px, 50px, 100px, and 200px. 
+
+After training was complete, we found two problems.
+
+First, the accuracy of our models, which varied from 58% for the 20px images to 73% for the 200px images were not satisfactory. 
+
+Second, the given organization of the leaf shapes left something to be desired from a design point of view.
+
+### A Revised Critic
+
+As we were interested in encapsulating the the formal characteristics of leaf forms, and not in identifying leafs in terms of the species of tree to which they belong, the existing structure of this dataset did not quite suit our ends.
+
+[[section|slide]]
+
+Adapting this dataset, eight new categories of form were established:
+* almond
+* fan
+* heart
+* jagged
+* lobed
+* long
+* star
+* wide
+
+![vid|slide|loop controls muted](https://berkeley.box.com/shared/static/eourvtznud8tqgb9r7mpplijb25i4v1p.mp4 "Eight categories of leaf shape were established, and the 990 samples were re-organized according to this new ontology of form.")
+
+[[section]]
+
+A second model was then trained on this re-organized dataset of leaf shapes.
+
+After training was complete, the model presented an accuracy of 81%.
+
+## Defining the Actor
+
+### Blackblob
+
+### Metaball
+
+### Metaspike
+
+## Orchestrating an Optimization
 
 
 
