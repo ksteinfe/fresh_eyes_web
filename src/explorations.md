@@ -8,7 +8,6 @@ copyright: Copyright &copy; 2018 Adam Menges, Kat Park, Kyle Steinfeld, and Sama
 [[section|slide]]
 
 Over the course of this workshop, participants train purpose-built image-based ML models to evaluate candidate design solutions based on a variety of tacit and heretofore un-encapsulatable design criteria, such as architectural style, spatial experience, or typological features. Participants then deploy these models to the cloud, and integrate them into functional generative design systems via API calls.
-
 [[section|slide]]
 
 # House GAN and What the Critic Sees in 3D: Gabriel Payant, Antoine Maes & Timothy Logan
