@@ -5,8 +5,9 @@ attribution: Prepared by Adam Menges, Lobe.ai; Kat Park, SOM; Kyle Steinfeld, UC
 copyright: Copyright &copy; 2018 Adam Menges, Kat Park, Kyle Steinfeld, and Samantha Walker, Antoine Maes, Gabriel Payant, Timothy Logan, Ben Coorey, Nonna Shabanova, Sebastian Misiurek, Jenny Zhu, Marantha Dawkins, James Forren; Jenessa Man
 ---
 
+[[section|slide]]
 
-Over the course of this workshop, participants train purpose-built image-based ML models to evaluate candidate design solutions based on a variety of tacit and heretofore un-encapsulatable design criteria, such as architectural style, spatial experience, or typological features. Participants then deploy these models to the cloud, and integrate them into functional generative design systems via API calls.
+Over the course of this workshop, participants trained purpose-built image-based ML models to evaluate candidate design solutions based on a variety of tacit and heretofore un-encapsulatable design criteria, such as architectural style, spatial experience, or typological features. Participants then deployed these models to the cloud, and integrate them into functional generative design systems via API calls. During the workshop, we also deployed iterations of GAN (Generative Adversarial Network) using our datasets, which produced new designs and perspective into how the machine sees the datasets we were offering.
 
 [[section|slide]]
 
