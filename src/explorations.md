@@ -20,28 +20,28 @@ Using the house training set, we ran iterations of GAN to have the machine gener
 
 [[section]]
 
-something else
+DUMMY TEXT BEFORE H1
 
 # Insider View: A 3D visualization of what a critic sees - Gabriel Payant, Antoine Maes & Timothy Logan
 <!-------------------- -------------------->
 
-[[section]]
 As architectural designers, many files we work with are representations of the design, not the design artifact itself. When exploring ML based image recognition, we are challenged with the conversion of 3D information (as architectural design happens most often in 3D) to 2D information (as computer vision ML works with 2D images). The 3D representation of the design form had been converted into a series of 2D images (sections, elevations, isovists, etc), which make up the dataset that are fed as examples into the ML model. We still craved to visualize the series of 2D images in 3D, especially when the GAN generated its own versions of what a design form would be. Here, we created tools to approximate and synthesize 3D forms from the series of 2D images typical in a training dataset.
-[[section]]
 
 ### What the Critic Sees in 3D
+
 Current ML technology relies heavily on cumulative advancements in image recognition. Therefore, training an ML model to act as an architectural critic involves shifting the digital 3D representation designers use to synthetic 2D image. Once the ML starts its process, the intelligible 3D model is not updated to show the transformation the architectural artifact is undergoing. We investigated the potential for reverse engineering the process that generates the 2D depth map in order to provide the designer with an "insider view" of what is going on under the hood, thus expanding the possible interactions between actor, critic and designer.
 
 [[section|slide]]
 
 #### VOXEL SPACE
-![vid|slide|loop controls muted](https://berkeley.box.com/shared/static/uwhgkg9y468tykpsjctw2hrqe1unuw4g.gif "A voxel space of a resolution equal to the square of the one used to represent a single elevation in the 2d image was mapped. Each face of every voxel was then evaluated to the corresponding elevation for its depth value by first checking for very dark pixels and causing the block to turn off, then by validating if the threshold for turning on was reached by the brightest value, for each block towards the source until was reach.")
+
+![vid||loop controls muted](https://berkeley.box.com/shared/static/uwhgkg9y468tykpsjctw2hrqe1unuw4g.gif "A voxel space of a resolution equal to the square of the one used to represent a single elevation in the 2d image was mapped. Each face of every voxel was then evaluated to the corresponding elevation for its depth value by first checking for very dark pixels and causing the block to turn off, then by validating if the threshold for turning on was reached by the brightest value, for each block towards the source until was reach.")
 
 [[section|slide]]
 
 #### MAPPED POINTS
 
-![vid|slide|loop controls muted](https://berkeley.box.com/shared/static/6ulwochbi1m0f1576s71wqefdc2ox0ey.gif "A 2D grid was generated for each view given by the ML. They were then placed in such a way as to provide a cube of possible position. Each pixel was then pushed from its originating plan to the depth given by the 2D image.")
+![vid||loop controls muted](https://berkeley.box.com/shared/static/6ulwochbi1m0f1576s71wqefdc2ox0ey.gif "A 2D grid was generated for each view given by the ML. They were then placed in such a way as to provide a cube of possible position. Each pixel was then pushed from its originating plan to the depth given by the 2D image.")
 
 [[section|slide]]
 
@@ -61,16 +61,23 @@ We then applied the different strategies to different models of our dataset, bot
 ![fig|wide](img/explorations/Images_Gan.jpg "House GAN visualized in 3D")
 
 
+[[section]]
+
+DUMMY TEXT BEFORE H1
+
 # Embodying the Intabgible: a Machine Intelligence Trained to Recognize Experiential Quality of a Space - Sebastian Misiurek & Jenny Zhu
 <!-------------------- -------------------->
 We generated 3D models of various spatial volumes in relation to a human occupant, and trained a machine learning model to classify the various spatial volumes such as Box, Vault, Dome, etc.  To translate these objective volume types to a more qualitative description of a space, we will be using 2 ML (a minor and a major).  Once an ML is trained to classify the volume types, it can be fed to another layer of training where a combination of the volume types can mean an experiential quality.
 
-![fig|wide](img/explorations/SpatialExperience_Form_Isovit.gif "A human occupant's isovist view of volume types")
+![fig|slide wide](img/explorations/SpatialExperience_Form_Isovit.gif "A human occupant's isovist view of volume types")
 
-![fig|wide](img/explorations/SpatialExperience_lobe-vaults.png "Machine Learning Model being trained in Lobe")
+![fig|slide wide](img/explorations/SpatialExperience_lobe-vaults.png "Machine Learning Model being trained in Lobe")
 
-![fig|wide](img/explorations/SpatialExperienceDiagram_800x600.png "Definition of Experietial Qualities")
+![fig|slide wide](img/explorations/SpatialExperienceDiagram_800x600.png "Definition of Experietial Qualities")
 
+[[section]]
+
+DUMMY TEXT BEFORE H1
 
 # Grove : James Forren
 <!-------------------- -------------------->
