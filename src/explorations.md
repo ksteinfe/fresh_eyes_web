@@ -27,6 +27,8 @@ Using the house training set, we ran iterations of GAN to have the machine gener
 
 As architectural designers, many files we work with are representations of the design, not the design artifact itself. When exploring ML based image recognition, we are challenged with the conversion of 3D information (as architectural design happens most often in 3D) to 2D information (as computer vision ML works with 2D images). The 3D representation of the design form had been converted into a series of 2D images (sections, elevations, isovists, etc), which make up the dataset that are fed as examples into the ML model. We still craved to visualize the series of 2D images in 3D, especially when the GAN generated its own versions of what a design form would be. Here, we created tools to approximate and synthesize 3D forms from the series of 2D images typical in a training dataset.
 
+[[section|slide]]
+
 ### What the Critic Sees in 3D
 
 Current ML technology relies heavily on cumulative advancements in image recognition. Therefore, training an ML model to act as an architectural critic involves shifting the digital 3D representation designers use to synthetic 2D image. Once the ML starts its process, the intelligible 3D model is not updated to show the transformation the architectural artifact is undergoing. We investigated the potential for reverse engineering the process that generates the 2D depth map in order to provide the designer with an "insider view" of what is going on under the hood, thus expanding the possible interactions between actor, critic and designer.
@@ -79,11 +81,15 @@ As a complementary test, we then sent the generated 2D images to a ML critic tha
 
 We generated 3D models of various spatial volumes in relation to a human occupant, and trained a machine learning model to classify the various spatial volumes such as Box, Vault, Dome, etc.  To translate these objective volume types to a more qualitative description of a space, we will be using 2 ML (a minor and a major).  Once an ML is trained to classify the volume types, it can be fed to another layer of training where a combination of the volume types can mean an experiential quality.
 
-![fig|slide wide](img/explorations/SpatialExperience_Form_Isovit.gif "A human occupant's isovist view of volume types")
+![fig|wide](img/explorations/SpatialExperience_Form_Isovit.gif "A human occupant's isovist view of volume types")
 
-![fig|slide wide](img/explorations/SpatialExperience_lobe-vaults.png "Machine Learning Model being trained in Lobe")
+[[section|slide]]
 
-![fig|slide wide](img/explorations/SpatialExperienceDiagram_800x600.png "Definition of Experietial Qualities")
+![fig|wide](img/explorations/SpatialExperience_lobe-vaults.png "Machine Learning Model being trained in Lobe")
+
+[[section|slide]]
+
+![fig|wide](img/explorations/SpatialExperienceDiagram_800x600.png "Definition of Experietial Qualities")
 
 [[section]]
 
@@ -92,25 +98,21 @@ We generated 3D models of various spatial volumes in relation to a human occupan
 # Grove : James Forren
 <!-------------------- -------------------->
 
-[[section]]
-
 Grove compares different ideas about trees and how a machine learning model can be used to mimic an idea of "forest."  This is intended to test the way a machine learning model can be used to train architectural proposals to match an idealized image or experience.  A set of ideal forest types, alder, elm, tall conifer - are used to train a forest critic.  The critic, in turn, discerns from a series of forest proposals from a generative actor to find the shape and pattern which best satisfies the criteria of elm, tall coniferous, etc.  The process uses an isovist critic and actor, evaluating the forests perspectivally. 
 
 [[section|slide]]
 
-![fig|wide](img/explorations/Grove_Trainer Compiled.jpg " ")
+![fig|wide](img/explorations/Grove_Trainer Compiled.jpg "Forest types as training set")
+
+[[section|slide]]
+
+![fig|wide](img/explorations/Grove-01_Isovist.gif "isovist view of the forest")
 
 ![vid|slide|loop controls muted](https://berkeley.box.com/shared/static/xt32pn8zhjg0azdwomsaec6vf2ij0di4.gif "Ideal forest types")
 
-[[section]]
+[[section|slide]]
 
 This initial study was not successful in developing a working optimization model.  What was learned is the significance of the type and quality of data provided to the machine learning model.  In this case our hypothesis is that the isovist trainer needed more trees closer to its position, a deeper tonal range in the generated images, and greater variety in the idealised tree types.
- 
-[[section|slide]]
-
-![fig|wide](img/explorations/Grove-01_Isovist.gif "Forest isovist")
-
-[[section|slide]]
 
 # Artificial Generation of Floor Plans : Ben Coorey & Nonna Shabanova
 <!-------------------- -------------------->
