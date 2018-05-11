@@ -10,12 +10,14 @@ copyright: Copyright &copy; 2018 Adam Menges, Kat Park, Kyle Steinfeld, and Sama
 
 Machine learning comes in three forms, supervised, unsupervised, and reinforcement learning. In all forms, the machine learns from data and tries through a variety of methods to improve its results.
 
+[[section]]
+
 [[section|slide]]
 # Lobe Primer
 <!-------------------- -------------------->
 
 [[section]]
-Lobe is a visual programming language (like grasshopper) for creating neural networks. In general, we believe in showing rather then telling, so here's a video:
+Lobe is a visual programming language (like grasshopper) for creating neural networks. We believe in showing rather then telling, so here's a video:
 
 [[section|slide]]
 
