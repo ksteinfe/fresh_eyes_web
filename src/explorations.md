@@ -5,11 +5,9 @@ attribution: Prepared by Adam Menges, Lobe.ai; Kat Park, SOM; Kyle Steinfeld, UC
 copyright: Copyright &copy; 2018 Adam Menges, Kat Park, Kyle Steinfeld, and Samantha Walker, and all participants
 ---
 
+[[section|slide]]
+
 Over the course of this workshop, participants train purpose-built image-based ML models to evaluate candidate design solutions based on a variety of tacit and heretofore un-encapsulatable design criteria, such as architectural style, spatial experience, or typological features. Participants then deploy these models to the cloud, and integrate them into functional generative design systems via API calls.
-
-[[section]]
-
-Using the house training set, we tried running GAN (Generative Adversarial Networks) to have the machine generate its own versions of the categories of houses.  The houses might not be meaningful or occupiable in the eyes of a practical critic, but the machine generating its own versions of data is significant in the design process as it can open up hidden solutions that have not been unearthed in a human exploration of solutions. 
 
 [[section|slide]]
 
@@ -26,20 +24,26 @@ As architectural designers exploring ML based image recognition, we are challeng
 
 ![vid|slide|loop controls muted](https://berkeley.box.com/shared/static/6ulwochbi1m0f1576s71wqefdc2ox0ey.gif "Transforming 2D to 3D")
 
+[[section|slide]]
+
 ![vid|slide|loop controls muted](https://berkeley.box.com/shared/static/uwhgkg9y468tykpsjctw2hrqe1unuw4g.gif "Transforming 2D to 3D via Voxel")
+
+[[section|slide]]
 
 ![fig|wide](img/explorations/Images_trainer.jpg "Representing what the critic sees in 3D")
 
 [[section]]
 
 #### House GAN
-text
+
+Using the house training set, we tried running GAN (Generative Adversarial Networks) to have the machine generate its own versions of the categories of houses.  The houses might not be meaningful or occupiable in the eyes of a practical critic, but the machine generating its own versions of data is significant in the design process as it can open up hidden solutions that have not been unearthed in a human exploration of solutions. 
 
 [[section|slide]]
 
 ![fig|wide](img/explorations/Images_Gan.jpg "House GAN")
 
 [[section|slide]]
+
 # Grove : James Forren
 <!-------------------- -------------------->
 [[section]]
@@ -48,16 +52,19 @@ Grove compares different ideas about trees and how a machine learning model can 
 
 [[section|slide]]
 
-![fig|wide](img/explorations/Grove_Trainer Compiled.jpg "Trainer")
+![fig|wide](img/explorations/Grove_Trainer Compiled.jpg " ")
 
+![vid|slide|loop controls muted](https://berkeley.box.com/shared/static/xt32pn8zhjg0azdwomsaec6vf2ij0di4.gif "Ideal forest types")
 
-#### Heading
+[[section]]
 
- This initial study was not successful in developing a working optimization model.  What was learned is the significance of the type and quality of data provided to the machine learning model.  In this case our hypothesis is that the isovist trainer needed more trees closer to its position, a deeper tonal range in the generated images, and greater variety in the idealised tree types.
+This initial study was not successful in developing a working optimization model.  What was learned is the significance of the type and quality of data provided to the machine learning model.  In this case our hypothesis is that the isovist trainer needed more trees closer to its position, a deeper tonal range in the generated images, and greater variety in the idealised tree types.
  
- ![fig|wide](img/explorations/Grove-01_Isovist.gif "Isovist")
+[[section|slide]]
 
- ![vid|slide|loop controls muted](https://berkeley.box.com/shared/static/xt32pn8zhjg0azdwomsaec6vf2ij0di4.gif "")
+![fig|wide](img/explorations/Grove-01_Isovist.gif "Forest isovist")
+
+[[section|slide]]
 
 # Artificial Generation of Floor Plans : Ben Coorey & Nonna Shabanova
 <!-------------------- -------------------->
