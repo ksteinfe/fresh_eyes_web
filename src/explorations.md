@@ -11,7 +11,7 @@ Over the course of this workshop, participants train purpose-built image-based M
 
 Using the house training set, we tried running GAN (Generative Adversarial Networks) to have the machine generate its own versions of the categories of houses.  The houses might not be meaningful or occupiable in the eyes of a practical critic, but the machine generating its own versions of data is significant in the design process as it can open up hidden solutions that have not been unearthed in a human exploration of solutions. 
 
-# Representing the training dataset in 3D: Gabriel Payant, Antoine Maes & Timothy Logan
+# House GAN and What the Critic Sees in 3D: Gabriel Payant, Antoine Maes & Timothy Logan
 <!-------------------- -------------------->
 [[section|slide]]
 
@@ -20,8 +20,11 @@ As we discuss below, certain problems arise with the conversion of three-dimensi
 #### Heading
 text
 
-![fig|wide](img/explorations/02_FP_Classification.png "classification")
+![fig|wide](img/explorations/AntGabTim_vid1.gif "Transforming 2D to 3D")
 
+![fig|wide](img/explorations/Images_trainer.jpg "Representing what the critic sees in 3D")
+
+![fig|wide](img/explorations/Images_Gan.jpg "House Gan")
 
 text
 
