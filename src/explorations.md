@@ -72,8 +72,26 @@ As a complementary test, we then sent the generated 2D images to a ML critic tha
 
 -
 
+# Embodying the Intangible: a Machine Intelligence Trained to Recognize Experiential Quality of a Space - Sebastian Misiurek & Jenny Zhu
+<!-------------------- -------------------->
+
+[[section|slide]]
+
+We generated 3D models of various spatial volumes in relation to a human occupant, and trained a machine learning model to classify the various spatial volumes such as Box, Vault, Dome, etc.  To translate these objective volume types to a more qualitative description of a space, we will be using 2 ML (a minor and a major).  Once an ML is trained to classify the volume types, it can be fed to another layer of training where a combination of the volume types can mean an experiential quality.
+
+![fig|slide wide](img/explorations/SpatialExperience_Form_Isovit.gif "A human occupant's isovist view of volume types")
+
+![fig|slide wide](img/explorations/SpatialExperience_lobe-vaults.png "Machine Learning Model being trained in Lobe")
+
+![fig|slide wide](img/explorations/SpatialExperienceDiagram_800x600.png "Definition of Experietial Qualities")
+
+[[section]]
+
+-
+
 # Grove : James Forren
 <!-------------------- -------------------->
+
 [[section]]
 
 Grove compares different ideas about trees and how a machine learning model can be used to mimic an idea of "forest."  This is intended to test the way a machine learning model can be used to train architectural proposals to match an idealized image or experience.  A set of ideal forest types, alder, elm, tall conifer - are used to train a forest critic.  The critic, in turn, discerns from a series of forest proposals from a generative actor to find the shape and pattern which best satisfies the criteria of elm, tall coniferous, etc.  The process uses an isovist critic and actor, evaluating the forests perspectivally. 
@@ -143,6 +161,8 @@ A building's shape is the most influential factor in mitigating wind effects. Us
 A second Actor was designed to generate sectional variation. Optimizations for excellent wind performance tended towards top-heavy, bulging forms.
  
 ![vid|slide|loop controls muted](https://berkeley.box.com/shared/static/jxeedyh0xpi2ver4udgvnw7z98a9to8p.mp4 "Voxelized mass - excellent shape for wind effects")
+
+![fig|wide](img/explorations/optimization-modelSlice-updated.jpg "excellent shape for wind effects")
 
 [[section]]
 
