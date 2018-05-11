@@ -10,8 +10,6 @@ copyright: Copyright &copy; 2018 Adam Menges, Kat Park, Kyle Steinfeld, and Sama
 
 Machine learning comes in three forms, supervised, unsupervised, and reinforcement learning. In all forms, the machine learns from data and tries through a variety of methods to improve its results.
 
-[[section]]
-
 [[section|slide]]
 # Lobe Primer
 <!-------------------- -------------------->
