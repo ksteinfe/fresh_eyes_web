@@ -91,6 +91,8 @@ As a complementary test, we then sent the generated 2D images to a ML critic tha
 
 We generated 3D models of various spatial volumes in relation to a human occupant, and trained a machine learning model to classify the various spatial volumes such as Box, Vault, Dome, etc.  To translate these objective volume types to a more qualitative description of a space, we will be using 2 ML (a minor and a major).  Once an ML is trained to classify the volume types, it can be fed to another layer of training where a combination of the volume types can mean an experiential quality.
 
+### Dataset of Volume Types
+
 ![fig|wide](img/explorations/SpatialExperience_Form_Isovit.gif "A human occupant's isovist view of volume types")
 
 [[section|slide]]
@@ -101,7 +103,12 @@ We generated 3D models of various spatial volumes in relation to a human occupan
 
 [[section|slide]]
 
-### Definition of Experietial Qualities of a Space
+### Definition of Experiential Qualities of a Space
+
+Experiential Categories:
+Spatial Openness allows for varying levels of comfort based on amount of peripheral space (side to side)
+Spatial Mobility - Y Axis
+Spatial Grandeur - Z Axis
 
 ![fig|wide](img/explorations/SpatialExperienceDiagram_800x600.png " ")
 
@@ -112,9 +119,9 @@ We generated 3D models of various spatial volumes in relation to a human occupan
 # Grove : James Forren
 <!-------------------- -------------------->
 
-Grove compares different ideas about trees and how a machine learning model can be used to mimic an idea of "forest."  This is intended to test the way a machine learning model can be used to train architectural proposals to match an idealized image or experience.  A set of ideal forest types, alder, elm, tall conifer - are used to train a forest critic.  The critic, in turn, discerns from a series of forest proposals from a generative actor to find the shape and pattern which best satisfies the criteria of elm, tall coniferous, etc.  The process uses an isovist critic and actor, evaluating the forests perspectivally. 
-
 [[section|slide]]
+
+Grove compares different ideas about trees and how a machine learning model can be used to mimic an idea of "forest."  This is intended to test the way a machine learning model can be used to train architectural proposals to match an idealized image or experience.  A set of ideal forest types, alder, elm, tall conifer - are used to train a forest critic.  The critic, in turn, discerns from a series of forest proposals from a generative actor to find the shape and pattern which best satisfies the criteria of elm, tall coniferous, etc.  The process uses an isovist critic and actor, evaluating the forests perspectivally. 
 
 ![fig|wide](img/explorations/Grove_Trainer Compiled.jpg "Forest types as training set")
 
@@ -124,20 +131,37 @@ Grove compares different ideas about trees and how a machine learning model can 
 
 ![fig|wide](img/explorations/Grove-01_Isovist.gif " ")
 
-![vid|slide|loop controls muted](https://berkeley.box.com/shared/static/xt32pn8zhjg0azdwomsaec6vf2ij0di4.gif "Ideal forest types")
-
 [[section|slide]]
+
+![vid|slide|loop controls muted](https://berkeley.box.com/shared/static/xt32pn8zhjg0azdwomsaec6vf2ij0di4.gif "Ideal forest types")
 
 This initial study was not successful in developing a working optimization model.  What was learned is the significance of the type and quality of data provided to the machine learning model.  In this case our hypothesis is that the isovist trainer needed more trees closer to its position, a deeper tonal range in the generated images, and greater variety in the idealised tree types.
 
-# Pix2Pix for Architectural Forms : Jenessa Man
+# Pix2Pix for Architectural Styles and Forms : Jenessa Man
 <!-------------------- -------------------->
 
 [[section|slide]]
 
-text here coming from Jenessa
+Pix2Pix (image to image translation) models were generated for various architectural styles and forms, including:
+- Art Deco, Achaemenid, Post Modern, American Craftsman and Chicago School styles
+- “Evil buildings”, buildings perceived to epitomize evilness or scariness (see r/evilbuildings)
+- Bridges
+
+Training datasets were collected from Reddit, Arup and various academic institutions, including the Shanghai Jiao Tong University and University of Toronto.
+
+An interactive demo for the models will be posted soon.
 
 ![fig|wide](img/explorations/pix2pix_edges2architecture.jpg " ")
+
+[[section|slide]]
+
+### Architectural Style GANs
+DCGANs (Deep Convolutional Generative Adversarial Networks) were generated for various architectural styles, including:
+-    Achaemenid architecture, American craftsman style, American Foursquare architecture, Ancient Egyptian architecture, Art Deco architecture, Art Nouveau architecture, Baroque architecture, Bauhaus architecture, Beaux-Arts architecture, Byzantine architecture, Chicago school architecture, Colonial architecture, Deconstructivism, Edwardian architecture, Georgian architecture, Gothic architecture, Greek Revival architecture, International style, Novelty architecture, Palladian architecture, Postmodern architecture, Queen Anne architecture, Romanesque architecture, Russian Revival architecture and Tudor Revival architecture
+
+Training datasets were collected from Reddit, Arup and various academic institutions, including the Shanghai Jiao Tong University and University of Toronto.
+
+Samples of the generated images will available soon.
 
 # Artificial Generation of Floor Plans : Ben Coorey & Nonna Shabanova
 <!-------------------- -------------------->
