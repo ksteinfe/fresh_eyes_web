@@ -135,7 +135,7 @@ This initial study was not successful in developing a working optimization model
 
 text here coming from Jenessa
 
-![fig|wide](img/explorations/pix2pix_edges2arch.jpg " ")
+![fig|wide](img/explorations/pix2pix_edges2architecture.jpg " ")
 
 # Artificial Generation of Floor Plans : Ben Coorey & Nonna Shabanova
 <!-------------------- -------------------->
