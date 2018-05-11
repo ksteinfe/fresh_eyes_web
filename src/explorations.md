@@ -20,7 +20,7 @@ Using the house training set, we ran iterations of GAN to have the machine gener
 
 [[section]]
 
-DUMMY TEXT BEFORE H1
+-
 
 # Insider View: A 3D visualization of what a critic sees - Gabriel Payant, Antoine Maes & Timothy Logan
 <!-------------------- -------------------->
@@ -58,19 +58,19 @@ We then applied the different strategies to different models of our dataset, bot
 
 ![fig|wide](img/explorations/Images_trainer.jpg "Representing what the critic sees in 3D")
 
-[[section|slide]]
+[[section]]
 
 Using the tool we developed in Insider View, we then converted back those generated 2D representation of houses into a 3D model that was subsequently 3D printed allowing us to evaluate visually the credibility of the houses.
 
-![fig|wide](img/explorations/Images_Gan.jpg "House GAN visualized in 3D")
+![fig|slide wide](img/explorations/Images_Gan.jpg "Using the tool we developed in Insider View, we then converted back those generated 2D representation of houses into a 3D model that was subsequently 3D printed allowing us to evaluate visually the credibility of the houses.")
 
 [[section|slide]]
 
-As a complementary test, we then sent the generated 2D images to a ML critic that was trained using the same dataset as the GAN, but with the goal of discerning house types. We then gathered the prediction given by the critic as another human intelligible way of peeking into how ML “sees” data.
+As a complementary test, we then sent the generated 2D images to a ML critic that was trained using the same dataset as the GAN, but with the goal of discerning house types. We then gathered the prediction given by the critic as another human intelligible way of peeking into how ML "sees" data.
 
 [[section]]
 
-DUMMY TEXT BEFORE H1
+-
 
 # Embodying the Intabgible: a Machine Intelligence Trained to Recognize Experiential Quality of a Space - Sebastian Misiurek & Jenny Zhu
 <!-------------------- -------------------->
@@ -84,7 +84,7 @@ We generated 3D models of various spatial volumes in relation to a human occupan
 
 [[section]]
 
-DUMMY TEXT BEFORE H1
+-
 
 # Grove : James Forren
 <!-------------------- -------------------->
@@ -142,35 +142,25 @@ Experimentation with Generative Adversarial Networks that are trained on a libra
 
 # Shaping Tall Buildings for Wind Effects : Samantha Walker & Marantha Dawkins
 <!-------------------- -------------------->
+
 [[section|slide]]
 
 ### Training the Critic
 
-[[section]]
-
 A building's shape is the most influential factor in mitigating wind effects. Using results from tests that were performed at SOM's wind tunnel in Chicago, the WT 260, an ML model is trained to assess the performance of tall buildings under wind loads based on building shape and orientation. Massing models at a 1:500 scale are positioned at the back of the wind tunnel on a load cell that measures different parameters such as frequency, displacement and forces. For the purposes of training the ML model, this data has been interpreted and organized into five different qualitative categories of wind performance: bad, fair, moderate, good and excellent. 
-
-[[section|slide]]
 
 ![fig|wide](img/explorations/SOM-slice.jpg "Training set")
 
-[[section|slide]]
+[[section]]
 
 ### Voxelized Actor
-
-[[section]]
-
-text
-
-[[section|slide]]
-
+A second Actor was designed to generate sectional variation. Optimizations for excellent wind performance tended towards top-heavy, bulging forms.
+ 
 ![vid|slide|loop controls muted](https://berkeley.box.com/shared/static/jxeedyh0xpi2ver4udgvnw7z98a9to8p.mp4 "Voxelized mass - excellent shape for wind effects")
 
-[[section|slide]]
+[[section]]
 
 ### Sectional Actor
-
-[[section]]
 
 text
 
@@ -178,15 +168,13 @@ text
 
 ![fig|wide](img/explorations/sectionalVariation2.gif "Sectional mass - excellent shape for wind effects")
 
-[[section|slide]]
-
-### Figurative and Performative Optimization
-
 [[section]]
 
-text
+### Critics in Agreement: Figurative and Performative Optimization
+
+The wind ML model is put in conversation with a ML model trained both to recognize fish and reject normative actor-generated solutions for optimal wind performance.
 
 [[section|slide]]
+The combined optimization works towards designs which both reduce wind loads and have the elevation of a fish.
 
 ![fig|wide](img/explorations/fishTraining-2.gif "Sectional mass - optimization for wind effects and fish resemblanceSectional mass - excellent shape for wind effects")
-
