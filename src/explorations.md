@@ -179,6 +179,14 @@ A building's shape is the most influential factor in mitigating wind effects. Us
 
 [[section|slide]]
 
+### A Study of Actors
+
+A variety of different actors were employed to study different ways of shaping buildings for wind effects utilizing the trained ML critic.
+
+![fig|wide](img/explorations/optimization-modelSlice-updated.jpg "ML optimization towards excellent shapes for wind effects using different actors")
+
+[[section|slide]]
+
 ### Voxelized Actor
 
 A first actor was designed as a voxelized mass. The optimizer was allowed to expand and contract the voxels in plan and elevation within certain limits. Optimization for excellent shapes to mitigate wind effects tended towards stepped and L-shaped forms.
@@ -197,10 +205,6 @@ A second Actor was designed to generate sectional variation. Optimizations for e
 
 ### Critics in Agreement: Figurative and Performative Optimization
 
-The wind ML model is put in conversation with a ML model trained both to recognize fish and reject normative actor-generated solutions for optimal shapes for wind effects. The combined optimization works towards designs which both reduce wind loads and have the elevation of a fish.
+The wind ML model is put in conversation with a ML model trained both to recognize fish and reject normative actor-generated solutions for optimal shapes for wind effects. The combined optimization works towards designs which both reduce wind loads and have the elevation of a fish. 
 
 ![fig|wide](img/explorations/fishTraining-2.gif "Sectional mass - optimization for wind effects and fish resemblance")
-
-[[section|slide]]
-
-![fig|wide](img/explorations/optimization-modelSlice-updated.jpg "Excellent shapes for wind effects through ML optimization using different actors")
