@@ -236,7 +236,7 @@ A variety of different actors were employed to study different ways of shaping b
 
 A first actor was designed as a voxelized mass. The optimizer was allowed to expand and contract the voxels in plan and elevation within certain limits. Optimization for excellent shapes to mitigate wind effects tended towards stepped and L-shaped forms.
  
-![vid|slide|loop controls muted](https://berkeley.box.com/shared/static/jxeedyh0xpi2ver4udgvnw7z98a9to8p.mp4 "Voxelized mass - optimizing towards excellent shapes for wind effects")
+![vid||loop controls muted](https://berkeley.box.com/shared/static/jxeedyh0xpi2ver4udgvnw7z98a9to8p.mp4 "Voxelized mass - optimizing towards excellent shapes for wind effects")
 
 [[section|slide]]
 
