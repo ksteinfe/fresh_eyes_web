@@ -1,8 +1,8 @@
 ---
 title: SG 2018 Workshop Explorations
 subtitle: Applying Machine Learning to Generative Architectural Design
-attribution: Prepared by Adam Menges, Lobe.ai; Kat Park, SOM; Kyle Steinfeld, UC Berkeley; Samantha Walker, SOM; List all participants here
-copyright: Copyright &copy; 2018 Adam Menges, Kat Park, Kyle Steinfeld, and Samantha Walker, and all participants
+attribution: Prepared by Adam Menges, Lobe.ai; Kat Park, SOM; Kyle Steinfeld, UC Berkeley; Samantha Walker, SOM; Antoine Maes; Gabriel Payant; Timothy Logan; Ben Coorey; Nonna Shabanova; Sebastian Misiurek; Jenny Zhu; Marantha Dawkins; James Forren; Jenessa Man;
+copyright: Copyright &copy; 2018 Adam Menges, Kat Park, Kyle Steinfeld, and Samantha Walker, Antoine Maes, Gabriel Payant, Timothy Logan, Ben Coorey, Nonna Shabanova, Sebastian Misiurek, Jenny Zhu, Marantha Dawkins, James Forren; Jenessa Man
 ---
 
 
