@@ -144,7 +144,7 @@ This initial study was not successful in developing a working optimization model
 
 Pix2Pix (image to image translation) models were generated for various architectural styles and forms, including:
 - Art Deco, Achaemenid, Post Modern, American Craftsman and Chicago School styles
-- “Evil buildings”, buildings perceived to epitomize evilness or scariness (see r/evilbuildings)
+- "Evil buildings", buildings perceived to epitomize evilness or scariness (see r/evilbuildings)
 - Bridges
 
 Training datasets were collected from Reddit, Arup and various academic institutions, including the Shanghai Jiao Tong University and University of Toronto.
