@@ -188,6 +188,8 @@ We trained a Convolutional Neural Network to detect the key elements of an apart
 
 ![fig|wide](img/explorations/01_FP_Detection.png "Plans")
 
+![fig|wide](img/explorations/05_FP_Diagrammatic Representation.png "Plan features to Network Graph")
+
 [[section|slide]]
 
 #### Represent Floor Plans as a Network Graph
