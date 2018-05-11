@@ -26,6 +26,8 @@ As we discuss below, certain problems arise with the conversion of three-dimensi
 
 ![vid|slide|loop controls muted](https://berkeley.box.com/shared/static/6ulwochbi1m0f1576s71wqefdc2ox0ey.gif "Transforming 2D to 3D")
 
+![vid|slide|loop controls muted](https://berkeley.box.com/shared/static/uwhgkg9y468tykpsjctw2hrqe1unuw4g.gif "Transforming 2D to 3D via Voxel")
+
 ![fig|wide](img/explorations/Images_trainer.jpg "Representing what the critic sees in 3D")
 
 [[section]]
