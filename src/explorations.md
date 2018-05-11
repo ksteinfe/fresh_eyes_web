@@ -134,7 +134,7 @@ We trained a Convolutional Neural Network to detect the key elements of an apart
 
  Each network graph (new representation of floor plans) was then classified by shape and style of windows / ventilation strategy such as Wrap Around, Corner, Complex, Single Aspect, Cross-Through. A ML model trained to classify these various types is well-suited to unearth hidden relationships between such patterns and the designed space.
 
-![fig|wide](img/explorations/04_floorplan_images.PNG "network graphs")
+![fig|wide](img/explorations/04_floorplan_images.png "network graphs")
 
 [[section|slide]]
 
