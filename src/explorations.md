@@ -106,9 +106,8 @@ We generated 3D models of various spatial volumes in relation to a human occupan
 ### Definition of Experiential Qualities of a Space
 
 Experiential Categories:
-Spatial Openness allows for varying levels of comfort based on amount of peripheral space (side to side)
-Spatial Mobility - Y Axis
-Spatial Grandeur - Z Axis
+Spatial Openness allows for varying levels of comfort based on amount of peripheral space (side to side). Spatial Mobility allows for varying levels of movement based on frontal space (front to back). Spatial Grandeur allows for varying levels of awe based on overhead space (top to bottom)
+
 
 ![fig|wide](img/explorations/SpatialExperienceDiagram_800x600.png " ")
 
