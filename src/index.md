@@ -16,7 +16,7 @@ Here we report on the results of research conducted, and describe methods for th
 
 This project uniquely links the familiar parametric environment of Grasshopper with cloud-hosted models trained using Lobe.ai: a user-friendly ML graphic programming environment that runs Tensorflow.
 
-![fig|limit](img/index/lobe sreenshot.png "Screenshot of Lobe.ai")
+![fig|wide](img/index/lobe sreenshot.png "Screenshot of Lobe.ai")
 
 [[section]]
 Over the course of this workshop, participants train purpose-built image-based ML models to evaluate candidate design solutions based on a variety of tacit and heretofore un-encapsulatable design criteria, such as architectural style, spatial experience, or typological features. Participants then deploy these models to the cloud, and integrate them into functional generative design systems via API calls.
