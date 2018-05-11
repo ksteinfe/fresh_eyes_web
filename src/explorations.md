@@ -78,6 +78,8 @@ Using the tool we developed in Insider View, we then converted back those genera
 
 As a complementary test, we then sent the generated 2D images to a ML critic that was trained using the same dataset as the GAN, but with the goal of discerning house types. We then gathered the prediction given by the critic as another human intelligible way of peeking into how ML "sees" data.
 
+![fig|wide](img/explorations/3DLobeSC.png "Asking ML Critic to classify a GAN generated house")
+
 [[section]]
 
 -
