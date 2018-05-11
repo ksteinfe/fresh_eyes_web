@@ -8,6 +8,7 @@ copyright: Copyright &copy; 2018 Adam Menges, Kat Park, Kyle Steinfeld, and Sama
 [[section|slide]]
 
 Over the course of this workshop, participants train purpose-built image-based ML models to evaluate candidate design solutions based on a variety of tacit and heretofore un-encapsulatable design criteria, such as architectural style, spatial experience, or typological features. Participants then deploy these models to the cloud, and integrate them into functional generative design systems via API calls.
+
 [[section|slide]]
 
 # House GAN and What the Critic Sees in 3D: Gabriel Payant, Antoine Maes & Timothy Logan
@@ -23,7 +24,11 @@ As we discuss below, certain problems arise with the conversion of three-dimensi
 
 ![vid|slide|loop controls muted](https://berkeley.box.com/shared/static/6ulwochbi1m0f1576s71wqefdc2ox0ey.gif "Transforming 2D to 3D")
 
+[[section|slide]]
+
 ![vid|slide|loop controls muted](https://berkeley.box.com/shared/static/uwhgkg9y468tykpsjctw2hrqe1unuw4g.gif "Transforming 2D to 3D via Voxel")
+
+[[section|slide]]
 
 ![fig|wide](img/explorations/Images_trainer.jpg "Representing what the critic sees in 3D")
 
