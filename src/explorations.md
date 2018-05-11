@@ -74,6 +74,8 @@ As a complementary test, we then sent the generated 2D images to a ML critic tha
 
 # Embodying the Intabgible: a Machine Intelligence Trained to Recognize Experiential Quality of a Space - Sebastian Misiurek & Jenny Zhu
 <!-------------------- -------------------->
+[[section|slide]]
+
 We generated 3D models of various spatial volumes in relation to a human occupant, and trained a machine learning model to classify the various spatial volumes such as Box, Vault, Dome, etc.  To translate these objective volume types to a more qualitative description of a space, we will be using 2 ML (a minor and a major).  Once an ML is trained to classify the volume types, it can be fed to another layer of training where a combination of the volume types can mean an experiential quality.
 
 ![fig|slide wide](img/explorations/SpatialExperience_Form_Isovit.gif "A human occupant's isovist view of volume types")
