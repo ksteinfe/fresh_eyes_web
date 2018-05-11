@@ -159,36 +159,34 @@ Experimentation with Generative Adversarial Networks that are trained on a libra
 
 ### Training the Critic
 
-An ML model is trained to assess the performance of tall buildings under wind loads based on building shape and orientation. This dataset is created using results from tests that were performed at SOM's wind tunnel in Chicago, the WT 260. Massing models at a 1:500 scale are positioned at the back of the wind tunnel on a load cell that measures different parameters such as frequency, displacement and forces. For the purposes of training the ML model, this data has been interpreted and organized into five different qualitative categories of wind performance: bad, fair, moderate, good and excellent. A building's shape is the most influential factor in mitigating the effect of wind. This ML model is deployed in the service of helping designers to better shape buildings for wind loads and potentially offering new ideas to improve their performance.
+A building's shape is the most influential factor in mitigating wind effects. Using results from tests that were performed at SOM's wind tunnel in Chicago, the WT 260, an ML model is trained to assess the behavior of tall buildings under wind loads based on building shape and orientation. For the purposes of training the ML model, this data has been interpreted and organized into five different qualitative categories of behavior under wind loads: bad, fair, moderate, good and excellent.
 
 ![fig|wide](img/explorations/SOM-slice.jpg "Training set")
 
-[[section]]
+[[section|slide]]
 
 ### Voxelized Actor
-A second Actor was designed to generate sectional variation. Optimizations for excellent wind performance tended towards top-heavy, bulging forms.
+
+A first actor was designed as a voxelized mass. The optimizer was allowed to expand and contract the voxels in plan and elevation within certain limits. Optimization for excellent shapes to mitigate wind effects tended towards stepped and L-shaped forms.
  
-![vid|slide|loop controls muted](https://berkeley.box.com/shared/static/jxeedyh0xpi2ver4udgvnw7z98a9to8p.mp4 "Voxelized mass - excellent shape for wind effects")
+![vid|slide|loop controls muted](https://berkeley.box.com/shared/static/jxeedyh0xpi2ver4udgvnw7z98a9to8p.mp4 "Voxelized mass - optimizing towards excellent shape for wind effects")
 
-![fig|wide](img/explorations/optimization-modelSlice-updated.jpg "excellent shape for wind effects")
-
-[[section]]
+[[section|slide]]
 
 ### Sectional Actor
 
-text
+A second Actor was designed to generate sectional variation. Optimizations for excellent shapes to mitigate wind effects tended towards top-heavy, bulging forms.
+
+![fig|wide](img/explorations/sectionalVariation2.gif "Sectional mass - optimizing towards excellent shape for wind effects")
 
 [[section|slide]]
-
-![fig|wide](img/explorations/sectionalVariation2.gif "Sectional mass - excellent shape for wind effects")
-
-[[section]]
 
 ### Critics in Agreement: Figurative and Performative Optimization
 
-The wind ML model is put in conversation with a ML model trained both to recognize fish and reject normative actor-generated solutions for optimal wind performance.
+The wind ML model is put in conversation with a ML model trained both to recognize fish and reject normative actor-generated solutions for optimal shapes for wind effects. The combined optimization works towards designs which both reduce wind loads and have the elevation of a fish.
+
+![fig|wide](img/explorations/fishTraining-2.gif "Sectional mass - optimization for wind effects and fish resemblance")
 
 [[section|slide]]
-The combined optimization works towards designs which both reduce wind loads and have the elevation of a fish.
 
-![fig|wide](img/explorations/fishTraining-2.gif "Sectional mass - optimization for wind effects and fish resemblanceSectional mass - excellent shape for wind effects")
+![fig|wide](img/explorations/optimization-modelSlice-updated.jpg "Excellent shapes for wind effects through ML optimization using different actors")
