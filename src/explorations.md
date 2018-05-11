@@ -114,9 +114,13 @@ This initial study was not successful in developing a working optimization model
 
 # Artificial Generation of Floor Plans : Ben Coorey & Nonna Shabanova
 <!-------------------- -------------------->
-[[section|slide]]
+
+[[section]]
+
 Armed with a large dataset of consistent residential floor plans with a decent level of consistency, this team annotated the floor plans with features and trained an ML model to recognize various features on a residential floor plan, such as doors, windowns, etc).   
 
+
+[[section|slide]]
 
 #### Detect Features
 
@@ -124,6 +128,7 @@ We trained a Convolutional Neural Network to detect the key elements of an apart
 
 ![fig|wide](img/explorations/01_FP_Detection.png "plans")
 
+[[section|slide]]
 
 #### Represent Floor Plans as a Network Graph
 
@@ -131,12 +136,14 @@ We trained a Convolutional Neural Network to detect the key elements of an apart
 
 ![fig|wide](img/explorations/04_floorplan_images.PNG "network graphs")
 
+[[section|slide]]
 
 #### Classify Floor Plans
 Each floor plan was allocated into types which were then trained into a predictive AI model to implement a workflow that can detect features from an image of a floor plan, and then determine the type of floor plan automatically.
 
 ![fig|wide](img/explorations/02_FP_Classification.png "classification")
 
+[[section|slide]]
 
 #### Generate New Floor Plans
 Experimentation with Generative Adversarial Networks that are trained on a library of floor plans, which then allow the computer to generate populations of novel unique floor plans from scratch.
@@ -151,7 +158,7 @@ Experimentation with Generative Adversarial Networks that are trained on a libra
 
 ### Training the Critic
 
-A building's shape is the most influential factor in mitigating wind effects. Using results from tests that were performed at SOM's wind tunnel in Chicago, the WT 260, an ML model is trained to assess the performance of tall buildings under wind loads based on building shape and orientation. Massing models at a 1:500 scale are positioned at the back of the wind tunnel on a load cell that measures different parameters such as frequency, displacement and forces. For the purposes of training the ML model, this data has been interpreted and organized into five different qualitative categories of wind performance: bad, fair, moderate, good and excellent. 
+An ML model is trained to assess the performance of tall buildings under wind loads based on building shape and orientation. This dataset is created using results from tests that were performed at SOM’s wind tunnel in Chicago, the WT 260. Massing models at a 1:500 scale are positioned at the back of the wind tunnel on a load cell that measures different parameters such as frequency, displacement and forces. For the purposes of training the ML model, this data has been interpreted and organized into five different qualitative categories of wind performance: bad, fair, moderate, good and excellent. A building’s shape is the most influential factor in mitigating the effect of wind. This ML model is deployed in the service of helping designers to better shape buildings for wind loads and potentially offering new ideas to improve their performance.
 
 ![fig|wide](img/explorations/SOM-slice.jpg "Training set")
 
