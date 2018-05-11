@@ -133,7 +133,7 @@ Grove compares different ideas about trees and how a machine learning model can 
 
 [[section|slide]]
 
-![vid||loop controls muted](https://berkeley.box.com/shared/static/xt32pn8zhjg0azdwomsaec6vf2ij0di4.gif "Ideal forest types")
+![vid||loop controls muted](http://git-to-s3-fresheyes-images.s3-website-us-east-1.amazonaws.com/Grove_TreeRun01.gif "Ideal forest types")
 
 This initial study was not successful in developing a working optimization model.  What was learned is the significance of the type and quality of data provided to the machine learning model.  In this case our hypothesis is that the isovist trainer needed more trees closer to its position, a deeper tonal range in the generated images, and greater variety in the idealised tree types.
 
