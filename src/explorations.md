@@ -9,16 +9,34 @@ copyright: Copyright &copy; 2018 Adam Menges, Kat Park, Kyle Steinfeld, and Sama
 
 Over the course of this workshop, participants train purpose-built image-based ML models to evaluate candidate design solutions based on a variety of tacit and heretofore un-encapsulatable design criteria, such as architectural style, spatial experience, or typological features. Participants then deploy these models to the cloud, and integrate them into functional generative design systems via API calls.
 
+
 [[section|slide]]
 
-# House GAN and What the Critic Sees in 3D: Gabriel Payant, Antoine Maes & Timothy Logan
+## House GAN
+
+Using the house training set, we tried running GAN (Generative Adversarial Networks) to have the machine generate its own versions of the categories of houses. The houses might not be meaningful or occupiable in the eyes of a practical critic, but the machine generating its own versions of data is significant in the design process as it can open up hidden solutions that have not been unearthed in a human exploration of solutions. 
+
+[[section|slide]]
+
+![fig|wide](img/explorations/Images_Gan.jpg "House GAN")
+
+[[section|slide]]
+
+## Insider View: A 3D visualization of what a critic sees - Gabriel Payant, Antoine Maes & Timothy Logan
 <!-------------------- -------------------->
 
 [[section]]
-
-#### What the Critic Sees in 3D
-
 As architectural designers exploring ML based image recognition, we are challenged with the conversion of three-dimensional information, as is so often employed in the production of architectural work, to two-dimensional information, as is required by the particular models of ML based on image recognition. The 3D representation of the design form had been converted into a series of 2D images (sections, elevations, isovists, etc), which make up the dataset that are fed as examples into the ML model. We still craved to visualize the series of 2D images in 3D, especially when the GAN generated its own versions of what a design form would be. Here, we created tools to approximate and synthesize 3D forms from the series of 2D images typical in a training dataset.
+[[section]]
+
+### What the Critic Sees in 3D
+Current ML technology relies heavily on cumulative advancements in image recognition. Therefore, training an ML model to act as an architectural critic involves shifting the digital 3D representation designers use to synthetic 2D image. Once the ML starts its process, the intelligible 3D model is not updated to show the transformation the architectural artifact is undergoing. We investigated the potential for reverse engineering the process that generates the 2D depth map in order to provide the designer with an “insider view” of what is going on under the hood, thus expanding the possible interactions between actor, critic and designer.
+
+#### VOXEL SPACE
+A voxel space of a resolution equal to the square of the one used to represent a single elevation in the 2d image was mapped. Each face of every voxel was then evaluated to the corresponding elevation for its depth value by first checking for very dark pixels and causing the block to turn off, then by validating if the threshold for turning on was reached by the brightest value, for each block towards the source until was reach.
+
+#### MAPPED POINTS
+A 2D grid was generated for each view given by the ML. They were then placed in such a way as to provide a cube of possible position. Each pixel was then pushed from its originating plan to the depth given by the 2D image.
 
 [[section|slide]]
 
@@ -33,16 +51,6 @@ As architectural designers exploring ML based image recognition, we are challeng
 ![fig|wide](img/explorations/Images_trainer.jpg "Representing what the critic sees in 3D")
 
 [[section]]
-
-#### House GAN
-
-Using the house training set, we tried running GAN (Generative Adversarial Networks) to have the machine generate its own versions of the categories of houses.  The houses might not be meaningful or occupiable in the eyes of a practical critic, but the machine generating its own versions of data is significant in the design process as it can open up hidden solutions that have not been unearthed in a human exploration of solutions. 
-
-[[section|slide]]
-
-![fig|wide](img/explorations/Images_Gan.jpg "House GAN")
-
-[[section|slide]]
 
 # Grove : James Forren
 <!-------------------- -------------------->
