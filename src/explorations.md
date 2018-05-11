@@ -20,7 +20,7 @@ As we discuss below, certain problems arise with the conversion of three-dimensi
 #### Heading
 text
 
-![fig|wide](img/explorations/AntGabTim_vid1.gif "Transforming 2D to 3D")
+![vid|slide|loop controls muted](https://berkeley.box.com/shared/static/6ulwochbi1m0f1576s71wqefdc2ox0ey.gif "Transforming 2D to 3D")
 
 ![fig|wide](img/explorations/Images_trainer.jpg "Representing what the critic sees in 3D")
 
