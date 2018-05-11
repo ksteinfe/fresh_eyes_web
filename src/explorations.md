@@ -32,7 +32,7 @@ As architectural designers, many files we work with are representations of the d
 [[section]]
 
 ### What the Critic Sees in 3D
-Current ML technology relies heavily on cumulative advancements in image recognition. Therefore, training an ML model to act as an architectural critic involves shifting the digital 3D representation designers use to synthetic 2D image. Once the ML starts its process, the intelligible 3D model is not updated to show the transformation the architectural artifact is undergoing. We investigated the potential for reverse engineering the process that generates the 2D depth map in order to provide the designer with an “insider view” of what is going on under the hood, thus expanding the possible interactions between actor, critic and designer.
+Current ML technology relies heavily on cumulative advancements in image recognition. Therefore, training an ML model to act as an architectural critic involves shifting the digital 3D representation designers use to synthetic 2D image. Once the ML starts its process, the intelligible 3D model is not updated to show the transformation the architectural artifact is undergoing. We investigated the potential for reverse engineering the process that generates the 2D depth map in order to provide the designer with an "insider view" of what is going on under the hood, thus expanding the possible interactions between actor, critic and designer.
 
 [[section|slide]]
 
@@ -61,6 +61,18 @@ We then applied the different strategies to different models of our dataset, bot
 ![fig|wide](img/explorations/Images_trainer.jpg "Representing what the critic sees in 3D")
 
 ![fig|wide](img/explorations/Images_Gan.jpg "House GAN visualized in 3D")
+
+
+# Embodying the Intabgible: a Machine Intelligence Trained to Recognize Experiential Quality of a Space - Sebastian Misiurek & Jenny Zhu
+<!-------------------- -------------------->
+We generated 3D models of various spatial volumes in relation to a human occupant, and trained a machine learning model to classify the various spatial volumes such as Box, Vault, Dome, etc.  To translate these objective volume types to a more qualitative description of a space, we will be using 2 ML (a minor and a major).  Once an ML is trained to classify the volume types, it can be fed to another layer of training where a combination of the volume types can mean an experiential quality.
+
+![fig|wide](img/explorations/SpatialExperience_Form_Isovit.gif "A human occupant's isovist view of volume types")
+
+![fig|wide](img/explorations/SpatialExperience_lobe-vaults.png "Machine Learning Model being trained in Lobe")
+
+![fig|wide](img/explorations/SpatialExperienceDiagram_800x600.png "Definition of Experietial Qualities")
+
 
 # Grove : James Forren
 <!-------------------- -------------------->
@@ -120,7 +132,7 @@ Experimentation with Generative Adversarial Networks that are trained on a libra
 <!-------------------- -------------------->
 [[section|slide]]
 
-## Training the Critic
+### Training the Critic
 
 [[section]]
 
