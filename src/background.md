@@ -55,13 +55,13 @@ In the evaluation step, the performance of these forms are quantified, again rel
 
 Finally, in the iteration step, the parameters of design generation are manipulated to find better results.
 
-[![fig|slide wide](img/background/plates_ppt_03.png "The means by which Generative Design proceeds.")
+![fig|slide wide](img/background/plates_ppt_03.png "The means by which Generative Design proceeds.")
 
 This approach typically employs a combination of parametric, simulation, and optimization tools.
 
 Here is where the contribution of the cluster, in ***synthesizing ML and Generative Design***, comes into play.
 
-[[section]]
+![fig|slide wide](img/background/plates_ppt_04.png "The cluster proposes the replacement of the traditional means by which the evaluative step is performed.")
 
 This cluster proposes ***a modest modification of the generative design process***.
 
@@ -73,23 +73,23 @@ So, what is ML, and how can it fit into this process?
 
 ***Machine Learning is learning through observation, in which patterns are mapped onto other patterns without any intervening representations.***
 
-[[section]]
+![fig|slide wide](img/background/plates_ppt_05.png "Modified as proposed above, we might imagine that the terms of generative design also require modification.")
 
 This process is different enough from traditional methods for evaluation, as to warrant an adjustment of the terms of generative design.
 
 And so we re-define the generative design cycle as: actor, critic, stage.
 
-[[section]]
+![fig|slide wide](img/background/plates_ppt_06.png "")
 
 As before, an actor generates new forms, and describes them in a format preferred by ML.
 
 The issue of format is a crucial one. For a variety of reasons, the most developed ML models relevant to architectural design operate on images. For this reason, we are content for now to insist that our actor re-present architectural form as image.
 
-[[section]]
+![vid|slide|loop controls muted](https://berkeley.box.com/shared/static/c4hcd00fawyspw6zx4zc8awp00f6ck8v.mp4 "Here is an emedded video")
 
 And so, one important contribution of the cluster involves the developing and testing of methods for describing architectural forms and spaces as images.
 
-[[section]]
+![fig|slide wide](img/background/plates_ppt_07.png "")
 
 Moving on the evaluation step, we define a critic as a process that evaluates forms based on patterns and types learned from experience.
 
@@ -97,7 +97,7 @@ I should emphasize that the importance of training a critic should not be undere
 
 If architects are to remain relevant in the age of ML, ***designers must take ownership of the training of critics***.
 
-[[section]]
+![vid|slide|loop controls muted](https://berkeley.box.com/shared/static/c4hcd00fawyspw6zx4zc8awp00f6ck8v.mp4 "Here is an emedded video")
 
 To ensure that the participants in this workshop are not disenfranchised by an inability to train models relevant to them, we partnered with a company called [Lobe](www.lobe.ai), which sponsored our cluster.
 
@@ -107,11 +107,11 @@ We might describe it with the analogy: as Grasshopper is to Rhino, so Lobe is to
 
 More valuable than this software, the most important contribution that Lobe made to the cluster was loaning us its CEO, Adam Menges, who served as one of the cluster champions and a core member of our group from the beginning.
 
-[[section]]
+![fig|slide wide](img/background/plates_ppt_08.png "")
 
 Finally, we define a stage as the system which brings together actor and critic, allowing an actor to progressively improve his performance. Here, traditional optimization techniques are employed.
 
-[[section]]
+![vid|slide|loop controls muted](https://berkeley.box.com/shared/static/c4hcd00fawyspw6zx4zc8awp00f6ck8v.mp4 "Here is an emedded video")
 
 To illustrate how all these pieces go together, we see in this animation an actor and critic coming together on a stage.
 
@@ -119,17 +119,16 @@ Here, a critic was trained on 3d models, such as the ones seen in the animation 
 
 The job of the critic is to evaluate the performance of an actor, which, in this case, is capable of generating a range of house-like forms, such as the ones we see flashing by on the left of the above animation.
 
-[[section]]
+![vid|slide|loop controls muted](https://berkeley.box.com/shared/static/c4hcd00fawyspw6zx4zc8awp00f6ck8v.mp4 "Here is an emedded video")
 
 These two intelligences are brought together in an optimization, wherein the actor generates new potential house forms, these forms are scored by the critic in terms of how much they resemble a known type of house (such as the California Eichler style shown here), and then the process iterates in a classic optimization.
 
-[[section]]
+![vid|slide|loop controls muted](https://berkeley.box.com/shared/static/c4hcd00fawyspw6zx4zc8awp00f6ck8v.mp4 "Here is an emedded video")
 
 As we can see, by modestly adjusting the nature of the evaluation step of the generative design process, we find a potential way forward from optimization for quantifiable objectives, as is typical in generative design, to more qualitative ones, such as architectural typology or spatial experience.
 
-[[section]]
+![vid|slide|loop controls muted](https://berkeley.box.com/shared/static/c4hcd00fawyspw6zx4zc8awp00f6ck8v.mp4 "Here is an emedded video")
 
 This is the framework that was introduced to cluster participants. These participants, over the course of the four-day workshop, probed, extended, exploded, and re-assembled this framework toward a variety of individual ends.
-
 
 ![fig|wide](img/background/HosueGAN Models.jpg "Models Generated by House GAN")
