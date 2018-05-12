@@ -25,9 +25,11 @@ Before discussing the position of the cluster, we take a moment to reflect on  t
 
 The thought of a computer drawing with the fidelity on display above is a little jarring. At least it is to me. I first studied architecture in the 1990s, when drawing as an activity was in transition from things like pencil and vellum and ink and mylar, to something very different. 
 
+![fig|slide wide](img/background/plates_ppt_09.png "The reflective loop of design activity.")
+
 The mode of authorship enabled by traditional drawing tools seemed at the time to be a straightforward affair - a mode that remains very well described by what I now understand as the 'reflective loop' of design activity.
 
-[[section]]
+![fig|slide wide](img/background/plates_ppt_10.png "The reflective loop of design activity.")
 
 Despite all the changes brought about by the digital transformation of the early 2000's, this understanding of design activity as an iterative cycle of making and seeing basically held true.
 
