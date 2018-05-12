@@ -71,9 +71,13 @@ So, what is ML, and how can it fit into this process?
 
 [[section|slide]]
 
-***Machine Learning is learning through observation, in which patterns are mapped onto other patterns without any intervening representations.***
+Machine Learning is learning through observation, 
 
-[[section|]]
+in which patterns are mapped onto other patterns 
+
+without any intervening representations.
+
+[[section]]
 
 ![fig|slide wide](img/background/plates_ppt_05.png "Modified as proposed above, we might imagine that the terms of generative design also require modification.")
 
