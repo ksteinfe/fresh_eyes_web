@@ -29,23 +29,23 @@ The thought of a computer drawing with the fidelity on display above is a little
 
 The mode of authorship enabled by traditional drawing tools seemed at the time to be a straightforward affair - a mode that remains very well described by what I now understand as the 'reflective loop' of design activity.
 
-![fig|slide wide](img/background/plates_ppt_10.png "The reflective loop of design activity.")
+![fig|slide wide](img/background/plates_ppt_10.png "The model of design as an iterative cycle of making and seeing has been remarkably resilient.")
 
 Despite all the changes brought about by the digital transformation of the early 2000's, this understanding of design activity as an iterative cycle of making and seeing basically held true.
 
 Even as computers offered ***new forms of acting*** - from working indirectly on the shape of curves via control points, to assembling ornate chains of logic via scripting - these ***left the seeing to us humans***.
 
-[[section]]
+[![fig|slide wide](img/background/plates_ppt_11.png "Even when augmented by new forms of design production, visual design evaluation has remained in the domain of the human designer. For decades, computers have left the seeing to us humans.")
 
 In the late 2000s, the advent of parametric modelling changed things slightly.
 
-[[section]]
+[![fig|slide wide](img/background/plates_ppt_01.png "Generative design proposes a formal means of evaluation that is typically numeric, as opposed to visual. In the past, the visual has largely not been quantifiable.")
 
 At this time, a new mode of design action found its way into practical application. It was a mode that formalized not only computational modes of acting, but also formalized modes of "seeing" (in a sense), and also structured the mechanisms of iteration.
 
 This design method, novel in the early 2000s, has come to be known as ***generative design***.
 
-[[section]]
+[![fig|slide wide](img/background/plates_ppt_01.png "The three-stage cycle of Generative Design.")
 
 Generative Design in architecture is widely understood as a three-stage cycle:
 
