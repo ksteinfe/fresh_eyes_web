@@ -71,9 +71,9 @@ So, what is ML, and how can it fit into this process?
 
 [[section|slide]]
 
-Machine Learning is learning through observation, 
+Machine Learning is ***learning through observation***, 
 
-in which patterns are mapped onto other patterns 
+in which ***patterns are mapped onto other patterns***, 
 
 without any intervening representations.
 
@@ -91,7 +91,7 @@ As before, an actor generates new forms, and describes them in a format preferre
 
 The issue of format is a crucial one. For a variety of reasons, the most developed ML models relevant to architectural design operate on images. For this reason, we are content for now to insist that our actor re-present architectural form as image.
 
-![vid|slide|loop controls muted](http://git-to-s3-fresheyes-images.s3-website-us-east-1.amazonaws.com/IsovistsAndSlices.mp4 "Here is an emedded video")
+![vid|slide|loop controls muted](http://git-to-s3-fresheyes-images.s3-website-us-east-1.amazonaws.com/IsovistsAndSlices.mp4 "Modes of representing architectural form as image.")
 
 And so, one important contribution of the cluster involves the developing and testing of methods for describing architectural forms and spaces as images.
 
@@ -103,7 +103,7 @@ I should emphasize that the importance of training a critic should not be undere
 
 If architects are to remain relevant in the age of ML, ***designers must take ownership of the training of critics***.
 
-![vid|slide|loop controls muted](http://git-to-s3-fresheyes-images.s3-website-us-east-1.amazonaws.com/Lobe.mp4 "Here is an emedded video")
+![vid|slide|loop controls muted](http://git-to-s3-fresheyes-images.s3-website-us-east-1.amazonaws.com/Lobe.mp4 "Lobe.ai is a web-based platform for training machine learning models.")
 
 To ensure that the participants in this workshop are not disenfranchised by an inability to train models relevant to them, we partnered with a company called [Lobe](www.lobe.ai), which sponsored our cluster.
 
@@ -117,7 +117,7 @@ More valuable than this software, the most important contribution that Lobe made
 
 Finally, we define a stage as the system which brings together actor and critic, allowing an actor to progressively improve his performance. Here, traditional optimization techniques are employed.
 
-![vid|slide|loop controls muted](http://git-to-s3-fresheyes-images.s3-website-us-east-1.amazonaws.com/generator_baygable.mp4 "Here is an emedded video")
+![vid|slide|loop controls muted](http://git-to-s3-fresheyes-images.s3-website-us-east-1.amazonaws.com/generator_baygable.mp4 "What happens on stage: an actor improves his performance to better please a critic.")
 
 To illustrate how all these pieces go together, we see in this animation an actor and critic coming together on a stage.
 
@@ -125,15 +125,15 @@ Here, a critic was trained on 3d models, such as the ones seen in the animation 
 
 The job of the critic is to evaluate the performance of an actor, which, in this case, is capable of generating a range of house-like forms, such as the ones we see flashing by on the left of the above animation.
 
-![vid|slide|loop controls muted](http://git-to-s3-fresheyes-images.s3-website-us-east-1.amazonaws.com/Eichler_viewB.mp4 "Here is an emedded video")
+![vid|slide|loop controls muted](http://git-to-s3-fresheyes-images.s3-website-us-east-1.amazonaws.com/Eichler_viewB.mp4 "Objective: Eichler")
 
 These two intelligences are brought together in an optimization, wherein the actor generates new potential house forms, these forms are scored by the critic in terms of how much they resemble a known type of house (such as the California Eichler style shown here), and then the process iterates in a classic optimization.
 
-![vid|slide|loop controls muted](http://git-to-s3-fresheyes-images.s3-website-us-east-1.amazonaws.com/BayGable_viewB.mp4 "Here is an emedded video")
+![vid|slide|loop controls muted](http://git-to-s3-fresheyes-images.s3-website-us-east-1.amazonaws.com/BayGable_viewB.mp4 "Objective: BayGable")
 
 As we can see, by modestly adjusting the nature of the evaluation step of the generative design process, we find a potential way forward from optimization for quantifiable objectives, as is typical in generative design, to more qualitative ones, such as architectural typology or spatial experience.
 
-![vid|slide|loop controls muted](http://git-to-s3-fresheyes-images.s3-website-us-east-1.amazonaws.com/QueenAnne_viewA.mp4 "Here is an emedded video")
+![vid|slide|loop controls muted](http://git-to-s3-fresheyes-images.s3-website-us-east-1.amazonaws.com/QueenAnne_viewA.mp4 "Objective: Queen Anne.")
 
 This is the framework that was introduced to cluster participants. These participants, over the course of the four-day workshop, probed, extended, exploded, and re-assembled this framework toward a variety of individual ends.
 
