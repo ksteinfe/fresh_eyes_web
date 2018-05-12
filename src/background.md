@@ -85,7 +85,7 @@ As before, an actor generates new forms, and describes them in a format preferre
 
 The issue of format is a crucial one. For a variety of reasons, the most developed ML models relevant to architectural design operate on images. For this reason, we are content for now to insist that our actor re-present architectural form as image.
 
-![vid|slide|loop controls muted](https://berkeley.box.com/shared/static/c4hcd00fawyspw6zx4zc8awp00f6ck8v.mp4 "Here is an emedded video")
+![vid|slide|loop controls muted](http://git-to-s3-fresheyes-images.s3-website-us-east-1.amazonaws.com/IsovistsAndSlices.mp4 "Here is an emedded video")
 
 And so, one important contribution of the cluster involves the developing and testing of methods for describing architectural forms and spaces as images.
 
@@ -97,7 +97,7 @@ I should emphasize that the importance of training a critic should not be undere
 
 If architects are to remain relevant in the age of ML, ***designers must take ownership of the training of critics***.
 
-![vid|slide|loop controls muted](https://berkeley.box.com/shared/static/c4hcd00fawyspw6zx4zc8awp00f6ck8v.mp4 "Here is an emedded video")
+![vid|slide|loop controls muted](http://git-to-s3-fresheyes-images.s3-website-us-east-1.amazonaws.com/Lobe.mp4 "Here is an emedded video")
 
 To ensure that the participants in this workshop are not disenfranchised by an inability to train models relevant to them, we partnered with a company called [Lobe](www.lobe.ai), which sponsored our cluster.
 
