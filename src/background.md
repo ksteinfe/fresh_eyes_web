@@ -45,7 +45,7 @@ At this time, a new mode of design action found its way into practical applicati
 
 This design method, novel in the early 2000s, has come to be known as ***generative design***.
 
-[![fig|slide wide](img/background/plates_ppt_01.png "The three-stage cycle of Generative Design.")
+[![fig|slide wide](img/background/plates_ppt_02.png "The three-stage cycle of Generative Design.")
 
 Generative Design in architecture is widely understood as a three-stage cycle:
 
@@ -55,7 +55,7 @@ In the evaluation step, the performance of these forms are quantified, again rel
 
 Finally, in the iteration step, the parameters of design generation are manipulated to find better results.
 
-[[section]]
+[![fig|slide wide](img/background/plates_ppt_03.png "The means by which Generative Design proceeds.")
 
 This approach typically employs a combination of parametric, simulation, and optimization tools.
 
