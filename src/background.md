@@ -85,7 +85,7 @@ This process is different enough from traditional methods for evaluation, as to 
 
 And so we re-define the generative design cycle as: actor, critic, stage.
 
-![fig|slide wide](img/background/plates_ppt_06.png "")
+![fig|slide wide](img/background/plates_ppt_07.png "")
 
 As before, an actor generates new forms, and describes them in a format preferred by ML.
 
@@ -95,7 +95,7 @@ The issue of format is a crucial one. For a variety of reasons, the most develop
 
 And so, one important contribution of the cluster involves the developing and testing of methods for describing architectural forms and spaces as images.
 
-![fig|slide wide](img/background/plates_ppt_07.png "")
+![fig|slide wide](img/background/plates_ppt_06.png "")
 
 Moving on the evaluation step, we define a critic as a process that evaluates forms based on patterns and types learned from experience.
 
